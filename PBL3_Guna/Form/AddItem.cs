@@ -47,5 +47,10 @@ namespace PBL3_Guna
             ItemBUS.Instance.AddItem(item);
             this.Close();
         }
+
+        private void cxbCategoryItem_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

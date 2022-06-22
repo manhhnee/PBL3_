@@ -38,5 +38,10 @@ namespace PBL3_Guna
         {
             this.Close();
         }
+
+        private void txtCategory_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
