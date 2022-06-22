@@ -37,7 +37,7 @@ namespace PBL3_Guna
             txtTable.Text = table.Name;
             txt_id.Text = id.ToString();
             BillDTO bill = BillBUS.Instance.getBillByID(id);
-            DateTime? date = bill.DateCheckOut;
+            DateTime date = DateTime.Parse(bill.DateCheckOut.ToString());
             txtDate.Text = date.ToString();
         }
         void showBill()
@@ -51,14 +51,14 @@ namespace PBL3_Guna
             }
             lvDetailBill.Items.Clear();
             List<TempBillDTO> list = TempBillBUS.Instance.GetListTempBillByID(id);
-            
+
             foreach (TempBillDTO item in list)
             {
                 ListViewItem listView = new ListViewItem(item.ItemName.ToString());
                 listView.SubItems.Add(item.AmountItem.ToString());
                 listView.SubItems.Add(item.Price.ToString());
                 listView.SubItems.Add(item.TotalPrice.ToString());
-                
+
                 lvDetailBill.Items.Add(listView);
             }
             if (a)
@@ -68,6 +68,6 @@ namespace PBL3_Guna
             else txtToTal.Text = UC_Information._total.ToString("c", new CultureInfo("vi-VN"));
         }
 
-        
+
     }
 }

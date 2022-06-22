@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_Revenue));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.dtpkToDate = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.dtpkFromDate = new Guna.UI2.WinForms.Guna2DateTimePicker();
@@ -63,7 +63,7 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1205, 165);
             this.panel1.TabIndex = 0;
@@ -78,14 +78,14 @@
             this.dtpkToDate.Format = System.Windows.Forms.DateTimePickerFormat.Long;
             this.dtpkToDate.HoverState.Parent = this.dtpkToDate;
             this.dtpkToDate.Location = new System.Drawing.Point(840, 108);
-            this.dtpkToDate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtpkToDate.Margin = new System.Windows.Forms.Padding(4);
             this.dtpkToDate.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.dtpkToDate.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.dtpkToDate.Name = "dtpkToDate";
             this.dtpkToDate.ShadowDecoration.Parent = this.dtpkToDate;
             this.dtpkToDate.Size = new System.Drawing.Size(267, 44);
             this.dtpkToDate.TabIndex = 9;
-            this.dtpkToDate.Value = new System.DateTime(2022, 6, 9, 14, 11, 27, 24);
+            this.dtpkToDate.Value = new System.DateTime(2022, 6, 22, 20, 38, 2, 0);
             // 
             // dtpkFromDate
             // 
@@ -96,7 +96,7 @@
             this.dtpkFromDate.Format = System.Windows.Forms.DateTimePickerFormat.Long;
             this.dtpkFromDate.HoverState.Parent = this.dtpkFromDate;
             this.dtpkFromDate.Location = new System.Drawing.Point(298, 108);
-            this.dtpkFromDate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtpkFromDate.Margin = new System.Windows.Forms.Padding(4);
             this.dtpkFromDate.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.dtpkFromDate.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.dtpkFromDate.Name = "dtpkFromDate";
@@ -146,7 +146,7 @@
             this.guna2PictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
             this.guna2PictureBox1.Location = new System.Drawing.Point(149, 22);
-            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
             this.guna2PictureBox1.ShadowDecoration.Parent = this.guna2PictureBox1;
             this.guna2PictureBox1.Size = new System.Drawing.Size(85, 59);
@@ -174,7 +174,7 @@
             this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.dtgvBill);
             this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1205, 750);
             this.panel2.TabIndex = 2;
@@ -191,7 +191,7 @@
             this.btnDetialsBill.ForeColor = System.Drawing.Color.Black;
             this.btnDetialsBill.HoverState.Parent = this.btnDetialsBill;
             this.btnDetialsBill.Location = new System.Drawing.Point(261, 623);
-            this.btnDetialsBill.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDetialsBill.Margin = new System.Windows.Forms.Padding(4);
             this.btnDetialsBill.Name = "btnDetialsBill";
             this.btnDetialsBill.ShadowDecoration.Parent = this.btnDetialsBill;
             this.btnDetialsBill.Size = new System.Drawing.Size(161, 47);
@@ -211,7 +211,7 @@
             this.btnRevenue.ForeColor = System.Drawing.Color.Black;
             this.btnRevenue.HoverState.Parent = this.btnRevenue;
             this.btnRevenue.Location = new System.Drawing.Point(788, 623);
-            this.btnRevenue.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnRevenue.Margin = new System.Windows.Forms.Padding(4);
             this.btnRevenue.Name = "btnRevenue";
             this.btnRevenue.ShadowDecoration.Parent = this.btnRevenue;
             this.btnRevenue.Size = new System.Drawing.Size(161, 47);
@@ -245,8 +245,8 @@
             // 
             // dtgvBill
             // 
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
-            this.dtgvBill.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            this.dtgvBill.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dtgvBill.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dtgvBill.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
@@ -255,27 +255,27 @@
             this.dtgvBill.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dtgvBill.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dtgvBill.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dtgvBill.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dtgvBill.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dtgvBill.ColumnHeadersHeight = 4;
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle9.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dtgvBill.DefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dtgvBill.DefaultCellStyle = dataGridViewCellStyle3;
             this.dtgvBill.EnableHeadersVisualStyles = false;
             this.dtgvBill.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.dtgvBill.Location = new System.Drawing.Point(0, 165);
-            this.dtgvBill.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtgvBill.Margin = new System.Windows.Forms.Padding(4);
             this.dtgvBill.Name = "dtgvBill";
             this.dtgvBill.RowHeadersVisible = false;
             this.dtgvBill.RowHeadersWidth = 51;
@@ -311,7 +311,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "UC_Revenue";
             this.Size = new System.Drawing.Size(1205, 750);
             this.panel1.ResumeLayout(false);
