@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "793df484-cb54-4b7f-b502-465f8bc0bfb0": {
+      "ProjectGuid": "793df484-cb54-4b7f-b502-465f8bc0bfb0",
+      "DisplayName": "DAO",
+      "ColorIndex": 0
+    },
+    "dd36023e-2433-45ea-bf10-ef452cc4a450": {
+      "ProjectGuid": "dd36023e-2433-45ea-bf10-ef452cc4a450",
+      "DisplayName": "PBL3_Guna",
+      "ColorIndex": 1
+    },
+    "eb6ff695-be02-475b-b553-c7b467890de6": {
+      "ProjectGuid": "eb6ff695-be02-475b-b553-c7b467890de6",
+      "DisplayName": "BUS",
+      "ColorIndex": 2
+    },
+    "8461200e-bcc5-42cf-824b-fa53c3312893": {
+      "ProjectGuid": "8461200e-bcc5-42cf-824b-fa53c3312893",
+      "DisplayName": "DTO",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

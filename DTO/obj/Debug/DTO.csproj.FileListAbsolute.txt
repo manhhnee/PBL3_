@@ -1,0 +1,54 @@
+C:\Users\Manh Nguyen\Source\Repos\pbl3_f\DTO\bin\Debug\DTO.dll
+C:\Users\Manh Nguyen\Source\Repos\pbl3_f\DTO\bin\Debug\DTO.pdb
+C:\Users\Manh Nguyen\Source\Repos\pbl3_f\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\Manh Nguyen\Source\Repos\pbl3_f\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\Manh Nguyen\Source\Repos\pbl3_f\DTO\obj\Debug\DTO.dll
+C:\Users\Manh Nguyen\Source\Repos\pbl3_f\DTO\obj\Debug\DTO.pdb
+C:\Users\Manh Nguyen\source\repos\test\DTO\bin\Debug\DTO.dll
+C:\Users\Manh Nguyen\source\repos\test\DTO\bin\Debug\DTO.pdb
+C:\Users\Manh Nguyen\source\repos\test\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\Manh Nguyen\source\repos\test\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\Manh Nguyen\source\repos\test\DTO\obj\Debug\DTO.dll
+C:\Users\Manh Nguyen\source\repos\test\DTO\obj\Debug\DTO.pdb
+C:\Users\Manh Nguyen\source\repos\GUNA\DTO\bin\Debug\DTO.dll
+C:\Users\Manh Nguyen\source\repos\GUNA\DTO\bin\Debug\DTO.pdb
+C:\Users\Manh Nguyen\source\repos\GUNA\DTO\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Manh Nguyen\source\repos\GUNA\DTO\bin\Debug\System.Data.SqlClient.xml
+C:\Users\Manh Nguyen\source\repos\GUNA\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\Manh Nguyen\source\repos\GUNA\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\Manh Nguyen\source\repos\GUNA\DTO\obj\Debug\DTO.csproj.CopyComplete
+C:\Users\Manh Nguyen\source\repos\GUNA\DTO\obj\Debug\DTO.dll
+C:\Users\Manh Nguyen\source\repos\GUNA\DTO\obj\Debug\DTO.pdb
+C:\Users\Manh Nguyen\source\repos\PBL3_GUNA\DTO\bin\Debug\DTO.dll
+C:\Users\Manh Nguyen\source\repos\PBL3_GUNA\DTO\bin\Debug\DTO.pdb
+C:\Users\Manh Nguyen\source\repos\PBL3_GUNA\DTO\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Manh Nguyen\source\repos\PBL3_GUNA\DTO\bin\Debug\System.Data.SqlClient.xml
+C:\Users\Manh Nguyen\source\repos\PBL3_GUNA\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\Manh Nguyen\source\repos\PBL3_GUNA\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\Manh Nguyen\source\repos\PBL3_GUNA\DTO\obj\Debug\DTO.csproj.CopyComplete
+C:\Users\Manh Nguyen\source\repos\PBL3_GUNA\DTO\obj\Debug\DTO.dll
+C:\Users\Manh Nguyen\source\repos\PBL3_GUNA\DTO\obj\Debug\DTO.pdb
+C:\Users\Manh Nguyen\source\repos\Yay\DTO\bin\Debug\DTO.dll
+C:\Users\Manh Nguyen\source\repos\Yay\DTO\bin\Debug\DTO.pdb
+C:\Users\Manh Nguyen\source\repos\Yay\DTO\bin\Debug\System.Data.SqlClient.xml
+C:\Users\Manh Nguyen\source\repos\Yay\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\Manh Nguyen\source\repos\Yay\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\Manh Nguyen\source\repos\Yay\DTO\obj\Debug\DTO.csproj.CopyComplete
+C:\Users\Manh Nguyen\source\repos\Yay\DTO\obj\Debug\DTO.dll
+C:\Users\Manh Nguyen\source\repos\Yay\DTO\obj\Debug\DTO.pdb
+C:\Users\DELL\source\repos\PBL3\PBL3_ver2\DTO\bin\Debug\DTO.dll
+C:\Users\DELL\source\repos\PBL3\PBL3_ver2\DTO\bin\Debug\DTO.pdb
+C:\Users\DELL\source\repos\PBL3\PBL3_ver2\DTO\bin\Debug\System.Data.SqlClient.xml
+C:\Users\DELL\source\repos\PBL3\PBL3_ver2\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\PBL3\PBL3_ver2\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\PBL3\PBL3_ver2\DTO\obj\Debug\DTO.csproj.CopyComplete
+C:\Users\DELL\source\repos\PBL3\PBL3_ver2\DTO\obj\Debug\DTO.dll
+C:\Users\DELL\source\repos\PBL3\PBL3_ver2\DTO\obj\Debug\DTO.pdb
+C:\Users\darkn\pbl3_f\DTO\bin\Debug\DTO.dll
+C:\Users\darkn\pbl3_f\DTO\bin\Debug\DTO.pdb
+C:\Users\darkn\pbl3_f\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\darkn\pbl3_f\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\darkn\pbl3_f\DTO\obj\Debug\DTO.csproj.CopyComplete
+C:\Users\darkn\pbl3_f\DTO\obj\Debug\DTO.dll
+C:\Users\darkn\pbl3_f\DTO\obj\Debug\DTO.pdb
+C:\Users\Manh Nguyen\source\repos\pbl3_f\DTO\obj\Debug\DTO.csproj.CopyComplete

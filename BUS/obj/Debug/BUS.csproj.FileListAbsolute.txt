@@ -1,0 +1,95 @@
+C:\Users\Manh Nguyen\Source\Repos\pbl3_f\BUS\bin\Debug\BUS.dll
+C:\Users\Manh Nguyen\Source\Repos\pbl3_f\BUS\bin\Debug\BUS.pdb
+C:\Users\Manh Nguyen\Source\Repos\pbl3_f\BUS\bin\Debug\DAO.dll
+C:\Users\Manh Nguyen\Source\Repos\pbl3_f\BUS\bin\Debug\DTO.dll
+C:\Users\Manh Nguyen\Source\Repos\pbl3_f\BUS\bin\Debug\DAO.pdb
+C:\Users\Manh Nguyen\Source\Repos\pbl3_f\BUS\bin\Debug\DTO.pdb
+C:\Users\Manh Nguyen\Source\Repos\pbl3_f\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+C:\Users\Manh Nguyen\Source\Repos\pbl3_f\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\Manh Nguyen\Source\Repos\pbl3_f\BUS\obj\Debug\BUS.csproj.CopyComplete
+C:\Users\Manh Nguyen\Source\Repos\pbl3_f\BUS\obj\Debug\BUS.dll
+C:\Users\Manh Nguyen\Source\Repos\pbl3_f\BUS\obj\Debug\BUS.pdb
+C:\Users\Manh Nguyen\source\repos\test\BUS\bin\Debug\BUS.dll
+C:\Users\Manh Nguyen\source\repos\test\BUS\bin\Debug\BUS.pdb
+C:\Users\Manh Nguyen\source\repos\test\BUS\bin\Debug\DAO.dll
+C:\Users\Manh Nguyen\source\repos\test\BUS\bin\Debug\DTO.dll
+C:\Users\Manh Nguyen\source\repos\test\BUS\bin\Debug\DAO.pdb
+C:\Users\Manh Nguyen\source\repos\test\BUS\bin\Debug\DTO.pdb
+C:\Users\Manh Nguyen\source\repos\test\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+C:\Users\Manh Nguyen\source\repos\test\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\Manh Nguyen\source\repos\test\BUS\obj\Debug\BUS.csproj.CopyComplete
+C:\Users\Manh Nguyen\source\repos\test\BUS\obj\Debug\BUS.dll
+C:\Users\Manh Nguyen\source\repos\test\BUS\obj\Debug\BUS.pdb
+C:\Users\Manh Nguyen\source\repos\GUNA\BUS\bin\Debug\BUS.dll
+C:\Users\Manh Nguyen\source\repos\GUNA\BUS\bin\Debug\BUS.pdb
+C:\Users\Manh Nguyen\source\repos\GUNA\BUS\bin\Debug\DAO.dll
+C:\Users\Manh Nguyen\source\repos\GUNA\BUS\bin\Debug\DTO.dll
+C:\Users\Manh Nguyen\source\repos\GUNA\BUS\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Manh Nguyen\source\repos\GUNA\BUS\bin\Debug\DAO.pdb
+C:\Users\Manh Nguyen\source\repos\GUNA\BUS\bin\Debug\DTO.pdb
+C:\Users\Manh Nguyen\source\repos\GUNA\BUS\bin\Debug\System.Data.SqlClient.xml
+C:\Users\Manh Nguyen\source\repos\GUNA\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+C:\Users\Manh Nguyen\source\repos\GUNA\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\Manh Nguyen\source\repos\GUNA\BUS\obj\Debug\BUS.csproj.CopyComplete
+C:\Users\Manh Nguyen\source\repos\GUNA\BUS\obj\Debug\BUS.dll
+C:\Users\Manh Nguyen\source\repos\GUNA\BUS\obj\Debug\BUS.pdb
+C:\Users\Manh Nguyen\source\repos\PBL3_GUNA\BUS\bin\Debug\BUS.dll
+C:\Users\Manh Nguyen\source\repos\PBL3_GUNA\BUS\bin\Debug\BUS.pdb
+C:\Users\Manh Nguyen\source\repos\PBL3_GUNA\BUS\bin\Debug\DAO.dll
+C:\Users\Manh Nguyen\source\repos\PBL3_GUNA\BUS\bin\Debug\DTO.dll
+C:\Users\Manh Nguyen\source\repos\PBL3_GUNA\BUS\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Manh Nguyen\source\repos\PBL3_GUNA\BUS\bin\Debug\DAO.pdb
+C:\Users\Manh Nguyen\source\repos\PBL3_GUNA\BUS\bin\Debug\DTO.pdb
+C:\Users\Manh Nguyen\source\repos\PBL3_GUNA\BUS\bin\Debug\System.Data.SqlClient.xml
+C:\Users\Manh Nguyen\source\repos\PBL3_GUNA\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+C:\Users\Manh Nguyen\source\repos\PBL3_GUNA\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\Manh Nguyen\source\repos\PBL3_GUNA\BUS\obj\Debug\BUS.csproj.CopyComplete
+C:\Users\Manh Nguyen\source\repos\PBL3_GUNA\BUS\obj\Debug\BUS.dll
+C:\Users\Manh Nguyen\source\repos\PBL3_GUNA\BUS\obj\Debug\BUS.pdb
+C:\Users\Manh Nguyen\source\repos\Yay\BUS\bin\Debug\BUS.dll
+C:\Users\Manh Nguyen\source\repos\Yay\BUS\bin\Debug\BUS.pdb
+C:\Users\Manh Nguyen\source\repos\Yay\BUS\bin\Debug\DAO.dll
+C:\Users\Manh Nguyen\source\repos\Yay\BUS\bin\Debug\DTO.dll
+C:\Users\Manh Nguyen\source\repos\Yay\BUS\bin\Debug\DAO.pdb
+C:\Users\Manh Nguyen\source\repos\Yay\BUS\bin\Debug\DTO.pdb
+C:\Users\Manh Nguyen\source\repos\Yay\BUS\bin\Debug\System.Data.SqlClient.xml
+C:\Users\Manh Nguyen\source\repos\Yay\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+C:\Users\Manh Nguyen\source\repos\Yay\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\Manh Nguyen\source\repos\Yay\BUS\obj\Debug\BUS.csproj.CopyComplete
+C:\Users\Manh Nguyen\source\repos\Yay\BUS\obj\Debug\BUS.dll
+C:\Users\Manh Nguyen\source\repos\Yay\BUS\obj\Debug\BUS.pdb
+C:\Users\DELL\source\repos\PBL3\PBL3_ver2\BUS\bin\Debug\BUS.dll
+C:\Users\DELL\source\repos\PBL3\PBL3_ver2\BUS\bin\Debug\BUS.pdb
+C:\Users\DELL\source\repos\PBL3\PBL3_ver2\BUS\bin\Debug\DAO.dll
+C:\Users\DELL\source\repos\PBL3\PBL3_ver2\BUS\bin\Debug\DTO.dll
+C:\Users\DELL\source\repos\PBL3\PBL3_ver2\BUS\bin\Debug\DAO.pdb
+C:\Users\DELL\source\repos\PBL3\PBL3_ver2\BUS\bin\Debug\DTO.pdb
+C:\Users\DELL\source\repos\PBL3\PBL3_ver2\BUS\bin\Debug\System.Data.SqlClient.xml
+C:\Users\DELL\source\repos\PBL3\PBL3_ver2\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\PBL3\PBL3_ver2\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\PBL3\PBL3_ver2\BUS\obj\Debug\BUS.csproj.CopyComplete
+C:\Users\DELL\source\repos\PBL3\PBL3_ver2\BUS\obj\Debug\BUS.dll
+C:\Users\DELL\source\repos\PBL3\PBL3_ver2\BUS\obj\Debug\BUS.pdb
+C:\Users\Manh Nguyen\source\repos\PBL3_ver2\BUS\bin\Debug\BUS.dll
+C:\Users\Manh Nguyen\source\repos\PBL3_ver2\BUS\bin\Debug\BUS.pdb
+C:\Users\Manh Nguyen\source\repos\PBL3_ver2\BUS\bin\Debug\DAO.dll
+C:\Users\Manh Nguyen\source\repos\PBL3_ver2\BUS\bin\Debug\DTO.dll
+C:\Users\Manh Nguyen\source\repos\PBL3_ver2\BUS\bin\Debug\DAO.pdb
+C:\Users\Manh Nguyen\source\repos\PBL3_ver2\BUS\bin\Debug\DTO.pdb
+C:\Users\Manh Nguyen\source\repos\PBL3_ver2\BUS\bin\Debug\System.Data.SqlClient.xml
+C:\Users\Manh Nguyen\source\repos\PBL3_ver2\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+C:\Users\Manh Nguyen\source\repos\PBL3_ver2\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\Manh Nguyen\source\repos\PBL3_ver2\BUS\obj\Debug\BUS.csproj.CopyComplete
+C:\Users\Manh Nguyen\source\repos\PBL3_ver2\BUS\obj\Debug\BUS.dll
+C:\Users\Manh Nguyen\source\repos\PBL3_ver2\BUS\obj\Debug\BUS.pdb
+C:\Users\darkn\pbl3_f\BUS\bin\Debug\BUS.dll
+C:\Users\darkn\pbl3_f\BUS\bin\Debug\BUS.pdb
+C:\Users\darkn\pbl3_f\BUS\bin\Debug\DAO.dll
+C:\Users\darkn\pbl3_f\BUS\bin\Debug\DTO.dll
+C:\Users\darkn\pbl3_f\BUS\bin\Debug\DAO.pdb
+C:\Users\darkn\pbl3_f\BUS\bin\Debug\DTO.pdb
+C:\Users\darkn\pbl3_f\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+C:\Users\darkn\pbl3_f\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\darkn\pbl3_f\BUS\obj\Debug\BUS.csproj.CopyComplete
+C:\Users\darkn\pbl3_f\BUS\obj\Debug\BUS.dll
+C:\Users\darkn\pbl3_f\BUS\obj\Debug\BUS.pdb
