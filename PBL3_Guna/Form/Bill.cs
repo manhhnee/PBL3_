@@ -31,7 +31,7 @@ namespace PBL3_Guna
             {
                 ListViewItem listView = new ListViewItem(item.ItemName.ToString());
                 listView.SubItems.Add(item.AmountItem.ToString());
-                listView.SubItems.Add(item.Price.ToString());   
+                listView.SubItems.Add(item.Price.ToString());
                 listView.SubItems.Add(item.TotalPrice.ToString());
                 totalPrice += item.TotalPrice;
                 lvBill.Items.Add(listView);
@@ -56,6 +56,9 @@ namespace PBL3_Guna
             txtCashier.Text = acc.DisplayName.ToString();
             DateTime date = DateTime.Now;
             txtDateCheckOut.Text = date.ToShortDateString();
+            BillDTO bill = BillBUS.Instance.getBillByID(idBill);
+            DateTime date2 = DateTime.Parse(bill.DateCheckIn.ToString());
+            txtTimeIn.Text = date2.ToLongTimeString();
             txtTimeOut.Text = date.ToLongTimeString();
         }
 
@@ -71,7 +74,7 @@ namespace PBL3_Guna
             int payment = total - ((total * discount) / 100);
             if (idTable != -1)
             {
-                
+
                 if (MessageBox.Show(String.Format("Bạn có chắc muốn thanh toán hóa đơn cho {0} \nTổng tiền = {1}", table.Name, payment.ToString("c", new CultureInfo("vi-VN"))), "Thông Báo", MessageBoxButtons.OKCancel) == DialogResult.OK)
                 {
                     BillBUS.Instance.CheckOut(idBill, discount, payment);
@@ -80,7 +83,7 @@ namespace PBL3_Guna
                 }
                 else this.Close();
             }
-            
+
         }
 
         private void txtPaid_TextChanged(object sender, EventArgs e)
@@ -89,19 +92,19 @@ namespace PBL3_Guna
             int total = Int32.Parse(txtTotalPrice.Text, NumberStyles.Currency, new CultureInfo("vi-VN"));
             int payment = total - ((total * discount) / 100);
             int paid = 0;
-            if(txtPaid.Text != "")
+            if (txtPaid.Text != "")
             {
                 paid = Int32.Parse(txtPaid.Text, NumberStyles.Currency, new CultureInfo("vi-VN"));
-            } 
+            }
             else txtPaid.Text = "0";
             int excesscash = paid - payment;
-            if(excesscash < 0)
+            if (excesscash < 0)
             {
                 txtExcessCash.Text = "Vui lòng trả đủ số tiền";
-            }    
+            }
             else txtExcessCash.Text = (paid - payment).ToString();
 
-               
+
         }
 
         private void btnExit_Click(object sender, EventArgs e)

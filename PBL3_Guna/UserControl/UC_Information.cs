@@ -18,7 +18,7 @@ namespace PBL3_Guna
         public UC_Information()
         {
             InitializeComponent();
-            LoadListBillByDate(DateTime.Now, DateTime.Now);
+            LoadListBillByDate(DateTime.Today, DateTime.Now);
         }
 
         void LoadListBillByDate(DateTime CheckIn, DateTime CheckOut)
@@ -35,7 +35,7 @@ namespace PBL3_Guna
                 Form detailsbill = new DetailsBill();
                 detailsbill.ShowDialog();
             }
-            else MessageBox.Show("vui lòng chọn hóa đơn để xem");
+            else MessageBox.Show("Vui lòng chọn hóa đơn để xem");
         }
     }
 }
