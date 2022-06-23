@@ -70,7 +70,8 @@
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(16, 45);
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(10, 45);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(131, 18);
             this.label2.TabIndex = 31;
@@ -84,17 +85,17 @@
             // btnExit
             // 
             this.btnExit.Animated = true;
-            this.btnExit.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(148)))), ((int)(((byte)(97)))));
+            this.btnExit.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(244)))), ((int)(((byte)(237)))));
             this.btnExit.BorderRadius = 10;
             this.btnExit.BorderThickness = 2;
             this.btnExit.CheckedState.Parent = this.btnExit;
             this.btnExit.CustomImages.Parent = this.btnExit;
             this.btnExit.FillColor = System.Drawing.Color.Transparent;
             this.btnExit.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.btnExit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(148)))), ((int)(((byte)(97)))));
-            this.btnExit.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(148)))), ((int)(((byte)(97)))));
+            this.btnExit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(244)))), ((int)(((byte)(237)))));
+            this.btnExit.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(244)))), ((int)(((byte)(237)))));
             this.btnExit.HoverState.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExit.HoverState.ForeColor = System.Drawing.Color.White;
+            this.btnExit.HoverState.ForeColor = System.Drawing.Color.Black;
             this.btnExit.HoverState.Parent = this.btnExit;
             this.btnExit.Location = new System.Drawing.Point(221, 106);
             this.btnExit.Name = "btnExit";
@@ -107,17 +108,17 @@
             // btnLogin
             // 
             this.btnLogin.Animated = true;
-            this.btnLogin.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(148)))), ((int)(((byte)(97)))));
+            this.btnLogin.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(244)))), ((int)(((byte)(237)))));
             this.btnLogin.BorderRadius = 10;
             this.btnLogin.BorderThickness = 2;
             this.btnLogin.CheckedState.Parent = this.btnLogin;
             this.btnLogin.CustomImages.Parent = this.btnLogin;
             this.btnLogin.FillColor = System.Drawing.Color.Transparent;
             this.btnLogin.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.btnLogin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(148)))), ((int)(((byte)(97)))));
-            this.btnLogin.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(148)))), ((int)(((byte)(97)))));
+            this.btnLogin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(244)))), ((int)(((byte)(237)))));
+            this.btnLogin.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(244)))), ((int)(((byte)(237)))));
             this.btnLogin.HoverState.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogin.HoverState.ForeColor = System.Drawing.Color.White;
+            this.btnLogin.HoverState.ForeColor = System.Drawing.Color.Black;
             this.btnLogin.HoverState.Parent = this.btnLogin;
             this.btnLogin.Location = new System.Drawing.Point(40, 106);
             this.btnLogin.Name = "btnLogin";
@@ -136,7 +137,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(216)))), ((int)(((byte)(176)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(101)))), ((int)(((byte)(135)))));
             this.ClientSize = new System.Drawing.Size(370, 173);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnLogin);

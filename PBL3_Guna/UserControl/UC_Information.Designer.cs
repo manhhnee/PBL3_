@@ -44,7 +44,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dtgvInfor.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dtgvInfor.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(216)))), ((int)(((byte)(176)))));
+            this.dtgvInfor.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(119)))), ((int)(((byte)(123)))));
             this.dtgvInfor.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dtgvInfor.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dtgvInfor.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
@@ -67,13 +67,12 @@
             this.dtgvInfor.DefaultCellStyle = dataGridViewCellStyle3;
             this.dtgvInfor.EnableHeadersVisualStyles = false;
             this.dtgvInfor.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.dtgvInfor.Location = new System.Drawing.Point(217, 42);
-            this.dtgvInfor.Margin = new System.Windows.Forms.Padding(4);
+            this.dtgvInfor.Location = new System.Drawing.Point(163, 34);
             this.dtgvInfor.Name = "dtgvInfor";
             this.dtgvInfor.RowHeadersVisible = false;
             this.dtgvInfor.RowHeadersWidth = 51;
             this.dtgvInfor.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dtgvInfor.Size = new System.Drawing.Size(783, 508);
+            this.dtgvInfor.Size = new System.Drawing.Size(587, 413);
             this.dtgvInfor.TabIndex = 0;
             this.dtgvInfor.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Default;
             this.dtgvInfor.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
@@ -81,7 +80,7 @@
             this.dtgvInfor.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
             this.dtgvInfor.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
             this.dtgvInfor.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.dtgvInfor.ThemeStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(216)))), ((int)(((byte)(176)))));
+            this.dtgvInfor.ThemeStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(119)))), ((int)(((byte)(123)))));
             this.dtgvInfor.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.dtgvInfor.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.dtgvInfor.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
@@ -105,29 +104,27 @@
             this.guna2Button3.BorderRadius = 10;
             this.guna2Button3.CheckedState.Parent = this.guna2Button3;
             this.guna2Button3.CustomImages.Parent = this.guna2Button3;
-            this.guna2Button3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(148)))), ((int)(((byte)(97)))));
+            this.guna2Button3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(153)))), ((int)(((byte)(75)))));
             this.guna2Button3.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.guna2Button3.ForeColor = System.Drawing.Color.Black;
+            this.guna2Button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(19)))), ((int)(((byte)(60)))));
             this.guna2Button3.HoverState.Parent = this.guna2Button3;
-            this.guna2Button3.Location = new System.Drawing.Point(545, 587);
-            this.guna2Button3.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2Button3.Location = new System.Drawing.Point(409, 477);
             this.guna2Button3.Name = "guna2Button3";
             this.guna2Button3.ShadowDecoration.Parent = this.guna2Button3;
-            this.guna2Button3.Size = new System.Drawing.Size(127, 44);
+            this.guna2Button3.Size = new System.Drawing.Size(95, 36);
             this.guna2Button3.TabIndex = 8;
             this.guna2Button3.Text = "Details";
             this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
             // 
             // UC_Information
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(255)))), ((int)(((byte)(231)))));
             this.Controls.Add(this.guna2Button3);
             this.Controls.Add(this.dtgvInfor);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "UC_Information";
-            this.Size = new System.Drawing.Size(1205, 750);
+            this.Size = new System.Drawing.Size(904, 609);
             ((System.ComponentModel.ISupportInitialize)(this.dtgvInfor)).EndInit();
             this.ResumeLayout(false);
 

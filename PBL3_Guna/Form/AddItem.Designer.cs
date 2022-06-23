@@ -52,6 +52,7 @@
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(65, 185);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(49, 18);
@@ -63,6 +64,7 @@
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(32, 120);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(82, 18);
@@ -126,6 +128,7 @@
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(57, 55);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(57, 18);
@@ -145,7 +148,7 @@
             this.cxbCategoryItem.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.cxbCategoryItem.FocusedState.Parent = this.cxbCategoryItem;
             this.cxbCategoryItem.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.cxbCategoryItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(148)))), ((int)(((byte)(97)))));
+            this.cxbCategoryItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(101)))), ((int)(((byte)(135)))));
             this.cxbCategoryItem.HoverState.Parent = this.cxbCategoryItem;
             this.cxbCategoryItem.ItemHeight = 30;
             this.cxbCategoryItem.ItemsAppearance.Parent = this.cxbCategoryItem;
@@ -159,17 +162,17 @@
             // btnExit
             // 
             this.btnExit.Animated = true;
-            this.btnExit.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(148)))), ((int)(((byte)(97)))));
+            this.btnExit.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(244)))), ((int)(((byte)(237)))));
             this.btnExit.BorderRadius = 10;
             this.btnExit.BorderThickness = 2;
             this.btnExit.CheckedState.Parent = this.btnExit;
             this.btnExit.CustomImages.Parent = this.btnExit;
             this.btnExit.FillColor = System.Drawing.Color.Transparent;
             this.btnExit.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.btnExit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(148)))), ((int)(((byte)(97)))));
-            this.btnExit.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(148)))), ((int)(((byte)(97)))));
+            this.btnExit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(244)))), ((int)(((byte)(237)))));
+            this.btnExit.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(244)))), ((int)(((byte)(237)))));
             this.btnExit.HoverState.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExit.HoverState.ForeColor = System.Drawing.Color.White;
+            this.btnExit.HoverState.ForeColor = System.Drawing.Color.Black;
             this.btnExit.HoverState.Parent = this.btnExit;
             this.btnExit.Location = new System.Drawing.Point(228, 249);
             this.btnExit.Name = "btnExit";
@@ -182,17 +185,17 @@
             // btnAddItem
             // 
             this.btnAddItem.Animated = true;
-            this.btnAddItem.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(148)))), ((int)(((byte)(97)))));
+            this.btnAddItem.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(244)))), ((int)(((byte)(237)))));
             this.btnAddItem.BorderRadius = 10;
             this.btnAddItem.BorderThickness = 2;
             this.btnAddItem.CheckedState.Parent = this.btnAddItem;
             this.btnAddItem.CustomImages.Parent = this.btnAddItem;
             this.btnAddItem.FillColor = System.Drawing.Color.Transparent;
             this.btnAddItem.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.btnAddItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(148)))), ((int)(((byte)(97)))));
-            this.btnAddItem.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(148)))), ((int)(((byte)(97)))));
+            this.btnAddItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(244)))), ((int)(((byte)(237)))));
+            this.btnAddItem.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(244)))), ((int)(((byte)(237)))));
             this.btnAddItem.HoverState.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddItem.HoverState.ForeColor = System.Drawing.Color.White;
+            this.btnAddItem.HoverState.ForeColor = System.Drawing.Color.Black;
             this.btnAddItem.HoverState.Parent = this.btnAddItem;
             this.btnAddItem.Location = new System.Drawing.Point(46, 249);
             this.btnAddItem.Name = "btnAddItem";
@@ -211,7 +214,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(216)))), ((int)(((byte)(176)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(101)))), ((int)(((byte)(135)))));
             this.ClientSize = new System.Drawing.Size(387, 329);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnAddItem);
@@ -221,10 +224,12 @@
             this.Controls.Add(this.txtPriceItem);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.cxbCategoryItem);
+            this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "AddItem";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AddItem";
+            this.Load += new System.EventHandler(this.AddItem_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

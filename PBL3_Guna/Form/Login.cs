@@ -82,5 +82,10 @@ namespace PBL3_Guna
             else txtPass.UseSystemPasswordChar = true;
 
         }
+
+        private void btnExit_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

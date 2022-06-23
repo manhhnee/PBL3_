@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_Staff));
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnShowStaff = new Guna.UI2.WinForms.Guna2Button();
@@ -78,9 +78,9 @@
             this.btnShowStaff.BorderRadius = 10;
             this.btnShowStaff.CheckedState.Parent = this.btnShowStaff;
             this.btnShowStaff.CustomImages.Parent = this.btnShowStaff;
-            this.btnShowStaff.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(148)))), ((int)(((byte)(97)))));
+            this.btnShowStaff.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(153)))), ((int)(((byte)(75)))));
             this.btnShowStaff.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.btnShowStaff.ForeColor = System.Drawing.Color.Black;
+            this.btnShowStaff.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(19)))), ((int)(((byte)(60)))));
             this.btnShowStaff.HoverState.Parent = this.btnShowStaff;
             this.btnShowStaff.Location = new System.Drawing.Point(411, 487);
             this.btnShowStaff.Name = "btnShowStaff";
@@ -97,9 +97,9 @@
             this.btnModifyStaff.BorderRadius = 10;
             this.btnModifyStaff.CheckedState.Parent = this.btnModifyStaff;
             this.btnModifyStaff.CustomImages.Parent = this.btnModifyStaff;
-            this.btnModifyStaff.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(148)))), ((int)(((byte)(97)))));
+            this.btnModifyStaff.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(153)))), ((int)(((byte)(75)))));
             this.btnModifyStaff.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.btnModifyStaff.ForeColor = System.Drawing.Color.Black;
+            this.btnModifyStaff.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(19)))), ((int)(((byte)(60)))));
             this.btnModifyStaff.HoverState.Parent = this.btnModifyStaff;
             this.btnModifyStaff.Location = new System.Drawing.Point(281, 487);
             this.btnModifyStaff.Name = "btnModifyStaff";
@@ -116,9 +116,9 @@
             this.btnDeleteStaff.BorderRadius = 10;
             this.btnDeleteStaff.CheckedState.Parent = this.btnDeleteStaff;
             this.btnDeleteStaff.CustomImages.Parent = this.btnDeleteStaff;
-            this.btnDeleteStaff.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(148)))), ((int)(((byte)(97)))));
+            this.btnDeleteStaff.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(153)))), ((int)(((byte)(75)))));
             this.btnDeleteStaff.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.btnDeleteStaff.ForeColor = System.Drawing.Color.Black;
+            this.btnDeleteStaff.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(19)))), ((int)(((byte)(60)))));
             this.btnDeleteStaff.HoverState.Parent = this.btnDeleteStaff;
             this.btnDeleteStaff.Location = new System.Drawing.Point(147, 487);
             this.btnDeleteStaff.Name = "btnDeleteStaff";
@@ -135,9 +135,9 @@
             this.btnAddStaff.BorderRadius = 10;
             this.btnAddStaff.CheckedState.Parent = this.btnAddStaff;
             this.btnAddStaff.CustomImages.Parent = this.btnAddStaff;
-            this.btnAddStaff.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(148)))), ((int)(((byte)(97)))));
+            this.btnAddStaff.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(153)))), ((int)(((byte)(75)))));
             this.btnAddStaff.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.btnAddStaff.ForeColor = System.Drawing.Color.Black;
+            this.btnAddStaff.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(19)))), ((int)(((byte)(60)))));
             this.btnAddStaff.HoverState.Parent = this.btnAddStaff;
             this.btnAddStaff.Location = new System.Drawing.Point(15, 487);
             this.btnAddStaff.Name = "btnAddStaff";
@@ -149,30 +149,30 @@
             // 
             // dtgvStaff
             // 
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
-            this.dtgvStaff.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            this.dtgvStaff.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dtgvStaff.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dtgvStaff.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(220)))), ((int)(((byte)(166)))));
+            this.dtgvStaff.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(119)))), ((int)(((byte)(123)))));
             this.dtgvStaff.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dtgvStaff.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dtgvStaff.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dtgvStaff.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dtgvStaff.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dtgvStaff.ColumnHeadersHeight = 4;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dtgvStaff.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dtgvStaff.DefaultCellStyle = dataGridViewCellStyle3;
             this.dtgvStaff.Dock = System.Windows.Forms.DockStyle.Top;
             this.dtgvStaff.EnableHeadersVisualStyles = false;
             this.dtgvStaff.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
@@ -189,7 +189,7 @@
             this.dtgvStaff.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
             this.dtgvStaff.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
             this.dtgvStaff.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.dtgvStaff.ThemeStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(220)))), ((int)(((byte)(166)))));
+            this.dtgvStaff.ThemeStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(119)))), ((int)(((byte)(123)))));
             this.dtgvStaff.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.dtgvStaff.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.dtgvStaff.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
@@ -238,6 +238,7 @@
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(19)))), ((int)(((byte)(60)))));
             this.label2.Location = new System.Drawing.Point(564, 258);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(88, 18);
@@ -275,6 +276,7 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(19)))), ((int)(((byte)(60)))));
             this.label1.Location = new System.Drawing.Point(625, 205);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(27, 18);
@@ -288,9 +290,9 @@
             this.btnSearchStaff.BorderRadius = 10;
             this.btnSearchStaff.CheckedState.Parent = this.btnSearchStaff;
             this.btnSearchStaff.CustomImages.Parent = this.btnSearchStaff;
-            this.btnSearchStaff.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(148)))), ((int)(((byte)(97)))));
+            this.btnSearchStaff.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(153)))), ((int)(((byte)(75)))));
             this.btnSearchStaff.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.btnSearchStaff.ForeColor = System.Drawing.Color.Black;
+            this.btnSearchStaff.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(19)))), ((int)(((byte)(60)))));
             this.btnSearchStaff.HoverState.Parent = this.btnSearchStaff;
             this.btnSearchStaff.Location = new System.Drawing.Point(788, 75);
             this.btnSearchStaff.Name = "btnSearchStaff";
@@ -359,6 +361,7 @@
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(19)))), ((int)(((byte)(60)))));
             this.label3.Location = new System.Drawing.Point(531, 382);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(121, 18);
@@ -396,6 +399,7 @@
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(19)))), ((int)(((byte)(60)))));
             this.label4.Location = new System.Drawing.Point(541, 323);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(111, 18);
@@ -433,6 +437,7 @@
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(19)))), ((int)(((byte)(60)))));
             this.label5.Location = new System.Drawing.Point(573, 553);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(79, 18);
@@ -470,6 +475,7 @@
             this.label6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(19)))), ((int)(((byte)(60)))));
             this.label6.Location = new System.Drawing.Point(582, 500);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(70, 18);
@@ -507,6 +513,7 @@
             this.label7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(19)))), ((int)(((byte)(60)))));
             this.label7.Location = new System.Drawing.Point(609, 441);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(43, 18);

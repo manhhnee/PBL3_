@@ -52,5 +52,10 @@ namespace PBL3_Guna
         {
 
         }
+
+        private void AddItem_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

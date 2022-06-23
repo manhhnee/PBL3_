@@ -57,7 +57,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(119)))), ((int)(((byte)(123)))));
             this.panel1.Controls.Add(this.guna2ControlBox3);
             this.panel1.Controls.Add(this.guna2ControlBox2);
             this.panel1.Controls.Add(this.guna2ControlBox1);
@@ -72,8 +72,10 @@
             this.guna2ControlBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2ControlBox3.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
             this.guna2ControlBox3.FillColor = System.Drawing.Color.Transparent;
+            this.guna2ControlBox3.HoverState.FillColor = System.Drawing.Color.White;
+            this.guna2ControlBox3.HoverState.IconColor = System.Drawing.Color.Black;
             this.guna2ControlBox3.HoverState.Parent = this.guna2ControlBox3;
-            this.guna2ControlBox3.IconColor = System.Drawing.Color.Black;
+            this.guna2ControlBox3.IconColor = System.Drawing.Color.White;
             this.guna2ControlBox3.Location = new System.Drawing.Point(913, 0);
             this.guna2ControlBox3.Name = "guna2ControlBox3";
             this.guna2ControlBox3.ShadowDecoration.Parent = this.guna2ControlBox3;
@@ -85,8 +87,10 @@
             this.guna2ControlBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2ControlBox2.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox;
             this.guna2ControlBox2.FillColor = System.Drawing.Color.Transparent;
+            this.guna2ControlBox2.HoverState.FillColor = System.Drawing.Color.White;
+            this.guna2ControlBox2.HoverState.IconColor = System.Drawing.Color.Black;
             this.guna2ControlBox2.HoverState.Parent = this.guna2ControlBox2;
-            this.guna2ControlBox2.IconColor = System.Drawing.Color.Black;
+            this.guna2ControlBox2.IconColor = System.Drawing.Color.White;
             this.guna2ControlBox2.Location = new System.Drawing.Point(966, 0);
             this.guna2ControlBox2.Name = "guna2ControlBox2";
             this.guna2ControlBox2.ShadowDecoration.Parent = this.guna2ControlBox2;
@@ -97,8 +101,10 @@
             // 
             this.guna2ControlBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2ControlBox1.FillColor = System.Drawing.Color.Transparent;
+            this.guna2ControlBox1.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(23)))), ((int)(((byte)(0)))));
+            this.guna2ControlBox1.HoverState.IconColor = System.Drawing.Color.White;
             this.guna2ControlBox1.HoverState.Parent = this.guna2ControlBox1;
-            this.guna2ControlBox1.IconColor = System.Drawing.Color.Black;
+            this.guna2ControlBox1.IconColor = System.Drawing.Color.White;
             this.guna2ControlBox1.Location = new System.Drawing.Point(1019, 0);
             this.guna2ControlBox1.Name = "guna2ControlBox1";
             this.guna2ControlBox1.ShadowDecoration.Parent = this.guna2ControlBox1;
@@ -107,7 +113,7 @@
             // 
             // guna2Panel1
             // 
-            this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(216)))), ((int)(((byte)(176)))));
+            this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(19)))), ((int)(((byte)(60)))));
             this.guna2Panel1.Controls.Add(this.l);
             this.guna2Panel1.Controls.Add(this.btnLogOut);
             this.guna2Panel1.Controls.Add(this.btnRevenue);
@@ -126,6 +132,7 @@
             // 
             this.l.AutoSize = true;
             this.l.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l.ForeColor = System.Drawing.Color.White;
             this.l.Location = new System.Drawing.Point(3, 6);
             this.l.Name = "l";
             this.l.Size = new System.Drawing.Size(41, 16);
@@ -136,14 +143,14 @@
             // 
             this.btnLogOut.Animated = true;
             this.btnLogOut.BorderRadius = 10;
-            this.btnLogOut.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(54)))), ((int)(((byte)(1)))));
+            this.btnLogOut.CheckedState.FillColor = System.Drawing.Color.White;
             this.btnLogOut.CheckedState.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogOut.CheckedState.ForeColor = System.Drawing.Color.White;
+            this.btnLogOut.CheckedState.ForeColor = System.Drawing.Color.Black;
             this.btnLogOut.CheckedState.Parent = this.btnLogOut;
             this.btnLogOut.CustomImages.Parent = this.btnLogOut;
             this.btnLogOut.FillColor = System.Drawing.Color.Transparent;
             this.btnLogOut.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.btnLogOut.ForeColor = System.Drawing.Color.Black;
+            this.btnLogOut.ForeColor = System.Drawing.Color.White;
             this.btnLogOut.HoverState.Parent = this.btnLogOut;
             this.btnLogOut.Location = new System.Drawing.Point(12, 340);
             this.btnLogOut.Name = "btnLogOut";
@@ -158,14 +165,14 @@
             this.btnRevenue.Animated = true;
             this.btnRevenue.BorderRadius = 10;
             this.btnRevenue.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.btnRevenue.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(54)))), ((int)(((byte)(1)))));
+            this.btnRevenue.CheckedState.FillColor = System.Drawing.Color.White;
             this.btnRevenue.CheckedState.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRevenue.CheckedState.ForeColor = System.Drawing.Color.White;
+            this.btnRevenue.CheckedState.ForeColor = System.Drawing.Color.Black;
             this.btnRevenue.CheckedState.Parent = this.btnRevenue;
             this.btnRevenue.CustomImages.Parent = this.btnRevenue;
             this.btnRevenue.FillColor = System.Drawing.Color.Transparent;
             this.btnRevenue.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.btnRevenue.ForeColor = System.Drawing.Color.Black;
+            this.btnRevenue.ForeColor = System.Drawing.Color.White;
             this.btnRevenue.HoverState.Parent = this.btnRevenue;
             this.btnRevenue.Location = new System.Drawing.Point(12, 289);
             this.btnRevenue.Name = "btnRevenue";
@@ -180,14 +187,14 @@
             this.btnStaff.Animated = true;
             this.btnStaff.BorderRadius = 10;
             this.btnStaff.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.btnStaff.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(54)))), ((int)(((byte)(1)))));
+            this.btnStaff.CheckedState.FillColor = System.Drawing.Color.White;
             this.btnStaff.CheckedState.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnStaff.CheckedState.ForeColor = System.Drawing.Color.White;
+            this.btnStaff.CheckedState.ForeColor = System.Drawing.Color.Black;
             this.btnStaff.CheckedState.Parent = this.btnStaff;
             this.btnStaff.CustomImages.Parent = this.btnStaff;
             this.btnStaff.FillColor = System.Drawing.Color.Transparent;
             this.btnStaff.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.btnStaff.ForeColor = System.Drawing.Color.Black;
+            this.btnStaff.ForeColor = System.Drawing.Color.White;
             this.btnStaff.HoverState.Parent = this.btnStaff;
             this.btnStaff.Location = new System.Drawing.Point(12, 238);
             this.btnStaff.Name = "btnStaff";
@@ -202,14 +209,14 @@
             this.btnItem.Animated = true;
             this.btnItem.BorderRadius = 10;
             this.btnItem.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.btnItem.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(54)))), ((int)(((byte)(1)))));
+            this.btnItem.CheckedState.FillColor = System.Drawing.Color.White;
             this.btnItem.CheckedState.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnItem.CheckedState.ForeColor = System.Drawing.Color.White;
+            this.btnItem.CheckedState.ForeColor = System.Drawing.Color.Black;
             this.btnItem.CheckedState.Parent = this.btnItem;
             this.btnItem.CustomImages.Parent = this.btnItem;
             this.btnItem.FillColor = System.Drawing.Color.Transparent;
             this.btnItem.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.btnItem.ForeColor = System.Drawing.Color.Black;
+            this.btnItem.ForeColor = System.Drawing.Color.White;
             this.btnItem.HoverState.Parent = this.btnItem;
             this.btnItem.Location = new System.Drawing.Point(12, 187);
             this.btnItem.Name = "btnItem";
@@ -224,14 +231,14 @@
             this.btnHome.Animated = true;
             this.btnHome.BorderRadius = 10;
             this.btnHome.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.btnHome.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(54)))), ((int)(((byte)(1)))));
+            this.btnHome.CheckedState.FillColor = System.Drawing.Color.White;
             this.btnHome.CheckedState.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHome.CheckedState.ForeColor = System.Drawing.Color.White;
+            this.btnHome.CheckedState.ForeColor = System.Drawing.Color.Black;
             this.btnHome.CheckedState.Parent = this.btnHome;
             this.btnHome.CustomImages.Parent = this.btnHome;
             this.btnHome.FillColor = System.Drawing.Color.Transparent;
             this.btnHome.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.btnHome.ForeColor = System.Drawing.Color.Black;
+            this.btnHome.ForeColor = System.Drawing.Color.White;
             this.btnHome.HoverState.Parent = this.btnHome;
             this.btnHome.Location = new System.Drawing.Point(12, 136);
             this.btnHome.Name = "btnHome";
@@ -254,7 +261,7 @@
             // 
             // PanelContainer
             // 
-            this.PanelContainer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(255)))), ((int)(((byte)(231)))));
+            this.PanelContainer.BackColor = System.Drawing.Color.White;
             this.PanelContainer.Controls.Add(this.guna2PictureBox2);
             this.PanelContainer.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PanelContainer.Location = new System.Drawing.Point(162, 28);
@@ -272,7 +279,7 @@
             this.guna2PictureBox2.Location = new System.Drawing.Point(329, 32);
             this.guna2PictureBox2.Name = "guna2PictureBox2";
             this.guna2PictureBox2.ShadowDecoration.Parent = this.guna2PictureBox2;
-            this.guna2PictureBox2.Size = new System.Drawing.Size(280, 284);
+            this.guna2PictureBox2.Size = new System.Drawing.Size(301, 377);
             this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox2.TabIndex = 0;
             this.guna2PictureBox2.TabStop = false;
@@ -285,6 +292,7 @@
             // guna2DragControl1
             // 
             this.guna2DragControl1.TargetControl = this.panel1;
+            this.guna2DragControl1.UseTransparentDrag = true;
             // 
             // Admin
             // 
