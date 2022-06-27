@@ -47,6 +47,29 @@ namespace BUS
                 throw ex;
             }
         }
+        public DataTable GetListBillByDateAndPage(DateTime checkIn, DateTime checkOut, int page)
+        {
+            try
+            {
+                return BillDAO.Instance.GetListBillByDateAndPage(checkIn, checkOut, page);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public int GetNumBillByDate(DateTime checkIn, DateTime checkOut)
+        {
+            try
+            {
+                return BillDAO.Instance.GetNumBillByDate(checkIn, checkOut);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
         public void InsertBill(int id)
         {
             try

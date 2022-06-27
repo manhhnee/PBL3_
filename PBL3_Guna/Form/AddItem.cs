@@ -35,10 +35,7 @@ namespace PBL3_Guna
             item.Price = Convert.ToInt32(txtPriceItem.Text);
             return item;
         }
-            private void guna2Button1_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
+        
 
         
         private void btnAddItem_Click_1(object sender, EventArgs e)
@@ -48,14 +45,9 @@ namespace PBL3_Guna
             this.Close();
         }
 
-        private void cxbCategoryItem_SelectedIndexChanged(object sender, EventArgs e)
+        private void btnExit_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void AddItem_Load(object sender, EventArgs e)
-        {
-
+            this.Close();
         }
     }
 }

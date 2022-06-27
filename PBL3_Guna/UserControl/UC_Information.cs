@@ -26,7 +26,7 @@ namespace PBL3_Guna
             dtgvInfor.DataSource = BillBUS.Instance.GetListBillByDate(CheckIn, CheckOut);
         }
 
-        private void guna2Button3_Click(object sender, EventArgs e)
+        private void btnDetails_Click(object sender, EventArgs e)
         {
             if (dtgvInfor.SelectedRows.Count > 0)
             {

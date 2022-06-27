@@ -33,7 +33,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.btnExit = new Guna.UI2.WinForms.Guna2Button();
-            this.btnLogin = new Guna.UI2.WinForms.Guna2Button();
+            this.btnAddCategory = new Guna.UI2.WinForms.Guna2Button();
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
             this.SuspendLayout();
@@ -54,16 +54,15 @@
             this.txtCategory.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCategory.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtCategory.HoverState.Parent = this.txtCategory;
-            this.txtCategory.Location = new System.Drawing.Point(148, 39);
-            this.txtCategory.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCategory.Location = new System.Drawing.Point(197, 48);
+            this.txtCategory.Margin = new System.Windows.Forms.Padding(5);
             this.txtCategory.Name = "txtCategory";
             this.txtCategory.PasswordChar = '\0';
             this.txtCategory.PlaceholderText = "";
             this.txtCategory.SelectedText = "";
             this.txtCategory.ShadowDecoration.Parent = this.txtCategory;
-            this.txtCategory.Size = new System.Drawing.Size(211, 24);
+            this.txtCategory.Size = new System.Drawing.Size(281, 30);
             this.txtCategory.TabIndex = 32;
-            this.txtCategory.TextChanged += new System.EventHandler(this.txtCategory_TextChanged);
             // 
             // label2
             // 
@@ -71,9 +70,10 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(10, 45);
+            this.label2.Location = new System.Drawing.Point(13, 55);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(131, 18);
+            this.label2.Size = new System.Drawing.Size(165, 23);
             this.label2.TabIndex = 31;
             this.label2.Text = "Name Category:";
             // 
@@ -97,36 +97,38 @@
             this.btnExit.HoverState.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.HoverState.ForeColor = System.Drawing.Color.Black;
             this.btnExit.HoverState.Parent = this.btnExit;
-            this.btnExit.Location = new System.Drawing.Point(221, 106);
+            this.btnExit.Location = new System.Drawing.Point(295, 130);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(4);
             this.btnExit.Name = "btnExit";
             this.btnExit.ShadowDecoration.Parent = this.btnExit;
-            this.btnExit.Size = new System.Drawing.Size(109, 45);
+            this.btnExit.Size = new System.Drawing.Size(145, 55);
             this.btnExit.TabIndex = 46;
             this.btnExit.Text = "Exit";
-            this.btnExit.Click += new System.EventHandler(this.guna2Button1_Click);
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
-            // btnLogin
+            // btnAddCategory
             // 
-            this.btnLogin.Animated = true;
-            this.btnLogin.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(244)))), ((int)(((byte)(237)))));
-            this.btnLogin.BorderRadius = 10;
-            this.btnLogin.BorderThickness = 2;
-            this.btnLogin.CheckedState.Parent = this.btnLogin;
-            this.btnLogin.CustomImages.Parent = this.btnLogin;
-            this.btnLogin.FillColor = System.Drawing.Color.Transparent;
-            this.btnLogin.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.btnLogin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(244)))), ((int)(((byte)(237)))));
-            this.btnLogin.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(244)))), ((int)(((byte)(237)))));
-            this.btnLogin.HoverState.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogin.HoverState.ForeColor = System.Drawing.Color.Black;
-            this.btnLogin.HoverState.Parent = this.btnLogin;
-            this.btnLogin.Location = new System.Drawing.Point(40, 106);
-            this.btnLogin.Name = "btnLogin";
-            this.btnLogin.ShadowDecoration.Parent = this.btnLogin;
-            this.btnLogin.Size = new System.Drawing.Size(109, 45);
-            this.btnLogin.TabIndex = 45;
-            this.btnLogin.Text = "Add";
-            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
+            this.btnAddCategory.Animated = true;
+            this.btnAddCategory.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(244)))), ((int)(((byte)(237)))));
+            this.btnAddCategory.BorderRadius = 10;
+            this.btnAddCategory.BorderThickness = 2;
+            this.btnAddCategory.CheckedState.Parent = this.btnAddCategory;
+            this.btnAddCategory.CustomImages.Parent = this.btnAddCategory;
+            this.btnAddCategory.FillColor = System.Drawing.Color.Transparent;
+            this.btnAddCategory.Font = new System.Drawing.Font("Century Gothic", 9F);
+            this.btnAddCategory.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(244)))), ((int)(((byte)(237)))));
+            this.btnAddCategory.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(244)))), ((int)(((byte)(237)))));
+            this.btnAddCategory.HoverState.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddCategory.HoverState.ForeColor = System.Drawing.Color.Black;
+            this.btnAddCategory.HoverState.Parent = this.btnAddCategory;
+            this.btnAddCategory.Location = new System.Drawing.Point(53, 130);
+            this.btnAddCategory.Margin = new System.Windows.Forms.Padding(4);
+            this.btnAddCategory.Name = "btnAddCategory";
+            this.btnAddCategory.ShadowDecoration.Parent = this.btnAddCategory;
+            this.btnAddCategory.Size = new System.Drawing.Size(145, 55);
+            this.btnAddCategory.TabIndex = 45;
+            this.btnAddCategory.Text = "Add";
+            this.btnAddCategory.Click += new System.EventHandler(this.btnAddCategory_Click);
             // 
             // guna2DragControl1
             // 
@@ -135,15 +137,16 @@
             // 
             // AddCategory
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(101)))), ((int)(((byte)(135)))));
-            this.ClientSize = new System.Drawing.Size(370, 173);
+            this.ClientSize = new System.Drawing.Size(493, 213);
             this.Controls.Add(this.btnExit);
-            this.Controls.Add(this.btnLogin);
+            this.Controls.Add(this.btnAddCategory);
             this.Controls.Add(this.txtCategory);
             this.Controls.Add(this.label2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "AddCategory";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AddCategory";
@@ -158,7 +161,7 @@
         private System.Windows.Forms.Label label2;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private Guna.UI2.WinForms.Guna2Button btnExit;
-        private Guna.UI2.WinForms.Guna2Button btnLogin;
+        private Guna.UI2.WinForms.Guna2Button btnAddCategory;
         private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
         private Guna.UI2.WinForms.Guna2AnimateWindow guna2AnimateWindow1;
     }

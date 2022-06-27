@@ -37,12 +37,9 @@ namespace PBL3_Guna
             return account;
         }
 
-        private void guna2Button1_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
+        
 
-        private void btnLogin_Click(object sender, EventArgs e)
+        private void btnAddStaff_Click(object sender, EventArgs e)
         {
             StaffDTO staff = getStaffDataToAdd();
             AccountDTO account = getDataToCreateAccount();
@@ -58,6 +55,11 @@ namespace PBL3_Guna
                 else MessageBox.Show("Không được để trống mật khẩu !");
             }
             else MessageBox.Show("Đã tồn tại UserName này");
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

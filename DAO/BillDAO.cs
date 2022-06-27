@@ -59,6 +59,31 @@ namespace DAO
                 throw ex;
             }
         }
+        public DataTable GetListBillByDateAndPage(DateTime checkIn, DateTime checkOut, int page)
+        {
+            try
+            {
+                return DataProvider.Instance.ExecuteQuery("USP_GetListBillByDateAndPage @checkIn , @checkOut , @page", new Object[] { checkIn, checkOut, page });
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public int GetNumBillByDate(DateTime checkIn, DateTime checkOut)
+        {
+            try
+            {
+                return (int)DataProvider.Instance.ExecuteScalar("USP_GetNumBillByDate @checkIn , @checkOut", new Object[] { checkIn, checkOut });
+            }  
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+
         public DataTable GetDateByID(int id)
         {
             return DataProvider.Instance.ExecuteQuery("Select DateCheckIn , DateCheckOut from Bill", new Object[] { id });

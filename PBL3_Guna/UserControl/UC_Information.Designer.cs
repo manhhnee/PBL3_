@@ -32,7 +32,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dtgvInfor = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnDetails = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvInfor)).BeginInit();
             this.SuspendLayout();
             // 
@@ -67,12 +67,13 @@
             this.dtgvInfor.DefaultCellStyle = dataGridViewCellStyle3;
             this.dtgvInfor.EnableHeadersVisualStyles = false;
             this.dtgvInfor.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.dtgvInfor.Location = new System.Drawing.Point(163, 34);
+            this.dtgvInfor.Location = new System.Drawing.Point(217, 42);
+            this.dtgvInfor.Margin = new System.Windows.Forms.Padding(4);
             this.dtgvInfor.Name = "dtgvInfor";
             this.dtgvInfor.RowHeadersVisible = false;
             this.dtgvInfor.RowHeadersWidth = 51;
             this.dtgvInfor.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dtgvInfor.Size = new System.Drawing.Size(587, 413);
+            this.dtgvInfor.Size = new System.Drawing.Size(783, 508);
             this.dtgvInfor.TabIndex = 0;
             this.dtgvInfor.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Default;
             this.dtgvInfor.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
@@ -97,34 +98,36 @@
             this.dtgvInfor.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.dtgvInfor.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             // 
-            // guna2Button3
+            // btnDetails
             // 
-            this.guna2Button3.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.guna2Button3.Animated = true;
-            this.guna2Button3.BorderRadius = 10;
-            this.guna2Button3.CheckedState.Parent = this.guna2Button3;
-            this.guna2Button3.CustomImages.Parent = this.guna2Button3;
-            this.guna2Button3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(153)))), ((int)(((byte)(75)))));
-            this.guna2Button3.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.guna2Button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(19)))), ((int)(((byte)(60)))));
-            this.guna2Button3.HoverState.Parent = this.guna2Button3;
-            this.guna2Button3.Location = new System.Drawing.Point(409, 477);
-            this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.ShadowDecoration.Parent = this.guna2Button3;
-            this.guna2Button3.Size = new System.Drawing.Size(95, 36);
-            this.guna2Button3.TabIndex = 8;
-            this.guna2Button3.Text = "Details";
-            this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
+            this.btnDetails.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.btnDetails.Animated = true;
+            this.btnDetails.BorderRadius = 10;
+            this.btnDetails.CheckedState.Parent = this.btnDetails;
+            this.btnDetails.CustomImages.Parent = this.btnDetails;
+            this.btnDetails.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(153)))), ((int)(((byte)(75)))));
+            this.btnDetails.Font = new System.Drawing.Font("Century Gothic", 9F);
+            this.btnDetails.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(19)))), ((int)(((byte)(60)))));
+            this.btnDetails.HoverState.Parent = this.btnDetails;
+            this.btnDetails.Location = new System.Drawing.Point(545, 587);
+            this.btnDetails.Margin = new System.Windows.Forms.Padding(4);
+            this.btnDetails.Name = "btnDetails";
+            this.btnDetails.ShadowDecoration.Parent = this.btnDetails;
+            this.btnDetails.Size = new System.Drawing.Size(127, 44);
+            this.btnDetails.TabIndex = 8;
+            this.btnDetails.Text = "Details";
+            this.btnDetails.Click += new System.EventHandler(this.btnDetails_Click);
             // 
             // UC_Information
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(255)))), ((int)(((byte)(231)))));
-            this.Controls.Add(this.guna2Button3);
+            this.Controls.Add(this.btnDetails);
             this.Controls.Add(this.dtgvInfor);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "UC_Information";
-            this.Size = new System.Drawing.Size(904, 609);
+            this.Size = new System.Drawing.Size(1205, 750);
             ((System.ComponentModel.ISupportInitialize)(this.dtgvInfor)).EndInit();
             this.ResumeLayout(false);
 
@@ -133,6 +136,6 @@
         #endregion
 
         private Guna.UI2.WinForms.Guna2DataGridView dtgvInfor;
-        private Guna.UI2.WinForms.Guna2Button guna2Button3;
+        private Guna.UI2.WinForms.Guna2Button btnDetails;
     }
 }
