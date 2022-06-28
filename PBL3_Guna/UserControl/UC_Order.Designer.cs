@@ -32,19 +32,19 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnAddItem = new Guna.UI2.WinForms.Guna2Button();
             this.nmItemAmount = new Guna.UI2.WinForms.Guna2NumericUpDown();
             this.cbItem = new Guna.UI2.WinForms.Guna2ComboBox();
             this.cbCategory = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.btnAddItem = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.btnCheckOut = new Guna.UI2.WinForms.Guna2Button();
             this.txbTotalPrice = new Guna.UI2.WinForms.Guna2TextBox();
-            this.btnSwapTable = new Guna.UI2.WinForms.Guna2Button();
             this.nmDiscount = new Guna.UI2.WinForms.Guna2NumericUpDown();
             this.cbSwapTable = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.btnCheckOut = new Guna.UI2.WinForms.Guna2Button();
+            this.btnSwapTable = new Guna.UI2.WinForms.Guna2Button();
             this.lvBill = new System.Windows.Forms.ListView();
-            this.Name = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.ColName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Quantity = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Price = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Total = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -61,7 +61,7 @@
             this.flpTable.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.flpTable.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(119)))), ((int)(((byte)(123)))));
+            this.flpTable.BackColor = System.Drawing.Color.Transparent;
             this.flpTable.Location = new System.Drawing.Point(0, 0);
             this.flpTable.Name = "flpTable";
             this.flpTable.Size = new System.Drawing.Size(525, 609);
@@ -78,12 +78,12 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(216)))), ((int)(((byte)(176)))));
+            this.panel2.BackColor = System.Drawing.Color.Transparent;
             this.panel2.Controls.Add(this.label1);
-            this.panel2.Controls.Add(this.btnAddItem);
             this.panel2.Controls.Add(this.nmItemAmount);
             this.panel2.Controls.Add(this.cbItem);
             this.panel2.Controls.Add(this.cbCategory);
+            this.panel2.Controls.Add(this.btnAddItem);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(525, 0);
             this.panel2.Name = "panel2";
@@ -95,31 +95,12 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(19)))), ((int)(((byte)(60)))));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
             this.label1.Location = new System.Drawing.Point(278, 24);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(68, 16);
             this.label1.TabIndex = 4;
             this.label1.Text = "Category";
-            // 
-            // btnAddItem
-            // 
-            this.btnAddItem.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnAddItem.Animated = true;
-            this.btnAddItem.BorderRadius = 10;
-            this.btnAddItem.CheckedState.Parent = this.btnAddItem;
-            this.btnAddItem.CustomImages.Parent = this.btnAddItem;
-            this.btnAddItem.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(153)))), ((int)(((byte)(75)))));
-            this.btnAddItem.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.btnAddItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(19)))), ((int)(((byte)(60)))));
-            this.btnAddItem.HoverState.Parent = this.btnAddItem;
-            this.btnAddItem.Location = new System.Drawing.Point(251, 43);
-            this.btnAddItem.Name = "btnAddItem";
-            this.btnAddItem.ShadowDecoration.Parent = this.btnAddItem;
-            this.btnAddItem.Size = new System.Drawing.Size(125, 36);
-            this.btnAddItem.TabIndex = 3;
-            this.btnAddItem.Text = "Add Items";
-            this.btnAddItem.Click += new System.EventHandler(this.btnAddItem_Click);
             // 
             // nmItemAmount
             // 
@@ -137,7 +118,7 @@
             this.nmItemAmount.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.nmItemAmount.FocusedState.Parent = this.nmItemAmount;
             this.nmItemAmount.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.nmItemAmount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(19)))), ((int)(((byte)(60)))));
+            this.nmItemAmount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
             this.nmItemAmount.Location = new System.Drawing.Point(192, 43);
             this.nmItemAmount.Minimum = new decimal(new int[] {
             100,
@@ -148,7 +129,8 @@
             this.nmItemAmount.ShadowDecoration.Parent = this.nmItemAmount;
             this.nmItemAmount.Size = new System.Drawing.Size(53, 36);
             this.nmItemAmount.TabIndex = 2;
-            this.nmItemAmount.UpDownButtonFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(153)))), ((int)(((byte)(75)))));
+            this.nmItemAmount.UpDownButtonFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
+            this.nmItemAmount.UpDownButtonForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
             this.nmItemAmount.Value = new decimal(new int[] {
             1,
             0,
@@ -160,7 +142,7 @@
             this.cbItem.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.cbItem.Animated = true;
             this.cbItem.BackColor = System.Drawing.Color.Transparent;
-            this.cbItem.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(153)))), ((int)(((byte)(75)))));
+            this.cbItem.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
             this.cbItem.BorderRadius = 6;
             this.cbItem.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.cbItem.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
@@ -168,7 +150,7 @@
             this.cbItem.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.cbItem.FocusedState.Parent = this.cbItem;
             this.cbItem.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.cbItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(19)))), ((int)(((byte)(60)))));
+            this.cbItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
             this.cbItem.HoverState.Parent = this.cbItem;
             this.cbItem.ItemHeight = 30;
             this.cbItem.ItemsAppearance.Parent = this.cbItem;
@@ -183,7 +165,7 @@
             this.cbCategory.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.cbCategory.Animated = true;
             this.cbCategory.BackColor = System.Drawing.Color.Transparent;
-            this.cbCategory.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(153)))), ((int)(((byte)(75)))));
+            this.cbCategory.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
             this.cbCategory.BorderRadius = 6;
             this.cbCategory.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.cbCategory.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
@@ -191,7 +173,7 @@
             this.cbCategory.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.cbCategory.FocusedState.Parent = this.cbCategory;
             this.cbCategory.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.cbCategory.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(19)))), ((int)(((byte)(60)))));
+            this.cbCategory.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
             this.cbCategory.HoverState.Parent = this.cbCategory;
             this.cbCategory.ItemHeight = 30;
             this.cbCategory.ItemsAppearance.Parent = this.cbCategory;
@@ -201,6 +183,29 @@
             this.cbCategory.Size = new System.Drawing.Size(151, 36);
             this.cbCategory.TabIndex = 0;
             this.cbCategory.SelectedIndexChanged += new System.EventHandler(this.cbCategory_SelectedIndexChanged);
+            // 
+            // btnAddItem
+            // 
+            this.btnAddItem.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnAddItem.Animated = true;
+            this.btnAddItem.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
+            this.btnAddItem.BorderRadius = 10;
+            this.btnAddItem.BorderThickness = 1;
+            this.btnAddItem.CheckedState.Parent = this.btnAddItem;
+            this.btnAddItem.CustomImages.Parent = this.btnAddItem;
+            this.btnAddItem.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
+            this.btnAddItem.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(167)))), ((int)(((byte)(152)))));
+            this.btnAddItem.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
+            this.btnAddItem.HoverState.FillColor = System.Drawing.Color.White;
+            this.btnAddItem.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
+            this.btnAddItem.HoverState.Parent = this.btnAddItem;
+            this.btnAddItem.Location = new System.Drawing.Point(251, 43);
+            this.btnAddItem.Name = "btnAddItem";
+            this.btnAddItem.ShadowDecoration.Parent = this.btnAddItem;
+            this.btnAddItem.Size = new System.Drawing.Size(116, 36);
+            this.btnAddItem.TabIndex = 7;
+            this.btnAddItem.Text = "Add Items";
             // 
             // guna2Panel1
             // 
@@ -215,36 +220,17 @@
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(216)))), ((int)(((byte)(176)))));
-            this.panel3.Controls.Add(this.btnCheckOut);
+            this.panel3.BackColor = System.Drawing.Color.Transparent;
             this.panel3.Controls.Add(this.txbTotalPrice);
-            this.panel3.Controls.Add(this.btnSwapTable);
             this.panel3.Controls.Add(this.nmDiscount);
             this.panel3.Controls.Add(this.cbSwapTable);
+            this.panel3.Controls.Add(this.btnCheckOut);
+            this.panel3.Controls.Add(this.btnSwapTable);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel3.Location = new System.Drawing.Point(0, 357);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(379, 135);
             this.panel3.TabIndex = 1;
-            // 
-            // btnCheckOut
-            // 
-            this.btnCheckOut.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnCheckOut.Animated = true;
-            this.btnCheckOut.BorderRadius = 10;
-            this.btnCheckOut.CheckedState.Parent = this.btnCheckOut;
-            this.btnCheckOut.CustomImages.Parent = this.btnCheckOut;
-            this.btnCheckOut.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(153)))), ((int)(((byte)(75)))));
-            this.btnCheckOut.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.btnCheckOut.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(19)))), ((int)(((byte)(60)))));
-            this.btnCheckOut.HoverState.Parent = this.btnCheckOut;
-            this.btnCheckOut.Location = new System.Drawing.Point(251, 69);
-            this.btnCheckOut.Name = "btnCheckOut";
-            this.btnCheckOut.ShadowDecoration.Parent = this.btnCheckOut;
-            this.btnCheckOut.Size = new System.Drawing.Size(95, 36);
-            this.btnCheckOut.TabIndex = 7;
-            this.btnCheckOut.Text = "Payment";
-            this.btnCheckOut.Click += new System.EventHandler(this.btnCheckOut_Click);
             // 
             // txbTotalPrice
             // 
@@ -261,37 +247,19 @@
             this.txbTotalPrice.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(148)))), ((int)(((byte)(97)))));
             this.txbTotalPrice.FocusedState.Parent = this.txbTotalPrice;
             this.txbTotalPrice.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbTotalPrice.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(19)))), ((int)(((byte)(60)))));
+            this.txbTotalPrice.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
             this.txbTotalPrice.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(148)))), ((int)(((byte)(97)))));
             this.txbTotalPrice.HoverState.Parent = this.txbTotalPrice;
             this.txbTotalPrice.Location = new System.Drawing.Point(205, 15);
             this.txbTotalPrice.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txbTotalPrice.Name = "txbTotalPrice";
             this.txbTotalPrice.PasswordChar = '\0';
+            this.txbTotalPrice.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
             this.txbTotalPrice.PlaceholderText = "0";
             this.txbTotalPrice.SelectedText = "";
             this.txbTotalPrice.ShadowDecoration.Parent = this.txbTotalPrice;
             this.txbTotalPrice.Size = new System.Drawing.Size(162, 36);
             this.txbTotalPrice.TabIndex = 6;
-            // 
-            // btnSwapTable
-            // 
-            this.btnSwapTable.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnSwapTable.Animated = true;
-            this.btnSwapTable.BorderRadius = 10;
-            this.btnSwapTable.CheckedState.Parent = this.btnSwapTable;
-            this.btnSwapTable.CustomImages.Parent = this.btnSwapTable;
-            this.btnSwapTable.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(153)))), ((int)(((byte)(75)))));
-            this.btnSwapTable.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.btnSwapTable.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(19)))), ((int)(((byte)(60)))));
-            this.btnSwapTable.HoverState.Parent = this.btnSwapTable;
-            this.btnSwapTable.Location = new System.Drawing.Point(35, 69);
-            this.btnSwapTable.Name = "btnSwapTable";
-            this.btnSwapTable.ShadowDecoration.Parent = this.btnSwapTable;
-            this.btnSwapTable.Size = new System.Drawing.Size(125, 36);
-            this.btnSwapTable.TabIndex = 5;
-            this.btnSwapTable.Text = "Change Table";
-            this.btnSwapTable.Click += new System.EventHandler(this.btnSwapTable_Click);
             // 
             // nmDiscount
             // 
@@ -308,20 +276,21 @@
             this.nmDiscount.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.nmDiscount.FocusedState.Parent = this.nmDiscount;
             this.nmDiscount.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.nmDiscount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(19)))), ((int)(((byte)(60)))));
+            this.nmDiscount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
             this.nmDiscount.Location = new System.Drawing.Point(180, 69);
             this.nmDiscount.Name = "nmDiscount";
             this.nmDiscount.ShadowDecoration.Parent = this.nmDiscount;
             this.nmDiscount.Size = new System.Drawing.Size(53, 36);
             this.nmDiscount.TabIndex = 5;
-            this.nmDiscount.UpDownButtonFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(153)))), ((int)(((byte)(75)))));
+            this.nmDiscount.UpDownButtonFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
+            this.nmDiscount.UpDownButtonForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
             // 
             // cbSwapTable
             // 
             this.cbSwapTable.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.cbSwapTable.Animated = true;
             this.cbSwapTable.BackColor = System.Drawing.Color.Transparent;
-            this.cbSwapTable.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(153)))), ((int)(((byte)(75)))));
+            this.cbSwapTable.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
             this.cbSwapTable.BorderRadius = 6;
             this.cbSwapTable.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.cbSwapTable.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
@@ -329,7 +298,7 @@
             this.cbSwapTable.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.cbSwapTable.FocusedState.Parent = this.cbSwapTable;
             this.cbSwapTable.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.cbSwapTable.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(19)))), ((int)(((byte)(60)))));
+            this.cbSwapTable.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
             this.cbSwapTable.HoverState.Parent = this.cbSwapTable;
             this.cbSwapTable.ItemHeight = 30;
             this.cbSwapTable.ItemsAppearance.Parent = this.cbSwapTable;
@@ -339,14 +308,61 @@
             this.cbSwapTable.Size = new System.Drawing.Size(151, 36);
             this.cbSwapTable.TabIndex = 5;
             // 
+            // btnCheckOut
+            // 
+            this.btnCheckOut.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnCheckOut.Animated = true;
+            this.btnCheckOut.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
+            this.btnCheckOut.BorderRadius = 10;
+            this.btnCheckOut.BorderThickness = 1;
+            this.btnCheckOut.CheckedState.Parent = this.btnCheckOut;
+            this.btnCheckOut.CustomImages.Parent = this.btnCheckOut;
+            this.btnCheckOut.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
+            this.btnCheckOut.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCheckOut.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(167)))), ((int)(((byte)(152)))));
+            this.btnCheckOut.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
+            this.btnCheckOut.HoverState.FillColor = System.Drawing.Color.White;
+            this.btnCheckOut.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
+            this.btnCheckOut.HoverState.Parent = this.btnCheckOut;
+            this.btnCheckOut.Location = new System.Drawing.Point(251, 69);
+            this.btnCheckOut.Name = "btnCheckOut";
+            this.btnCheckOut.ShadowDecoration.Parent = this.btnCheckOut;
+            this.btnCheckOut.Size = new System.Drawing.Size(95, 36);
+            this.btnCheckOut.TabIndex = 8;
+            this.btnCheckOut.Text = "Payment";
+            // 
+            // btnSwapTable
+            // 
+            this.btnSwapTable.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnSwapTable.Animated = true;
+            this.btnSwapTable.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
+            this.btnSwapTable.BorderRadius = 10;
+            this.btnSwapTable.BorderThickness = 1;
+            this.btnSwapTable.CheckedState.Parent = this.btnSwapTable;
+            this.btnSwapTable.CustomImages.Parent = this.btnSwapTable;
+            this.btnSwapTable.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
+            this.btnSwapTable.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSwapTable.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(167)))), ((int)(((byte)(152)))));
+            this.btnSwapTable.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
+            this.btnSwapTable.HoverState.FillColor = System.Drawing.Color.White;
+            this.btnSwapTable.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
+            this.btnSwapTable.HoverState.Parent = this.btnSwapTable;
+            this.btnSwapTable.Location = new System.Drawing.Point(35, 69);
+            this.btnSwapTable.Name = "btnSwapTable";
+            this.btnSwapTable.ShadowDecoration.Parent = this.btnSwapTable;
+            this.btnSwapTable.Size = new System.Drawing.Size(125, 36);
+            this.btnSwapTable.TabIndex = 9;
+            this.btnSwapTable.Text = "Change Table";
+            // 
             // lvBill
             // 
+            this.lvBill.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.lvBill.BackColor = System.Drawing.Color.White;
             this.lvBill.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.Name,
+            this.ColName,
             this.Quantity,
             this.Price,
             this.Total});
-            this.lvBill.Dock = System.Windows.Forms.DockStyle.Top;
             this.lvBill.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lvBill.FullRowSelect = true;
             this.lvBill.GridLines = true;
@@ -355,16 +371,16 @@
             this.lvBill.Location = new System.Drawing.Point(0, 0);
             this.lvBill.Name = "lvBill";
             this.lvBill.Scrollable = false;
-            this.lvBill.Size = new System.Drawing.Size(379, 351);
+            this.lvBill.Size = new System.Drawing.Size(379, 492);
             this.lvBill.TabIndex = 0;
             this.lvBill.UseCompatibleStateImageBehavior = false;
             this.lvBill.UseWaitCursor = true;
             this.lvBill.View = System.Windows.Forms.View.Details;
             // 
-            // Name
+            // ColName
             // 
-            this.Name.Text = "Name";
-            this.Name.Width = 138;
+            this.ColName.Text = "Name";
+            this.ColName.Width = 138;
             // 
             // Quantity
             // 
@@ -385,10 +401,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Transparent;
             this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            //this.Name = "UC_Order";
+            this.Name = "UC_Order";
             this.Size = new System.Drawing.Size(904, 609);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
@@ -410,18 +427,18 @@
         private Guna.UI2.WinForms.Guna2ComboBox cbItem;
         private Guna.UI2.WinForms.Guna2NumericUpDown nmItemAmount;
         private System.Windows.Forms.Label label1;
-        private Guna.UI2.WinForms.Guna2Button btnAddItem;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private System.Windows.Forms.ListView lvBill;
-        private new System.Windows.Forms.ColumnHeader Name;
+        private new System.Windows.Forms.ColumnHeader ColName;
         private System.Windows.Forms.ColumnHeader Quantity;
         private System.Windows.Forms.ColumnHeader Price;
         private System.Windows.Forms.ColumnHeader Total;
         private System.Windows.Forms.Panel panel3;
         private Guna.UI2.WinForms.Guna2ComboBox cbSwapTable;
-        private Guna.UI2.WinForms.Guna2Button btnCheckOut;
         private Guna.UI2.WinForms.Guna2TextBox txbTotalPrice;
-        private Guna.UI2.WinForms.Guna2Button btnSwapTable;
         private Guna.UI2.WinForms.Guna2NumericUpDown nmDiscount;
+        private Guna.UI2.WinForms.Guna2Button btnAddItem;
+        private Guna.UI2.WinForms.Guna2Button btnCheckOut;
+        private Guna.UI2.WinForms.Guna2Button btnSwapTable;
     }
 }

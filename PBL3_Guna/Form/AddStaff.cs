@@ -14,6 +14,7 @@ namespace PBL3_Guna
 {
     public partial class AddStaff : Form
     {
+        static int i = 0;
         public AddStaff()
         {
             InitializeComponent();
@@ -58,6 +59,16 @@ namespace PBL3_Guna
                 else MessageBox.Show("Không được để trống mật khẩu !");
             }
             else MessageBox.Show("Đã tồn tại UserName này");
+        }
+
+        private void ShowPass_Click(object sender, EventArgs e)
+        {
+            i++;
+            if (i % 2 != 0)
+            {
+                txtPassStaff.UseSystemPasswordChar = false;
+            }
+            else txtPassStaff.UseSystemPasswordChar = true;
         }
     }
 }

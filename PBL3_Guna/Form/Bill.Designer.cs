@@ -89,9 +89,8 @@
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(597, 166);
+            this.panel1.Size = new System.Drawing.Size(448, 135);
             this.panel1.TabIndex = 0;
             // 
             // btnExit
@@ -100,11 +99,10 @@
             this.btnExit.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(7)))), ((int)(((byte)(22)))));
             this.btnExit.HoverState.Parent = this.btnExit;
             this.btnExit.IconColor = System.Drawing.Color.White;
-            this.btnExit.Location = new System.Drawing.Point(513, -1);
-            this.btnExit.Margin = new System.Windows.Forms.Padding(4);
+            this.btnExit.Location = new System.Drawing.Point(385, -1);
             this.btnExit.Name = "btnExit";
             this.btnExit.ShadowDecoration.Parent = this.btnExit;
-            this.btnExit.Size = new System.Drawing.Size(83, 37);
+            this.btnExit.Size = new System.Drawing.Size(62, 30);
             this.btnExit.TabIndex = 5;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
@@ -123,25 +121,24 @@
             this.guna2TextBox2.ForeColor = System.Drawing.Color.Black;
             this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox2.HoverState.Parent = this.guna2TextBox2;
-            this.guna2TextBox2.Location = new System.Drawing.Point(377, 110);
-            this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(5);
+            this.guna2TextBox2.Location = new System.Drawing.Point(283, 89);
+            this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2TextBox2.Name = "guna2TextBox2";
             this.guna2TextBox2.PasswordChar = '\0';
             this.guna2TextBox2.PlaceholderText = "";
             this.guna2TextBox2.SelectedText = "";
             this.guna2TextBox2.SelectionStart = 10;
             this.guna2TextBox2.ShadowDecoration.Parent = this.guna2TextBox2;
-            this.guna2TextBox2.Size = new System.Drawing.Size(180, 30);
+            this.guna2TextBox2.Size = new System.Drawing.Size(135, 24);
             this.guna2TextBox2.TabIndex = 4;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(292, 117);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(219, 95);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(63, 20);
+            this.label2.Size = new System.Drawing.Size(53, 17);
             this.label2.TabIndex = 3;
             this.label2.Text = "Hotline:";
             // 
@@ -160,35 +157,33 @@
             this.txtAddress.ForeColor = System.Drawing.Color.Black;
             this.txtAddress.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtAddress.HoverState.Parent = this.txtAddress;
-            this.txtAddress.Location = new System.Drawing.Point(377, 51);
-            this.txtAddress.Margin = new System.Windows.Forms.Padding(5);
+            this.txtAddress.Location = new System.Drawing.Point(283, 41);
+            this.txtAddress.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtAddress.Name = "txtAddress";
             this.txtAddress.PasswordChar = '\0';
             this.txtAddress.PlaceholderText = "";
             this.txtAddress.SelectedText = "";
             this.txtAddress.SelectionStart = 12;
             this.txtAddress.ShadowDecoration.Parent = this.txtAddress;
-            this.txtAddress.Size = new System.Drawing.Size(180, 30);
+            this.txtAddress.Size = new System.Drawing.Size(135, 24);
             this.txtAddress.TabIndex = 2;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(292, 60);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(219, 49);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(71, 20);
+            this.label1.Size = new System.Drawing.Size(58, 17);
             this.label1.TabIndex = 1;
             this.label1.Text = "Address:";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(54, 49);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Location = new System.Drawing.Point(40, 40);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(140, 108);
+            this.pictureBox1.Size = new System.Drawing.Size(105, 88);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -204,18 +199,17 @@
             this.panel2.Controls.Add(this.txtPayment);
             this.panel2.Controls.Add(this.label10);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 576);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4);
+            this.panel2.Location = new System.Drawing.Point(0, 467);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(597, 212);
+            this.panel2.Size = new System.Drawing.Size(448, 173);
             this.panel2.TabIndex = 5;
             // 
             // btnCheckOut
             // 
-            this.btnCheckOut.Location = new System.Drawing.Point(212, 153);
-            this.btnCheckOut.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnCheckOut.Location = new System.Drawing.Point(159, 124);
+            this.btnCheckOut.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnCheckOut.Name = "btnCheckOut";
-            this.btnCheckOut.Size = new System.Drawing.Size(151, 55);
+            this.btnCheckOut.Size = new System.Drawing.Size(113, 45);
             this.btnCheckOut.TabIndex = 22;
             this.btnCheckOut.Text = "Xác nhận thanh toán";
             this.btnCheckOut.UseVisualStyleBackColor = true;
@@ -237,24 +231,23 @@
             this.txtExcessCash.FocusedState.Parent = this.txtExcessCash;
             this.txtExcessCash.ForeColor = System.Drawing.Color.Black;
             this.txtExcessCash.HoverState.Parent = this.txtExcessCash;
-            this.txtExcessCash.Location = new System.Drawing.Point(283, 113);
-            this.txtExcessCash.Margin = new System.Windows.Forms.Padding(5);
+            this.txtExcessCash.Location = new System.Drawing.Point(212, 92);
+            this.txtExcessCash.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtExcessCash.Name = "txtExcessCash";
             this.txtExcessCash.PasswordChar = '\0';
             this.txtExcessCash.PlaceholderText = "";
             this.txtExcessCash.SelectedText = "";
             this.txtExcessCash.ShadowDecoration.Parent = this.txtExcessCash;
-            this.txtExcessCash.Size = new System.Drawing.Size(279, 21);
+            this.txtExcessCash.Size = new System.Drawing.Size(209, 17);
             this.txtExcessCash.TabIndex = 21;
             // 
             // label12
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(20, 113);
-            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label12.Location = new System.Drawing.Point(15, 92);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(101, 18);
+            this.label12.Size = new System.Drawing.Size(81, 16);
             this.label12.TabIndex = 20;
             this.label12.Text = "Excess Cash:";
             // 
@@ -273,15 +266,15 @@
             this.txtPaid.FocusedState.Parent = this.txtPaid;
             this.txtPaid.ForeColor = System.Drawing.Color.Black;
             this.txtPaid.HoverState.Parent = this.txtPaid;
-            this.txtPaid.Location = new System.Drawing.Point(283, 63);
-            this.txtPaid.Margin = new System.Windows.Forms.Padding(5);
+            this.txtPaid.Location = new System.Drawing.Point(212, 51);
+            this.txtPaid.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtPaid.Name = "txtPaid";
             this.txtPaid.PasswordChar = '\0';
             this.txtPaid.PlaceholderText = "";
             this.txtPaid.SelectedText = "";
             this.txtPaid.SelectionStart = 1;
             this.txtPaid.ShadowDecoration.Parent = this.txtPaid;
-            this.txtPaid.Size = new System.Drawing.Size(279, 21);
+            this.txtPaid.Size = new System.Drawing.Size(209, 17);
             this.txtPaid.TabIndex = 19;
             this.txtPaid.TextChanged += new System.EventHandler(this.txtPaid_TextChanged);
             // 
@@ -289,10 +282,9 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(20, 63);
-            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label11.Location = new System.Drawing.Point(15, 51);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(44, 18);
+            this.label11.Size = new System.Drawing.Size(36, 16);
             this.label11.TabIndex = 18;
             this.label11.Text = "Paid:";
             // 
@@ -313,24 +305,23 @@
             this.txtPayment.ForeColor = System.Drawing.Color.Black;
             this.txtPayment.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtPayment.HoverState.Parent = this.txtPayment;
-            this.txtPayment.Location = new System.Drawing.Point(283, 14);
-            this.txtPayment.Margin = new System.Windows.Forms.Padding(5);
+            this.txtPayment.Location = new System.Drawing.Point(212, 11);
+            this.txtPayment.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtPayment.Name = "txtPayment";
             this.txtPayment.PasswordChar = '\0';
             this.txtPayment.PlaceholderText = "";
             this.txtPayment.SelectedText = "";
             this.txtPayment.ShadowDecoration.Parent = this.txtPayment;
-            this.txtPayment.Size = new System.Drawing.Size(279, 21);
+            this.txtPayment.Size = new System.Drawing.Size(209, 17);
             this.txtPayment.TabIndex = 19;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(20, 14);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label10.Location = new System.Drawing.Point(15, 11);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(76, 18);
+            this.label10.Size = new System.Drawing.Size(61, 16);
             this.label10.TabIndex = 18;
             this.label10.Text = "Payment:";
             // 
@@ -354,10 +345,9 @@
             this.panel3.Controls.Add(this.label4);
             this.panel3.Controls.Add(this.label3);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(0, 166);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4);
+            this.panel3.Location = new System.Drawing.Point(0, 135);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(597, 410);
+            this.panel3.Size = new System.Drawing.Size(448, 332);
             this.panel3.TabIndex = 0;
             // 
             // lvBill
@@ -370,11 +360,11 @@
             this.lvBill.FullRowSelect = true;
             this.lvBill.GridLines = true;
             this.lvBill.HideSelection = false;
-            this.lvBill.Location = new System.Drawing.Point(-1, 186);
-            this.lvBill.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.lvBill.Location = new System.Drawing.Point(-1, 151);
+            this.lvBill.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.lvBill.Name = "lvBill";
             this.lvBill.Scrollable = false;
-            this.lvBill.Size = new System.Drawing.Size(595, 178);
+            this.lvBill.Size = new System.Drawing.Size(447, 145);
             this.lvBill.TabIndex = 23;
             this.lvBill.UseCompatibleStateImageBehavior = false;
             this.lvBill.View = System.Windows.Forms.View.Details;
@@ -414,24 +404,23 @@
             this.txtTimeIn.FocusedState.Parent = this.txtTimeIn;
             this.txtTimeIn.ForeColor = System.Drawing.Color.Black;
             this.txtTimeIn.HoverState.Parent = this.txtTimeIn;
-            this.txtTimeIn.Location = new System.Drawing.Point(94, 157);
-            this.txtTimeIn.Margin = new System.Windows.Forms.Padding(5);
+            this.txtTimeIn.Location = new System.Drawing.Point(70, 128);
+            this.txtTimeIn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtTimeIn.Name = "txtTimeIn";
             this.txtTimeIn.PasswordChar = '\0';
             this.txtTimeIn.PlaceholderText = "";
             this.txtTimeIn.SelectedText = "";
             this.txtTimeIn.ShadowDecoration.Parent = this.txtTimeIn;
-            this.txtTimeIn.Size = new System.Drawing.Size(180, 21);
+            this.txtTimeIn.Size = new System.Drawing.Size(135, 17);
             this.txtTimeIn.TabIndex = 19;
             // 
             // label13
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(4, 159);
-            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label13.Location = new System.Drawing.Point(3, 129);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(66, 20);
+            this.label13.Size = new System.Drawing.Size(54, 17);
             this.label13.TabIndex = 18;
             this.label13.Text = "Time In: ";
             // 
@@ -450,24 +439,23 @@
             this.txtTimeOut.FocusedState.Parent = this.txtTimeOut;
             this.txtTimeOut.ForeColor = System.Drawing.Color.Black;
             this.txtTimeOut.HoverState.Parent = this.txtTimeOut;
-            this.txtTimeOut.Location = new System.Drawing.Point(402, 158);
-            this.txtTimeOut.Margin = new System.Windows.Forms.Padding(5);
+            this.txtTimeOut.Location = new System.Drawing.Point(302, 128);
+            this.txtTimeOut.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtTimeOut.Name = "txtTimeOut";
             this.txtTimeOut.PasswordChar = '\0';
             this.txtTimeOut.PlaceholderText = "";
             this.txtTimeOut.SelectedText = "";
             this.txtTimeOut.ShadowDecoration.Parent = this.txtTimeOut;
-            this.txtTimeOut.Size = new System.Drawing.Size(180, 21);
+            this.txtTimeOut.Size = new System.Drawing.Size(135, 17);
             this.txtTimeOut.TabIndex = 16;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(313, 158);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(235, 128);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(75, 20);
+            this.label7.Size = new System.Drawing.Size(63, 17);
             this.label7.TabIndex = 15;
             this.label7.Text = "Time Out:";
             // 
@@ -486,24 +474,23 @@
             this.txtCashier.FocusedState.Parent = this.txtCashier;
             this.txtCashier.ForeColor = System.Drawing.Color.Black;
             this.txtCashier.HoverState.Parent = this.txtCashier;
-            this.txtCashier.Location = new System.Drawing.Point(402, 114);
-            this.txtCashier.Margin = new System.Windows.Forms.Padding(5);
+            this.txtCashier.Location = new System.Drawing.Point(302, 93);
+            this.txtCashier.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtCashier.Name = "txtCashier";
             this.txtCashier.PasswordChar = '\0';
             this.txtCashier.PlaceholderText = "";
             this.txtCashier.SelectedText = "";
             this.txtCashier.ShadowDecoration.Parent = this.txtCashier;
-            this.txtCashier.Size = new System.Drawing.Size(180, 21);
+            this.txtCashier.Size = new System.Drawing.Size(135, 17);
             this.txtCashier.TabIndex = 14;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(320, 115);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Location = new System.Drawing.Point(240, 93);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(68, 20);
+            this.label8.Size = new System.Drawing.Size(55, 17);
             this.label8.TabIndex = 13;
             this.label8.Text = "Cashier:";
             // 
@@ -522,24 +509,23 @@
             this.txtDateCheckOut.FocusedState.Parent = this.txtDateCheckOut;
             this.txtDateCheckOut.ForeColor = System.Drawing.Color.Black;
             this.txtDateCheckOut.HoverState.Parent = this.txtDateCheckOut;
-            this.txtDateCheckOut.Location = new System.Drawing.Point(402, 70);
-            this.txtDateCheckOut.Margin = new System.Windows.Forms.Padding(5);
+            this.txtDateCheckOut.Location = new System.Drawing.Point(302, 57);
+            this.txtDateCheckOut.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtDateCheckOut.Name = "txtDateCheckOut";
             this.txtDateCheckOut.PasswordChar = '\0';
             this.txtDateCheckOut.PlaceholderText = "";
             this.txtDateCheckOut.SelectedText = "";
             this.txtDateCheckOut.ShadowDecoration.Parent = this.txtDateCheckOut;
-            this.txtDateCheckOut.Size = new System.Drawing.Size(180, 21);
+            this.txtDateCheckOut.Size = new System.Drawing.Size(135, 17);
             this.txtDateCheckOut.TabIndex = 12;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(339, 71);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Location = new System.Drawing.Point(254, 58);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(49, 20);
+            this.label9.Size = new System.Drawing.Size(41, 17);
             this.label9.TabIndex = 11;
             this.label9.Text = "Date:";
             // 
@@ -559,24 +545,23 @@
             this.txtTotalPrice.FocusedState.Parent = this.txtTotalPrice;
             this.txtTotalPrice.ForeColor = System.Drawing.Color.Black;
             this.txtTotalPrice.HoverState.Parent = this.txtTotalPrice;
-            this.txtTotalPrice.Location = new System.Drawing.Point(283, 378);
-            this.txtTotalPrice.Margin = new System.Windows.Forms.Padding(5);
+            this.txtTotalPrice.Location = new System.Drawing.Point(212, 307);
+            this.txtTotalPrice.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtTotalPrice.Name = "txtTotalPrice";
             this.txtTotalPrice.PasswordChar = '\0';
             this.txtTotalPrice.PlaceholderText = "";
             this.txtTotalPrice.SelectedText = "";
             this.txtTotalPrice.ShadowDecoration.Parent = this.txtTotalPrice;
-            this.txtTotalPrice.Size = new System.Drawing.Size(279, 21);
+            this.txtTotalPrice.Size = new System.Drawing.Size(209, 17);
             this.txtTotalPrice.TabIndex = 10;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(20, 379);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(15, 308);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(79, 18);
+            this.label6.Size = new System.Drawing.Size(65, 16);
             this.label6.TabIndex = 9;
             this.label6.Text = "TotalPrice";
             // 
@@ -595,24 +580,23 @@
             this.txtTable.FocusedState.Parent = this.txtTable;
             this.txtTable.ForeColor = System.Drawing.Color.Black;
             this.txtTable.HoverState.Parent = this.txtTable;
-            this.txtTable.Location = new System.Drawing.Point(94, 114);
-            this.txtTable.Margin = new System.Windows.Forms.Padding(5);
+            this.txtTable.Location = new System.Drawing.Point(70, 93);
+            this.txtTable.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtTable.Name = "txtTable";
             this.txtTable.PasswordChar = '\0';
             this.txtTable.PlaceholderText = "";
             this.txtTable.SelectedText = "";
             this.txtTable.ShadowDecoration.Parent = this.txtTable;
-            this.txtTable.Size = new System.Drawing.Size(180, 21);
+            this.txtTable.Size = new System.Drawing.Size(135, 17);
             this.txtTable.TabIndex = 8;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(19, 116);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(14, 94);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(51, 20);
+            this.label5.Size = new System.Drawing.Size(43, 17);
             this.label5.TabIndex = 7;
             this.label5.Text = "Table:";
             // 
@@ -631,24 +615,23 @@
             this.txtIDBill.FocusedState.Parent = this.txtIDBill;
             this.txtIDBill.ForeColor = System.Drawing.Color.Black;
             this.txtIDBill.HoverState.Parent = this.txtIDBill;
-            this.txtIDBill.Location = new System.Drawing.Point(94, 70);
-            this.txtIDBill.Margin = new System.Windows.Forms.Padding(5);
+            this.txtIDBill.Location = new System.Drawing.Point(70, 57);
+            this.txtIDBill.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtIDBill.Name = "txtIDBill";
             this.txtIDBill.PasswordChar = '\0';
             this.txtIDBill.PlaceholderText = "";
             this.txtIDBill.SelectedText = "";
             this.txtIDBill.ShadowDecoration.Parent = this.txtIDBill;
-            this.txtIDBill.Size = new System.Drawing.Size(180, 21);
+            this.txtIDBill.Size = new System.Drawing.Size(135, 17);
             this.txtIDBill.TabIndex = 6;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(19, 71);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(14, 58);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(51, 20);
+            this.label4.Size = new System.Drawing.Size(42, 17);
             this.label4.TabIndex = 5;
             this.label4.Text = "ID Bill:";
             // 
@@ -657,10 +640,9 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(230, 18);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(172, 15);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(133, 23);
+            this.label3.Size = new System.Drawing.Size(106, 18);
             this.label3.TabIndex = 5;
             this.label3.Text = "BILL PAYMENT";
             // 
@@ -686,14 +668,13 @@
             // 
             // Bill
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(597, 788);
+            this.ClientSize = new System.Drawing.Size(448, 640);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Bill";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bill";

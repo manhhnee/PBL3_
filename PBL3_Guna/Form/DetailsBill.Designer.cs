@@ -76,9 +76,8 @@
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(520, 166);
+            this.panel1.Size = new System.Drawing.Size(390, 135);
             this.panel1.TabIndex = 0;
             // 
             // guna2ControlBox1
@@ -87,11 +86,10 @@
             this.guna2ControlBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(7)))), ((int)(((byte)(22)))));
             this.guna2ControlBox1.HoverState.Parent = this.guna2ControlBox1;
             this.guna2ControlBox1.IconColor = System.Drawing.Color.White;
-            this.guna2ControlBox1.Location = new System.Drawing.Point(437, -1);
-            this.guna2ControlBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2ControlBox1.Location = new System.Drawing.Point(328, -1);
             this.guna2ControlBox1.Name = "guna2ControlBox1";
             this.guna2ControlBox1.ShadowDecoration.Parent = this.guna2ControlBox1;
-            this.guna2ControlBox1.Size = new System.Drawing.Size(83, 37);
+            this.guna2ControlBox1.Size = new System.Drawing.Size(62, 30);
             this.guna2ControlBox1.TabIndex = 2;
             // 
             // guna2TextBox2
@@ -109,25 +107,24 @@
             this.guna2TextBox2.ForeColor = System.Drawing.Color.Black;
             this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox2.HoverState.Parent = this.guna2TextBox2;
-            this.guna2TextBox2.Location = new System.Drawing.Point(283, 111);
-            this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(5);
+            this.guna2TextBox2.Location = new System.Drawing.Point(212, 90);
+            this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2TextBox2.Name = "guna2TextBox2";
             this.guna2TextBox2.PasswordChar = '\0';
             this.guna2TextBox2.PlaceholderText = "";
             this.guna2TextBox2.SelectedText = "";
             this.guna2TextBox2.SelectionStart = 10;
             this.guna2TextBox2.ShadowDecoration.Parent = this.guna2TextBox2;
-            this.guna2TextBox2.Size = new System.Drawing.Size(180, 30);
+            this.guna2TextBox2.Size = new System.Drawing.Size(135, 24);
             this.guna2TextBox2.TabIndex = 8;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(197, 119);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(148, 97);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(63, 20);
+            this.label2.Size = new System.Drawing.Size(53, 17);
             this.label2.TabIndex = 7;
             this.label2.Text = "Hotline:";
             // 
@@ -146,35 +143,33 @@
             this.guna2TextBox1.ForeColor = System.Drawing.Color.Black;
             this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox1.HoverState.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.Location = new System.Drawing.Point(283, 52);
-            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(5);
+            this.guna2TextBox1.Location = new System.Drawing.Point(212, 42);
+            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PasswordChar = '\0';
             this.guna2TextBox1.PlaceholderText = "";
             this.guna2TextBox1.SelectedText = "";
             this.guna2TextBox1.SelectionStart = 12;
             this.guna2TextBox1.ShadowDecoration.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.Size = new System.Drawing.Size(180, 30);
+            this.guna2TextBox1.Size = new System.Drawing.Size(135, 24);
             this.guna2TextBox1.TabIndex = 6;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(197, 60);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(148, 49);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(71, 20);
+            this.label1.Size = new System.Drawing.Size(58, 17);
             this.label1.TabIndex = 5;
             this.label1.Text = "Address:";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(32, 52);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Location = new System.Drawing.Point(24, 42);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(140, 108);
+            this.pictureBox1.Size = new System.Drawing.Size(105, 88);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -193,10 +188,9 @@
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.label3);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(0, 166);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4);
+            this.panel2.Location = new System.Drawing.Point(0, 135);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(520, 579);
+            this.panel2.Size = new System.Drawing.Size(390, 470);
             this.panel2.TabIndex = 1;
             // 
             // lvDetailBill
@@ -209,11 +203,11 @@
             this.lvDetailBill.FullRowSelect = true;
             this.lvDetailBill.GridLines = true;
             this.lvDetailBill.HideSelection = false;
-            this.lvDetailBill.Location = new System.Drawing.Point(-1, 166);
-            this.lvDetailBill.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.lvDetailBill.Location = new System.Drawing.Point(-1, 135);
+            this.lvDetailBill.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.lvDetailBill.Name = "lvDetailBill";
             this.lvDetailBill.Scrollable = false;
-            this.lvDetailBill.Size = new System.Drawing.Size(519, 329);
+            this.lvDetailBill.Size = new System.Drawing.Size(390, 268);
             this.lvDetailBill.TabIndex = 29;
             this.lvDetailBill.UseCompatibleStateImageBehavior = false;
             this.lvDetailBill.View = System.Windows.Forms.View.Details;
@@ -253,24 +247,23 @@
             this.txtDate.FocusedState.Parent = this.txtDate;
             this.txtDate.ForeColor = System.Drawing.Color.Black;
             this.txtDate.HoverState.Parent = this.txtDate;
-            this.txtDate.Location = new System.Drawing.Point(80, 116);
-            this.txtDate.Margin = new System.Windows.Forms.Padding(5);
+            this.txtDate.Location = new System.Drawing.Point(60, 94);
+            this.txtDate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtDate.Name = "txtDate";
             this.txtDate.PasswordChar = '\0';
             this.txtDate.PlaceholderText = "";
             this.txtDate.SelectedText = "";
             this.txtDate.ShadowDecoration.Parent = this.txtDate;
-            this.txtDate.Size = new System.Drawing.Size(235, 21);
+            this.txtDate.Size = new System.Drawing.Size(176, 17);
             this.txtDate.TabIndex = 28;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(23, 116);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Location = new System.Drawing.Point(17, 94);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(49, 20);
+            this.label9.Size = new System.Drawing.Size(41, 17);
             this.label9.TabIndex = 27;
             this.label9.Text = "Date:";
             // 
@@ -290,14 +283,14 @@
             this.txtToTal.FocusedState.Parent = this.txtToTal;
             this.txtToTal.ForeColor = System.Drawing.Color.Black;
             this.txtToTal.HoverState.Parent = this.txtToTal;
-            this.txtToTal.Location = new System.Drawing.Point(201, 517);
-            this.txtToTal.Margin = new System.Windows.Forms.Padding(5);
+            this.txtToTal.Location = new System.Drawing.Point(151, 420);
+            this.txtToTal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtToTal.Name = "txtToTal";
             this.txtToTal.PasswordChar = '\0';
             this.txtToTal.PlaceholderText = "";
             this.txtToTal.SelectedText = "";
             this.txtToTal.ShadowDecoration.Parent = this.txtToTal;
-            this.txtToTal.Size = new System.Drawing.Size(301, 21);
+            this.txtToTal.Size = new System.Drawing.Size(226, 17);
             this.txtToTal.TabIndex = 26;
             this.txtToTal.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -305,10 +298,9 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(20, 518);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(15, 421);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(69, 18);
+            this.label6.Size = new System.Drawing.Size(55, 16);
             this.label6.TabIndex = 25;
             this.label6.Text = "Amount:";
             // 
@@ -327,24 +319,23 @@
             this.txtTable.FocusedState.Parent = this.txtTable;
             this.txtTable.ForeColor = System.Drawing.Color.Black;
             this.txtTable.HoverState.Parent = this.txtTable;
-            this.txtTable.Location = new System.Drawing.Point(336, 71);
-            this.txtTable.Margin = new System.Windows.Forms.Padding(5);
+            this.txtTable.Location = new System.Drawing.Point(252, 58);
+            this.txtTable.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtTable.Name = "txtTable";
             this.txtTable.PasswordChar = '\0';
             this.txtTable.PlaceholderText = "";
             this.txtTable.SelectedText = "";
             this.txtTable.ShadowDecoration.Parent = this.txtTable;
-            this.txtTable.Size = new System.Drawing.Size(156, 21);
+            this.txtTable.Size = new System.Drawing.Size(117, 17);
             this.txtTable.TabIndex = 24;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(271, 71);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(203, 58);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(51, 20);
+            this.label5.Size = new System.Drawing.Size(43, 17);
             this.label5.TabIndex = 23;
             this.label5.Text = "Table:";
             // 
@@ -363,24 +354,23 @@
             this.txt_id.FocusedState.Parent = this.txt_id;
             this.txt_id.ForeColor = System.Drawing.Color.Black;
             this.txt_id.HoverState.Parent = this.txt_id;
-            this.txt_id.Location = new System.Drawing.Point(80, 71);
-            this.txt_id.Margin = new System.Windows.Forms.Padding(5);
+            this.txt_id.Location = new System.Drawing.Point(60, 58);
+            this.txt_id.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txt_id.Name = "txt_id";
             this.txt_id.PasswordChar = '\0';
             this.txt_id.PlaceholderText = "";
             this.txt_id.SelectedText = "";
             this.txt_id.ShadowDecoration.Parent = this.txt_id;
-            this.txt_id.Size = new System.Drawing.Size(156, 21);
+            this.txt_id.Size = new System.Drawing.Size(117, 17);
             this.txt_id.TabIndex = 22;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(20, 71);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(15, 58);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(51, 20);
+            this.label4.Size = new System.Drawing.Size(42, 17);
             this.label4.TabIndex = 20;
             this.label4.Text = "ID Bill:";
             // 
@@ -389,10 +379,9 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(173, 2);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(130, 2);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(133, 23);
+            this.label3.Size = new System.Drawing.Size(106, 18);
             this.label3.TabIndex = 21;
             this.label3.Text = "BILL PAYMENT";
             // 
@@ -408,13 +397,12 @@
             // 
             // DetailsBill
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(520, 745);
+            this.ClientSize = new System.Drawing.Size(390, 605);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "DetailsBill";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DetailsBill";

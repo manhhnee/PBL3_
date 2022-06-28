@@ -14,6 +14,7 @@ namespace PBL3_Guna
 {
     public partial class Profile : Form
     {
+        static int i = 0;
         public Profile()
         {
             InitializeComponent();
@@ -43,6 +44,16 @@ namespace PBL3_Guna
         private void btnExit_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void ShowPass_Click(object sender, EventArgs e)
+        {
+            i++;
+            if (i % 2 != 0)
+            {
+                txtPassStaff.UseSystemPasswordChar = false;
+            }
+            else txtPassStaff.UseSystemPasswordChar = true;
         }
     }
 }
