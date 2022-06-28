@@ -63,7 +63,14 @@ namespace PBL3_Guna
             }
         }
 
-        
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Bạn có thật sự muốn thoát chương trình ?", "Thông báo", MessageBoxButtons.OKCancel) != System.Windows.Forms.DialogResult.Cancel)
+            {
+                this.Close();
+            }
+
+        }
 
 
         private void ShowPass_Click(object sender, EventArgs e)
@@ -76,16 +83,6 @@ namespace PBL3_Guna
             else txtPass.UseSystemPasswordChar = true;
         }
 
-<<<<<<< HEAD
         
-=======
-        private void btnExit_Click_1(object sender, EventArgs e)
-        {
-            if (MessageBox.Show("Bạn có thật sự muốn thoát chương trình ?", "Thông báo", MessageBoxButtons.OKCancel) != System.Windows.Forms.DialogResult.Cancel)
-            {
-                this.Close();
-            }
-        }
->>>>>>> e464e67c1292c8aa6135da52988d256fb2504dbe
     }
 }

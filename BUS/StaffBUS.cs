@@ -42,7 +42,6 @@ namespace BUS
         }
         public List<StaffDTO> GetStaffByName(string name)
         {
-
             List<StaffDTO> li = new List<StaffDTO>();
             foreach (StaffDTO i in GetAllStaff())
 
@@ -54,14 +53,14 @@ namespace BUS
             }
             return li;
         }
-
+       
         public void AddStaffBUS(StaffDTO staff)
         {
             try
             {
                 StaffDAO.Instance.AddStaffDAO(staff);
             }
-            catch (Exception ex)
+            catch(Exception ex)
             {
                 throw ex;
             }
@@ -78,7 +77,7 @@ namespace BUS
             }
         }
 
-
+        
         public void DeleteStaff(int StafftoDelete)
         {
             try

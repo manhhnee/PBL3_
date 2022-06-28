@@ -55,51 +55,6 @@ namespace PBL3_Guna
                 detailsbill.ShowDialog();
             }
             else MessageBox.Show("vui lòng chọn hóa đơn để xem");
-<<<<<<< HEAD
-=======
-        }
-
-        private void txtFirstPage_Click(object sender, EventArgs e)
-        {
-            txtPage.Text = "1";
-        }
-
-        private void txtLastPage_Click(object sender, EventArgs e)
-        {
-            int sum = BillBUS.Instance.GetNumBillByDate(dtpkFromDate.Value, dtpkToDate.Value);
-            int lastSum = sum / 10;
-            if(sum % 10 != 0)
-            {
-                lastSum++;
-            }    
-            txtPage.Text = lastSum.ToString();
-        }
-
-        private void txtPage_TextChanged(object sender, EventArgs e)
-        {
-            dtgvBill.DataSource = BillBUS.Instance.GetListBillByDateAndPage(dtpkFromDate.Value, dtpkToDate.Value, Convert.ToInt32(txtPage.Text));
-        }
-
-        private void txtPreviousPage_Click(object sender, EventArgs e)
-        {
-            int page = Convert.ToInt32(txtPage.Text);
-            if (page > 1)
-                page--;
-            txtPage.Text = page.ToString();
-        }
-
-        private void txtNextPage_Click(object sender, EventArgs e)
-        {
-            int page = Convert.ToInt32(txtPage.Text);
-            int sumPage = BillBUS.Instance.GetNumBillByDate(dtpkFromDate.Value, dtpkToDate.Value);
-            int lastSum = sumPage / 10;
-            if (page <= lastSum)
-            {
-                page++;
-            }
-            txtPage.Text = page.ToString();
-            
->>>>>>> e464e67c1292c8aa6135da52988d256fb2504dbe
         }
 
         

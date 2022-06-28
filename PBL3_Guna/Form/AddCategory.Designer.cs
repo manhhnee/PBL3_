@@ -32,11 +32,6 @@
             this.txtCategory = new Guna.UI2.WinForms.Guna2TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-<<<<<<< HEAD
-=======
-            this.btnExit = new Guna.UI2.WinForms.Guna2Button();
-            this.btnAddCategory = new Guna.UI2.WinForms.Guna2Button();
->>>>>>> e464e67c1292c8aa6135da52988d256fb2504dbe
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
             this.btnAdd = new Guna.UI2.WinForms.Guna2Button();
@@ -76,13 +71,8 @@
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< HEAD
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
             this.label2.Location = new System.Drawing.Point(13, 50);
-=======
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(13, 55);
->>>>>>> e464e67c1292c8aa6135da52988d256fb2504dbe
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(165, 23);
@@ -94,57 +84,6 @@
             this.guna2Elipse1.BorderRadius = 10;
             this.guna2Elipse1.TargetControl = this;
             // 
-<<<<<<< HEAD
-=======
-            // btnExit
-            // 
-            this.btnExit.Animated = true;
-            this.btnExit.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(244)))), ((int)(((byte)(237)))));
-            this.btnExit.BorderRadius = 10;
-            this.btnExit.BorderThickness = 2;
-            this.btnExit.CheckedState.Parent = this.btnExit;
-            this.btnExit.CustomImages.Parent = this.btnExit;
-            this.btnExit.FillColor = System.Drawing.Color.Transparent;
-            this.btnExit.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.btnExit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(244)))), ((int)(((byte)(237)))));
-            this.btnExit.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(244)))), ((int)(((byte)(237)))));
-            this.btnExit.HoverState.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExit.HoverState.ForeColor = System.Drawing.Color.Black;
-            this.btnExit.HoverState.Parent = this.btnExit;
-            this.btnExit.Location = new System.Drawing.Point(295, 130);
-            this.btnExit.Margin = new System.Windows.Forms.Padding(4);
-            this.btnExit.Name = "btnExit";
-            this.btnExit.ShadowDecoration.Parent = this.btnExit;
-            this.btnExit.Size = new System.Drawing.Size(145, 55);
-            this.btnExit.TabIndex = 46;
-            this.btnExit.Text = "Exit";
-            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
-            // 
-            // btnAddCategory
-            // 
-            this.btnAddCategory.Animated = true;
-            this.btnAddCategory.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(244)))), ((int)(((byte)(237)))));
-            this.btnAddCategory.BorderRadius = 10;
-            this.btnAddCategory.BorderThickness = 2;
-            this.btnAddCategory.CheckedState.Parent = this.btnAddCategory;
-            this.btnAddCategory.CustomImages.Parent = this.btnAddCategory;
-            this.btnAddCategory.FillColor = System.Drawing.Color.Transparent;
-            this.btnAddCategory.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.btnAddCategory.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(244)))), ((int)(((byte)(237)))));
-            this.btnAddCategory.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(244)))), ((int)(((byte)(237)))));
-            this.btnAddCategory.HoverState.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddCategory.HoverState.ForeColor = System.Drawing.Color.Black;
-            this.btnAddCategory.HoverState.Parent = this.btnAddCategory;
-            this.btnAddCategory.Location = new System.Drawing.Point(53, 130);
-            this.btnAddCategory.Margin = new System.Windows.Forms.Padding(4);
-            this.btnAddCategory.Name = "btnAddCategory";
-            this.btnAddCategory.ShadowDecoration.Parent = this.btnAddCategory;
-            this.btnAddCategory.Size = new System.Drawing.Size(145, 55);
-            this.btnAddCategory.TabIndex = 45;
-            this.btnAddCategory.Text = "Add";
-            this.btnAddCategory.Click += new System.EventHandler(this.btnAddCategory_Click);
-            // 
->>>>>>> e464e67c1292c8aa6135da52988d256fb2504dbe
             // guna2DragControl1
             // 
             this.guna2DragControl1.TargetControl = this;
@@ -204,15 +143,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-<<<<<<< HEAD
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
             this.ClientSize = new System.Drawing.Size(493, 213);
-=======
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(101)))), ((int)(((byte)(135)))));
-            this.ClientSize = new System.Drawing.Size(493, 213);
-            this.Controls.Add(this.btnExit);
-            this.Controls.Add(this.btnAddCategory);
->>>>>>> e464e67c1292c8aa6135da52988d256fb2504dbe
             this.Controls.Add(this.txtCategory);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnAdd);
@@ -232,11 +164,6 @@
         private Guna.UI2.WinForms.Guna2TextBox txtCategory;
         private System.Windows.Forms.Label label2;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
-<<<<<<< HEAD
-=======
-        private Guna.UI2.WinForms.Guna2Button btnExit;
-        private Guna.UI2.WinForms.Guna2Button btnAddCategory;
->>>>>>> e464e67c1292c8aa6135da52988d256fb2504dbe
         private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
         private Guna.UI2.WinForms.Guna2AnimateWindow guna2AnimateWindow1;
         private Guna.UI2.WinForms.Guna2Button btnAdd;
