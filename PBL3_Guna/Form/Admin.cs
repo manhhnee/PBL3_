@@ -69,5 +69,10 @@ namespace PBL3_Guna
         {
 
         }
+
+        private void PanelContainer_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
