@@ -45,6 +45,7 @@ namespace PBL3_Guna
             account.Password = txtPassStaff.Text;
             return account;
         }
+<<<<<<< HEAD
         private void ShowPass_Click(object sender, EventArgs e)
         {
             i++;
@@ -56,6 +57,12 @@ namespace PBL3_Guna
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
+=======
+
+        
+
+        private void btnAddStaff_Click(object sender, EventArgs e)
+>>>>>>> e464e67c1292c8aa6135da52988d256fb2504dbe
         {
             StaffDTO staff = getStaffDataToAdd();
             AccountDTO account = getDataToCreateAccount();

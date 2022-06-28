@@ -26,7 +26,11 @@ namespace PBL3_Guna
             btnDetails.DataSource = BillBUS.Instance.GetListBillByDate(CheckIn, CheckOut);
         }
 
+<<<<<<< HEAD
         private void btnDetail_Click(object sender, EventArgs e)
+=======
+        private void btnDetails_Click(object sender, EventArgs e)
+>>>>>>> e464e67c1292c8aa6135da52988d256fb2504dbe
         {
             if (btnDetails.SelectedRows.Count > 0)
             {

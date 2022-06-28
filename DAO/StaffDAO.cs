@@ -49,7 +49,7 @@ namespace DAO
             string query = "update Staff set Name = @Name , Address = @Address , Age = @age ,PhoneNumber = @PhoneNumber where ID = @ID";
             try
             {
-                DataProvider.Instance.ExecuteNonQuery(query, new Object[] { staff.Name,staff.Address,staff.Age,staff.PhoneNumber,staff.ID });
+                DataProvider.Instance.ExecuteNonQuery(query, new Object[] { staff.Name, staff.Address, staff.Age, staff.PhoneNumber, staff.ID });
             }
             catch (Exception ex)
             {
@@ -71,7 +71,7 @@ namespace DAO
 
         }
     }
-   
+
 
 
 }

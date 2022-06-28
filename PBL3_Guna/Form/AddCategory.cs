@@ -19,7 +19,15 @@ namespace PBL3_Guna
             InitializeComponent();
         }
 
+<<<<<<< HEAD
         private void btnAdd_Click(object sender, EventArgs e)
+=======
+       
+
+        
+
+        private void btnAddCategory_Click(object sender, EventArgs e)
+>>>>>>> e464e67c1292c8aa6135da52988d256fb2504dbe
         {
             CategoryDTO CT = new CategoryDTO();
             CT.Name = txtCategory.Text;

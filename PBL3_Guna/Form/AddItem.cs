@@ -35,7 +35,14 @@ namespace PBL3_Guna
             item.Price = Convert.ToInt32(txtPriceItem.Text);
             return item;
         }
+<<<<<<< HEAD
         private void btnAdd_Click(object sender, EventArgs e)
+=======
+        
+
+        
+        private void btnAddItem_Click_1(object sender, EventArgs e)
+>>>>>>> e464e67c1292c8aa6135da52988d256fb2504dbe
         {
             ItemDTO item = getItemDataToAdd();
             ItemBUS.Instance.AddItem(item);
