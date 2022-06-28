@@ -40,15 +40,14 @@
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2ShadowForm1 = new Guna.UI2.WinForms.Guna2ShadowForm(this.components);
-            this.guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.btnHome = new Guna.UI2.WinForms.Guna2Button();
-            this.btnLogOut = new Guna.UI2.WinForms.Guna2Button();
-            this.btnOrder = new Guna.UI2.WinForms.Guna2Button();
-            this.btnInformation = new Guna.UI2.WinForms.Guna2Button();
+            this.l = new System.Windows.Forms.Label();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.l = new System.Windows.Forms.Label();
+            this.btnInformation = new Guna.UI2.WinForms.Guna2Button();
+            this.btnOrder = new Guna.UI2.WinForms.Guna2Button();
+            this.btnLogOut = new Guna.UI2.WinForms.Guna2Button();
+            this.btnHome = new Guna.UI2.WinForms.Guna2Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.PanelContainer.SuspendLayout();
@@ -183,101 +182,17 @@
             this.guna2Panel1.Size = new System.Drawing.Size(162, 597);
             this.guna2Panel1.TabIndex = 8;
             // 
-            // btnHome
+            // l
             // 
-            this.btnHome.Animated = true;
-            this.btnHome.BackColor = System.Drawing.Color.Transparent;
-            this.btnHome.BorderRadius = 10;
-            this.btnHome.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.btnHome.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(209)))), ((int)(((byte)(195)))));
-            this.btnHome.CheckedState.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHome.CheckedState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
-            this.btnHome.CheckedState.Parent = this.btnHome;
-            this.btnHome.CustomImages.Parent = this.btnHome;
-            this.btnHome.FillColor = System.Drawing.Color.Transparent;
-            this.btnHome.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold);
-            this.btnHome.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
-            this.btnHome.HoverState.Parent = this.btnHome;
-            this.btnHome.Image = ((System.Drawing.Image)(resources.GetObject("btnHome.Image")));
-            this.btnHome.Location = new System.Drawing.Point(12, 181);
-            this.btnHome.Name = "btnHome";
-            this.btnHome.ShadowDecoration.Parent = this.btnHome;
-            this.btnHome.Size = new System.Drawing.Size(134, 45);
-            this.btnHome.TabIndex = 1;
-            this.btnHome.Text = "Home";
-            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
-            // 
-            // btnLogOut
-            // 
-            this.btnLogOut.Animated = true;
-            this.btnLogOut.BackColor = System.Drawing.Color.Transparent;
-            this.btnLogOut.BorderRadius = 10;
-            this.btnLogOut.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(209)))), ((int)(((byte)(195)))));
-            this.btnLogOut.CheckedState.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogOut.CheckedState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
-            this.btnLogOut.CheckedState.Parent = this.btnLogOut;
-            this.btnLogOut.CustomImages.Parent = this.btnLogOut;
-            this.btnLogOut.FillColor = System.Drawing.Color.Transparent;
-            this.btnLogOut.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogOut.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(209)))), ((int)(((byte)(195)))));
-            this.btnLogOut.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
-            this.btnLogOut.HoverState.Parent = this.btnLogOut;
-            this.btnLogOut.Image = ((System.Drawing.Image)(resources.GetObject("btnLogOut.Image")));
-            this.btnLogOut.Location = new System.Drawing.Point(12, 334);
-            this.btnLogOut.Name = "btnLogOut";
-            this.btnLogOut.ShadowDecoration.Parent = this.btnLogOut;
-            this.btnLogOut.Size = new System.Drawing.Size(134, 45);
-            this.btnLogOut.TabIndex = 5;
-            this.btnLogOut.Text = "Log out";
-            this.btnLogOut.Click += new System.EventHandler(this.btnLogOut_Click);
-            // 
-            // btnOrder
-            // 
-            this.btnOrder.Animated = true;
-            this.btnOrder.BackColor = System.Drawing.Color.Transparent;
-            this.btnOrder.BorderRadius = 10;
-            this.btnOrder.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.btnOrder.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(209)))), ((int)(((byte)(195)))));
-            this.btnOrder.CheckedState.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOrder.CheckedState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
-            this.btnOrder.CheckedState.Parent = this.btnOrder;
-            this.btnOrder.CustomImages.Parent = this.btnOrder;
-            this.btnOrder.FillColor = System.Drawing.Color.Transparent;
-            this.btnOrder.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOrder.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
-            this.btnOrder.HoverState.Parent = this.btnOrder;
-            this.btnOrder.Image = ((System.Drawing.Image)(resources.GetObject("btnOrder.Image")));
-            this.btnOrder.Location = new System.Drawing.Point(12, 232);
-            this.btnOrder.Name = "btnOrder";
-            this.btnOrder.ShadowDecoration.Parent = this.btnOrder;
-            this.btnOrder.Size = new System.Drawing.Size(134, 45);
-            this.btnOrder.TabIndex = 2;
-            this.btnOrder.Text = "Order";
-            this.btnOrder.Click += new System.EventHandler(this.btnOrder_Click);
-            // 
-            // btnInformation
-            // 
-            this.btnInformation.Animated = true;
-            this.btnInformation.BackColor = System.Drawing.Color.Transparent;
-            this.btnInformation.BorderRadius = 10;
-            this.btnInformation.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.btnInformation.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(209)))), ((int)(((byte)(195)))));
-            this.btnInformation.CheckedState.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnInformation.CheckedState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
-            this.btnInformation.CheckedState.Parent = this.btnInformation;
-            this.btnInformation.CustomImages.Parent = this.btnInformation;
-            this.btnInformation.FillColor = System.Drawing.Color.Transparent;
-            this.btnInformation.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnInformation.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
-            this.btnInformation.HoverState.Parent = this.btnInformation;
-            this.btnInformation.Image = ((System.Drawing.Image)(resources.GetObject("btnInformation.Image")));
-            this.btnInformation.Location = new System.Drawing.Point(12, 283);
-            this.btnInformation.Name = "btnInformation";
-            this.btnInformation.ShadowDecoration.Parent = this.btnInformation;
-            this.btnInformation.Size = new System.Drawing.Size(134, 45);
-            this.btnInformation.TabIndex = 3;
-            this.btnInformation.Text = "Information";
-            this.btnInformation.Click += new System.EventHandler(this.btnInformation_Click);
+            this.l.AutoSize = true;
+            this.l.BackColor = System.Drawing.Color.Transparent;
+            this.l.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
+            this.l.Location = new System.Drawing.Point(60, 13);
+            this.l.Name = "l";
+            this.l.Size = new System.Drawing.Size(38, 18);
+            this.l.TabIndex = 6;
+            this.l.Text = "Staff";
             // 
             // guna2Panel2
             // 
@@ -308,17 +223,101 @@
             this.guna2PictureBox1.TabStop = false;
             this.guna2PictureBox1.UseTransparentBackground = true;
             // 
-            // l
+            // btnInformation
             // 
-            this.l.AutoSize = true;
-            this.l.BackColor = System.Drawing.Color.Transparent;
-            this.l.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
-            this.l.Location = new System.Drawing.Point(60, 13);
-            this.l.Name = "l";
-            this.l.Size = new System.Drawing.Size(38, 18);
-            this.l.TabIndex = 6;
-            this.l.Text = "Staff";
+            this.btnInformation.Animated = true;
+            this.btnInformation.BackColor = System.Drawing.Color.Transparent;
+            this.btnInformation.BorderRadius = 10;
+            this.btnInformation.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.btnInformation.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(209)))), ((int)(((byte)(195)))));
+            this.btnInformation.CheckedState.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInformation.CheckedState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
+            this.btnInformation.CheckedState.Parent = this.btnInformation;
+            this.btnInformation.CustomImages.Parent = this.btnInformation;
+            this.btnInformation.FillColor = System.Drawing.Color.Transparent;
+            this.btnInformation.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInformation.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
+            this.btnInformation.HoverState.Parent = this.btnInformation;
+            this.btnInformation.Image = ((System.Drawing.Image)(resources.GetObject("btnInformation.Image")));
+            this.btnInformation.Location = new System.Drawing.Point(12, 283);
+            this.btnInformation.Name = "btnInformation";
+            this.btnInformation.ShadowDecoration.Parent = this.btnInformation;
+            this.btnInformation.Size = new System.Drawing.Size(134, 45);
+            this.btnInformation.TabIndex = 3;
+            this.btnInformation.Text = "Information";
+            this.btnInformation.Click += new System.EventHandler(this.btnInformation_Click);
+            // 
+            // btnOrder
+            // 
+            this.btnOrder.Animated = true;
+            this.btnOrder.BackColor = System.Drawing.Color.Transparent;
+            this.btnOrder.BorderRadius = 10;
+            this.btnOrder.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.btnOrder.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(209)))), ((int)(((byte)(195)))));
+            this.btnOrder.CheckedState.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOrder.CheckedState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
+            this.btnOrder.CheckedState.Parent = this.btnOrder;
+            this.btnOrder.CustomImages.Parent = this.btnOrder;
+            this.btnOrder.FillColor = System.Drawing.Color.Transparent;
+            this.btnOrder.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOrder.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
+            this.btnOrder.HoverState.Parent = this.btnOrder;
+            this.btnOrder.Image = ((System.Drawing.Image)(resources.GetObject("btnOrder.Image")));
+            this.btnOrder.Location = new System.Drawing.Point(12, 232);
+            this.btnOrder.Name = "btnOrder";
+            this.btnOrder.ShadowDecoration.Parent = this.btnOrder;
+            this.btnOrder.Size = new System.Drawing.Size(134, 45);
+            this.btnOrder.TabIndex = 2;
+            this.btnOrder.Text = "Order";
+            this.btnOrder.Click += new System.EventHandler(this.btnOrder_Click);
+            // 
+            // btnLogOut
+            // 
+            this.btnLogOut.Animated = true;
+            this.btnLogOut.BackColor = System.Drawing.Color.Transparent;
+            this.btnLogOut.BorderRadius = 10;
+            this.btnLogOut.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(209)))), ((int)(((byte)(195)))));
+            this.btnLogOut.CheckedState.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogOut.CheckedState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
+            this.btnLogOut.CheckedState.Parent = this.btnLogOut;
+            this.btnLogOut.CustomImages.Parent = this.btnLogOut;
+            this.btnLogOut.FillColor = System.Drawing.Color.Transparent;
+            this.btnLogOut.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogOut.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(209)))), ((int)(((byte)(195)))));
+            this.btnLogOut.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
+            this.btnLogOut.HoverState.Parent = this.btnLogOut;
+            this.btnLogOut.Image = ((System.Drawing.Image)(resources.GetObject("btnLogOut.Image")));
+            this.btnLogOut.Location = new System.Drawing.Point(12, 334);
+            this.btnLogOut.Name = "btnLogOut";
+            this.btnLogOut.ShadowDecoration.Parent = this.btnLogOut;
+            this.btnLogOut.Size = new System.Drawing.Size(134, 45);
+            this.btnLogOut.TabIndex = 5;
+            this.btnLogOut.Text = "Log out";
+            this.btnLogOut.Click += new System.EventHandler(this.btnLogOut_Click);
+            // 
+            // btnHome
+            // 
+            this.btnHome.Animated = true;
+            this.btnHome.BackColor = System.Drawing.Color.Transparent;
+            this.btnHome.BorderRadius = 10;
+            this.btnHome.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.btnHome.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(209)))), ((int)(((byte)(195)))));
+            this.btnHome.CheckedState.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHome.CheckedState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
+            this.btnHome.CheckedState.Parent = this.btnHome;
+            this.btnHome.CustomImages.Parent = this.btnHome;
+            this.btnHome.FillColor = System.Drawing.Color.Transparent;
+            this.btnHome.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold);
+            this.btnHome.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
+            this.btnHome.HoverState.Parent = this.btnHome;
+            this.btnHome.Image = ((System.Drawing.Image)(resources.GetObject("btnHome.Image")));
+            this.btnHome.Location = new System.Drawing.Point(12, 181);
+            this.btnHome.Name = "btnHome";
+            this.btnHome.ShadowDecoration.Parent = this.btnHome;
+            this.btnHome.Size = new System.Drawing.Size(134, 45);
+            this.btnHome.TabIndex = 1;
+            this.btnHome.Text = "Home";
+            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
             // panel2
             // 
@@ -369,7 +368,6 @@
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
         private Guna.UI2.WinForms.Guna2ShadowForm guna2ShadowForm1;
-        private Guna.UI2.WinForms.Guna2AnimateWindow guna2AnimateWindow1;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox3;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private System.Windows.Forms.Label l;
