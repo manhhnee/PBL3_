@@ -90,11 +90,13 @@ namespace PBL3_Guna
         {
             int page = Convert.ToInt32(txtPage.Text);
             int sumPage = BillBUS.Instance.GetNumBillByDate(dtpkFromDate.Value, dtpkToDate.Value);
-            if(page < sumPage)
+            int lastSum = sumPage / 10;
+            if (page <= lastSum)
             {
                 page++;
             }
             txtPage.Text = page.ToString();
+            
         }
     }
 }
