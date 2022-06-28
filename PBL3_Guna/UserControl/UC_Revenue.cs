@@ -43,16 +43,10 @@ namespace PBL3_Guna
             double total2 = Double.Parse(total.ToString(), NumberStyles.Currency, new CultureInfo("vi-VN"));
 
             lblTotalPrice.Text = total.ToString("c", new CultureInfo("vi-VN"));
-        }
+        } 
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
+        private void btnDetailsBill_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void btnDetialsBill_Click(object sender, EventArgs e)
-        {
-
             if (dtgvBill.SelectedRows.Count > 0)
             {
                 _id = Convert.ToInt32(dtgvBill.CurrentRow.Cells[0].Value.ToString());
@@ -61,7 +55,8 @@ namespace PBL3_Guna
                 detailsbill.ShowDialog();
             }
             else MessageBox.Show("vui lòng chọn hóa đơn để xem");
-            
         }
+
+        
     }
 }

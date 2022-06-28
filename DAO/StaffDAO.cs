@@ -24,7 +24,7 @@ namespace DAO
         {
             try
             {
-                return DataProvider.Instance.ExecuteQuery("Select * from Staff");
+                return DataProvider.Instance.ExecuteQuery("select ID, Name, Address, Age, PhoneNumber from Staff where TypeID = 1");
             }
             catch (Exception ex)
             {
@@ -33,7 +33,7 @@ namespace DAO
         }
         public void AddStaffDAO(StaffDTO staff)
         {
-            string query = "insert into Staff values( @Name , @Address , @Age , @PhoneNumber )";
+            string query = "insert into Staff values( @Name , @Address , @Age , @PhoneNumber , 1 )";
             try
             {
                 DataProvider.Instance.ExecuteNonQuery(query, new Object[] { staff.Name, staff.Address, staff.Age, staff.PhoneNumber });

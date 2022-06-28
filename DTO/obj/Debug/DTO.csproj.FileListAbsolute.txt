@@ -59,3 +59,10 @@ C:\Users\DELL\PBL3_\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 C:\Users\DELL\PBL3_\DTO\obj\Debug\DTO.csproj.CopyComplete
 C:\Users\DELL\PBL3_\DTO\obj\Debug\DTO.dll
 C:\Users\DELL\PBL3_\DTO\obj\Debug\DTO.pdb
+C:\Users\Manh Nguyen\source\repos\PBL3_\DTO\bin\Debug\DTO.dll
+C:\Users\Manh Nguyen\source\repos\PBL3_\DTO\bin\Debug\DTO.pdb
+C:\Users\Manh Nguyen\source\repos\PBL3_\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\Manh Nguyen\source\repos\PBL3_\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\Manh Nguyen\source\repos\PBL3_\DTO\obj\Debug\DTO.csproj.CopyComplete
+C:\Users\Manh Nguyen\source\repos\PBL3_\DTO\obj\Debug\DTO.dll
+C:\Users\Manh Nguyen\source\repos\PBL3_\DTO\obj\Debug\DTO.pdb

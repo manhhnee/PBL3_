@@ -54,18 +54,16 @@ namespace PBL3_Guna
 
         private void btnAddItem_Click(object sender, EventArgs e)
         {
-
             Form f = new AddItem();
             f.ShowDialog();
             showDTG_Item("");
-            
         }
 
         private void btnDeleteItem_Click(object sender, EventArgs e)
         {
             if (dtgvItem.SelectedRows.Count == 1)
             {
-                if (MessageBox.Show("Bạn có thật sự muốn xóa  " + txtNameItem.Text + " ra khỏi danh sách ?", "Thông báo", MessageBoxButtons.OKCancel) != System.Windows.Forms.DialogResult.Cancel)
+                if (MessageBox.Show("Bạn có thật sự muốn xóa  " + dtgvItem.CurrentRow.Cells[1].Value.ToString() + " ra khỏi danh sách ?", "Thông báo", MessageBoxButtons.OKCancel) != System.Windows.Forms.DialogResult.Cancel)
                 {
                     int DeleteID = Convert.ToInt32(dtgvItem.CurrentRow.Cells[0].Value.ToString());
                     BillInforBUS.Instance.SetBillInforDefault(DeleteID);
@@ -79,7 +77,7 @@ namespace PBL3_Guna
 
         private void btnModifyItem_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Bạn có thật sự muốn sửa " + txtNameItem.Text + " ?", "Thông báo", MessageBoxButtons.OKCancel) != System.Windows.Forms.DialogResult.Cancel)
+            if (MessageBox.Show("Bạn có thật sự muốn sửa " + dtgvItem.CurrentRow.Cells[1].Value.ToString() + " ?", "Thông báo", MessageBoxButtons.OKCancel) != System.Windows.Forms.DialogResult.Cancel)
             {
                 ItemDTO item = getItemDataToUpdate();
                 ItemBUS.Instance.UpdateItem(item);
