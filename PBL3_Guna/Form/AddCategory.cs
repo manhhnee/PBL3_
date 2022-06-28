@@ -19,7 +19,7 @@ namespace PBL3_Guna
             InitializeComponent();
         }
 
-        private void btnLogin_Click(object sender, EventArgs e)
+        private void btnAdd_Click(object sender, EventArgs e)
         {
             CategoryDTO CT = new CategoryDTO();
             CT.Name = txtCategory.Text;
@@ -34,14 +34,9 @@ namespace PBL3_Guna
             }
         }
 
-        private void guna2Button1_Click(object sender, EventArgs e)
+        private void btnExit_Click(object sender, EventArgs e)
         {
             this.Close();
-        }
-
-        private void txtCategory_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

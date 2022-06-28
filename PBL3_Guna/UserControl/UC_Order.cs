@@ -57,7 +57,7 @@ namespace PBL3_Guna
                 switch (item.Status)
                 {
                     case "Trống":
-                        btn.BackColor = Color.AliceBlue;
+                        btn.BackColor = Color.DarkSeaGreen;
                         break;
                     default:
                         btn.BackColor = Color.Red;
@@ -149,10 +149,7 @@ namespace PBL3_Guna
                 ShowBill(idBill);
                 LoadTable();
             }
-            else MessageBox.Show("Không tồn tại hóa đơn !");
-            
-            
-            
+            else MessageBox.Show("Không tồn tại hóa đơn !");   
         }
     }
 }

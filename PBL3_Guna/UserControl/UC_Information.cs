@@ -23,15 +23,15 @@ namespace PBL3_Guna
 
         void LoadListBillByDate(DateTime CheckIn, DateTime CheckOut)
         {
-            dtgvInfor.DataSource = BillBUS.Instance.GetListBillByDate(CheckIn, CheckOut);
+            btnDetails.DataSource = BillBUS.Instance.GetListBillByDate(CheckIn, CheckOut);
         }
 
-        private void guna2Button3_Click(object sender, EventArgs e)
+        private void btnDetail_Click(object sender, EventArgs e)
         {
-            if (dtgvInfor.SelectedRows.Count > 0)
+            if (btnDetails.SelectedRows.Count > 0)
             {
-                _id = Convert.ToInt32(dtgvInfor.CurrentRow.Cells[0].Value.ToString());
-                _total = Convert.ToInt32(dtgvInfor.CurrentRow.Cells[2].Value.ToString());
+                _id = Convert.ToInt32(btnDetails.CurrentRow.Cells[0].Value.ToString());
+                _total = Convert.ToInt32(btnDetails.CurrentRow.Cells[2].Value.ToString());
                 Form detailsbill = new DetailsBill();
                 detailsbill.ShowDialog();
             }

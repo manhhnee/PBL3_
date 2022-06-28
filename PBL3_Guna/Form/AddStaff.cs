@@ -22,12 +22,20 @@ namespace PBL3_Guna
         public StaffDTO getStaffDataToAdd()
         
         {
-            StaffDTO staff = new StaffDTO();
-            staff.Name = txtDisplayName.Text;
-            staff.Address = txtAddressStaff.Text;
-            staff.Age = Convert.ToInt32(txtAgeStaff.Text);
-            staff.PhoneNumber = txtPhoneNumberStaff.Text;
-            return staff;
+            try
+            {
+                StaffDTO staff = new StaffDTO();
+                staff.Name = txtDisplayName.Text;
+                staff.Address = txtAddressStaff.Text;
+                staff.Age = Convert.ToInt32(txtAgeStaff.Text);
+                staff.PhoneNumber = txtPhoneNumberStaff.Text;
+                return staff;
+            }
+            catch
+            {
+                MessageBox.Show("Vui lòng không để trống ô nào!");
+            }
+            return null;
         }
         public AccountDTO getDataToCreateAccount()
         {
@@ -37,13 +45,17 @@ namespace PBL3_Guna
             account.Password = txtPassStaff.Text;
             return account;
         }
-
-        private void guna2Button1_Click(object sender, EventArgs e)
+        private void ShowPass_Click(object sender, EventArgs e)
         {
-            this.Close();
+            i++;
+            if (i % 2 != 0)
+            {
+                txtPassStaff.UseSystemPasswordChar = false;
+            }
+            else txtPassStaff.UseSystemPasswordChar = true;
         }
 
-        private void btnLogin_Click(object sender, EventArgs e)
+        private void btnAdd_Click(object sender, EventArgs e)
         {
             StaffDTO staff = getStaffDataToAdd();
             AccountDTO account = getDataToCreateAccount();
@@ -61,14 +73,9 @@ namespace PBL3_Guna
             else MessageBox.Show("Đã tồn tại UserName này");
         }
 
-        private void ShowPass_Click(object sender, EventArgs e)
+        private void btnExit_Click(object sender, EventArgs e)
         {
-            i++;
-            if (i % 2 != 0)
-            {
-                txtPassStaff.UseSystemPasswordChar = false;
-            }
-            else txtPassStaff.UseSystemPasswordChar = true;
+            this.Close();
         }
     }
 }

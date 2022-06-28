@@ -31,16 +31,7 @@ namespace PBL3_Guna
                 txtChucVu.Text = "nhân viên";
             }
             else txtChucVu.Text = "quản lí";
-           
-
-
         }
-
-        private void guna2Button1_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
         private void btnExit_Click(object sender, EventArgs e)
         {
             this.Close();

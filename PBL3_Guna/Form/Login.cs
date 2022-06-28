@@ -72,15 +72,6 @@ namespace PBL3_Guna
 
         }
 
-        private void btnExit_Click_1(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void txtPass_TextChanged(object sender, EventArgs e)
-        {
-
-        }
 
         private void ShowPass_Click(object sender, EventArgs e)
         {
@@ -92,9 +83,6 @@ namespace PBL3_Guna
             else txtPass.UseSystemPasswordChar = true;
         }
 
-        private void txtUser_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }

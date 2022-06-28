@@ -104,3 +104,14 @@ C:\Users\DELL\PBL3_\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
 C:\Users\DELL\PBL3_\BUS\obj\Debug\BUS.csproj.CopyComplete
 C:\Users\DELL\PBL3_\BUS\obj\Debug\BUS.dll
 C:\Users\DELL\PBL3_\BUS\obj\Debug\BUS.pdb
+C:\Users\Manh Nguyen\source\repos\PBL3_\BUS\bin\Debug\BUS.dll
+C:\Users\Manh Nguyen\source\repos\PBL3_\BUS\bin\Debug\BUS.pdb
+C:\Users\Manh Nguyen\source\repos\PBL3_\BUS\bin\Debug\DAO.dll
+C:\Users\Manh Nguyen\source\repos\PBL3_\BUS\bin\Debug\DTO.dll
+C:\Users\Manh Nguyen\source\repos\PBL3_\BUS\bin\Debug\DAO.pdb
+C:\Users\Manh Nguyen\source\repos\PBL3_\BUS\bin\Debug\DTO.pdb
+C:\Users\Manh Nguyen\source\repos\PBL3_\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+C:\Users\Manh Nguyen\source\repos\PBL3_\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\Manh Nguyen\source\repos\PBL3_\BUS\obj\Debug\BUS.csproj.CopyComplete
+C:\Users\Manh Nguyen\source\repos\PBL3_\BUS\obj\Debug\BUS.dll
+C:\Users\Manh Nguyen\source\repos\PBL3_\BUS\obj\Debug\BUS.pdb

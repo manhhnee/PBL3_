@@ -49,9 +49,6 @@ namespace PBL3_Guna
             this.Close();
         }
 
-        private void ChangePassword_Load(object sender, EventArgs e)
-        {
-
-        }
+       
     }
 }

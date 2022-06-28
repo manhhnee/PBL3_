@@ -1,34 +1,34 @@
-C:\Users\DELL\PBL3_\PBL3_Guna\bin\Debug\PBL3_Guna.exe.config
-C:\Users\DELL\PBL3_\PBL3_Guna\bin\Debug\PBL3_Guna.exe
-C:\Users\DELL\PBL3_\PBL3_Guna\bin\Debug\PBL3_Guna.pdb
-C:\Users\DELL\PBL3_\PBL3_Guna\bin\Debug\BUS.dll
-C:\Users\DELL\PBL3_\PBL3_Guna\bin\Debug\DAO.dll
-C:\Users\DELL\PBL3_\PBL3_Guna\bin\Debug\DTO.dll
-C:\Users\DELL\PBL3_\PBL3_Guna\bin\Debug\BUS.pdb
-C:\Users\DELL\PBL3_\PBL3_Guna\bin\Debug\DAO.pdb
-C:\Users\DELL\PBL3_\PBL3_Guna\bin\Debug\DTO.pdb
-C:\Users\DELL\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.csproj.AssemblyReference.cache
-C:\Users\DELL\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.csproj.SuggestedBindingRedirects.cache
-C:\Users\DELL\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.AddCategory.resources
-C:\Users\DELL\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.Profile.resources
-C:\Users\DELL\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.AddItem.resources
-C:\Users\DELL\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.AddStaff.resources
-C:\Users\DELL\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.DetailsBill.resources
-C:\Users\DELL\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.ChangePassword.resources
-C:\Users\DELL\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.Bill.resources
-C:\Users\DELL\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.Admin.resources
-C:\Users\DELL\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.Login.resources
-C:\Users\DELL\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.Properties.Resources.resources
-C:\Users\DELL\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.Staff.resources
-C:\Users\DELL\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.UC_Home.resources
-C:\Users\DELL\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.UC_Information.resources
-C:\Users\DELL\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.UC_Item.resources
-C:\Users\DELL\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.UC_Order.resources
-C:\Users\DELL\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.UC_Revenue.resources
-C:\Users\DELL\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.UC_Staff.resources
-C:\Users\DELL\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.csproj.GenerateResource.cache
-C:\Users\DELL\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.exe.licenses
-C:\Users\DELL\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.csproj.CoreCompileInputs.cache
-C:\Users\DELL\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.csproj.CopyComplete
-C:\Users\DELL\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.exe
-C:\Users\DELL\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.pdb
+C:\Users\Manh Nguyen\source\repos\PBL3_\PBL3_Guna\bin\Debug\PBL3_Guna.exe.config
+C:\Users\Manh Nguyen\source\repos\PBL3_\PBL3_Guna\bin\Debug\PBL3_Guna.exe
+C:\Users\Manh Nguyen\source\repos\PBL3_\PBL3_Guna\bin\Debug\PBL3_Guna.pdb
+C:\Users\Manh Nguyen\source\repos\PBL3_\PBL3_Guna\bin\Debug\BUS.dll
+C:\Users\Manh Nguyen\source\repos\PBL3_\PBL3_Guna\bin\Debug\DAO.dll
+C:\Users\Manh Nguyen\source\repos\PBL3_\PBL3_Guna\bin\Debug\DTO.dll
+C:\Users\Manh Nguyen\source\repos\PBL3_\PBL3_Guna\bin\Debug\BUS.pdb
+C:\Users\Manh Nguyen\source\repos\PBL3_\PBL3_Guna\bin\Debug\DAO.pdb
+C:\Users\Manh Nguyen\source\repos\PBL3_\PBL3_Guna\bin\Debug\DTO.pdb
+C:\Users\Manh Nguyen\source\repos\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.csproj.AssemblyReference.cache
+C:\Users\Manh Nguyen\source\repos\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.csproj.SuggestedBindingRedirects.cache
+C:\Users\Manh Nguyen\source\repos\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.AddCategory.resources
+C:\Users\Manh Nguyen\source\repos\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.Profile.resources
+C:\Users\Manh Nguyen\source\repos\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.AddItem.resources
+C:\Users\Manh Nguyen\source\repos\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.AddStaff.resources
+C:\Users\Manh Nguyen\source\repos\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.DetailsBill.resources
+C:\Users\Manh Nguyen\source\repos\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.ChangePassword.resources
+C:\Users\Manh Nguyen\source\repos\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.Bill.resources
+C:\Users\Manh Nguyen\source\repos\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.Admin.resources
+C:\Users\Manh Nguyen\source\repos\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.Login.resources
+C:\Users\Manh Nguyen\source\repos\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.Properties.Resources.resources
+C:\Users\Manh Nguyen\source\repos\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.Staff.resources
+C:\Users\Manh Nguyen\source\repos\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.UC_Home.resources
+C:\Users\Manh Nguyen\source\repos\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.UC_Information.resources
+C:\Users\Manh Nguyen\source\repos\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.UC_Item.resources
+C:\Users\Manh Nguyen\source\repos\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.UC_Order.resources
+C:\Users\Manh Nguyen\source\repos\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.UC_Revenue.resources
+C:\Users\Manh Nguyen\source\repos\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.UC_Staff.resources
+C:\Users\Manh Nguyen\source\repos\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.csproj.GenerateResource.cache
+C:\Users\Manh Nguyen\source\repos\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.exe.licenses
+C:\Users\Manh Nguyen\source\repos\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.csproj.CoreCompileInputs.cache
+C:\Users\Manh Nguyen\source\repos\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.csproj.CopyComplete
+C:\Users\Manh Nguyen\source\repos\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.exe
+C:\Users\Manh Nguyen\source\repos\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.pdb

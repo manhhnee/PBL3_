@@ -86,3 +86,12 @@ C:\Users\DELL\PBL3_\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
 C:\Users\DELL\PBL3_\DAO\obj\Debug\DAO.csproj.CopyComplete
 C:\Users\DELL\PBL3_\DAO\obj\Debug\DAO.dll
 C:\Users\DELL\PBL3_\DAO\obj\Debug\DAO.pdb
+C:\Users\Manh Nguyen\source\repos\PBL3_\DAO\bin\Debug\DAO.dll
+C:\Users\Manh Nguyen\source\repos\PBL3_\DAO\bin\Debug\DAO.pdb
+C:\Users\Manh Nguyen\source\repos\PBL3_\DAO\bin\Debug\DTO.dll
+C:\Users\Manh Nguyen\source\repos\PBL3_\DAO\bin\Debug\DTO.pdb
+C:\Users\Manh Nguyen\source\repos\PBL3_\DAO\obj\Debug\DAO.csproj.AssemblyReference.cache
+C:\Users\Manh Nguyen\source\repos\PBL3_\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+C:\Users\Manh Nguyen\source\repos\PBL3_\DAO\obj\Debug\DAO.csproj.CopyComplete
+C:\Users\Manh Nguyen\source\repos\PBL3_\DAO\obj\Debug\DAO.dll
+C:\Users\Manh Nguyen\source\repos\PBL3_\DAO\obj\Debug\DAO.pdb
