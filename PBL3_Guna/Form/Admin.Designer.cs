@@ -51,6 +51,7 @@
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btnTable = new Guna.UI2.WinForms.Guna2Button();
             this.panel1.SuspendLayout();
             this.PanelContainer.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -147,7 +148,7 @@
             this.btnLogOut.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
             this.btnLogOut.HoverState.Parent = this.btnLogOut;
             this.btnLogOut.Image = ((System.Drawing.Image)(resources.GetObject("btnLogOut.Image")));
-            this.btnLogOut.Location = new System.Drawing.Point(22, 382);
+            this.btnLogOut.Location = new System.Drawing.Point(22, 433);
             this.btnLogOut.Name = "btnLogOut";
             this.btnLogOut.ShadowDecoration.Parent = this.btnLogOut;
             this.btnLogOut.Size = new System.Drawing.Size(134, 45);
@@ -317,6 +318,7 @@
             this.guna2Panel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2Panel1.BorderColor = System.Drawing.Color.Transparent;
             this.guna2Panel1.BorderRadius = 30;
+            this.guna2Panel1.Controls.Add(this.btnTable);
             this.guna2Panel1.Controls.Add(this.l);
             this.guna2Panel1.Controls.Add(this.guna2Panel2);
             this.guna2Panel1.Controls.Add(this.btnStaff);
@@ -371,6 +373,29 @@
             this.panel2.Size = new System.Drawing.Size(175, 672);
             this.panel2.TabIndex = 9;
             // 
+            // btnTable
+            // 
+            this.btnTable.Animated = true;
+            this.btnTable.BackColor = System.Drawing.Color.Transparent;
+            this.btnTable.BorderRadius = 10;
+            this.btnTable.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.btnTable.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(209)))), ((int)(((byte)(195)))));
+            this.btnTable.CheckedState.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTable.CheckedState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
+            this.btnTable.CheckedState.Parent = this.btnTable;
+            this.btnTable.CustomImages.Parent = this.btnTable;
+            this.btnTable.FillColor = System.Drawing.Color.Transparent;
+            this.btnTable.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTable.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
+            this.btnTable.HoverState.Parent = this.btnTable;
+            this.btnTable.Image = ((System.Drawing.Image)(resources.GetObject("btnTable.Image")));
+            this.btnTable.Location = new System.Drawing.Point(22, 382);
+            this.btnTable.Name = "btnTable";
+            this.btnTable.ShadowDecoration.Parent = this.btnTable;
+            this.btnTable.Size = new System.Drawing.Size(134, 45);
+            this.btnTable.TabIndex = 9;
+            this.btnTable.Text = "Table";
+            // 
             // Admin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -421,6 +446,7 @@
         private System.Windows.Forms.Panel panel2;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private Guna.UI2.WinForms.Guna2Button btnTable;
     }
 }
 

@@ -66,3 +66,4 @@ C:\Users\DELL\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.csproj.CoreCompileInputs.cache
 C:\Users\DELL\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.csproj.CopyComplete
 C:\Users\DELL\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.exe
 C:\Users\DELL\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.pdb
+C:\Users\DELL\PBL3_\PBL3_Guna\obj\Debug\PBL3_Guna.UC_Table.resources
