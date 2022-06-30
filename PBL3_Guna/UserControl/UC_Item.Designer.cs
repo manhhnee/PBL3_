@@ -41,9 +41,6 @@
             this.btnAddItem = new Guna.UI2.WinForms.Guna2Button();
             this.dtgvItem = new Guna.UI2.WinForms.Guna2DataGridView();
             this.txtSearchItem = new Guna.UI2.WinForms.Guna2TextBox();
-            this.btnSearchItem = new Guna.UI2.WinForms.Guna2Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtIDItem = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtNameItem = new Guna.UI2.WinForms.Guna2TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.txtPriceItem = new Guna.UI2.WinForms.Guna2TextBox();
@@ -51,6 +48,9 @@
             this.cxbCategoryItem = new Guna.UI2.WinForms.Guna2ComboBox();
             this.label4 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btnSearchItem = new Guna.UI2.WinForms.Guna2Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtIDItem = new Guna.UI2.WinForms.Guna2TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvItem)).BeginInit();
             this.panel2.SuspendLayout();
@@ -67,9 +67,9 @@
             this.panel1.Controls.Add(this.dtgvItem);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(697, 827);
+            this.panel1.Size = new System.Drawing.Size(838, 827);
             this.panel1.TabIndex = 0;
             // 
             // btnAddCategory
@@ -88,8 +88,8 @@
             this.btnAddCategory.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(209)))), ((int)(((byte)(195)))));
             this.btnAddCategory.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
             this.btnAddCategory.HoverState.Parent = this.btnAddCategory;
-            this.btnAddCategory.Location = new System.Drawing.Point(273, 748);
-            this.btnAddCategory.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAddCategory.Location = new System.Drawing.Point(344, 748);
+            this.btnAddCategory.Margin = new System.Windows.Forms.Padding(4);
             this.btnAddCategory.Name = "btnAddCategory";
             this.btnAddCategory.ShadowDecoration.Parent = this.btnAddCategory;
             this.btnAddCategory.Size = new System.Drawing.Size(159, 52);
@@ -113,8 +113,8 @@
             this.btnShowItem.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(209)))), ((int)(((byte)(195)))));
             this.btnShowItem.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
             this.btnShowItem.HoverState.Parent = this.btnShowItem;
-            this.btnShowItem.Location = new System.Drawing.Point(549, 672);
-            this.btnShowItem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnShowItem.Location = new System.Drawing.Point(620, 672);
+            this.btnShowItem.Margin = new System.Windows.Forms.Padding(4);
             this.btnShowItem.Name = "btnShowItem";
             this.btnShowItem.ShadowDecoration.Parent = this.btnShowItem;
             this.btnShowItem.Size = new System.Drawing.Size(129, 52);
@@ -138,8 +138,8 @@
             this.btnModifyItem.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(209)))), ((int)(((byte)(195)))));
             this.btnModifyItem.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
             this.btnModifyItem.HoverState.Parent = this.btnModifyItem;
-            this.btnModifyItem.Location = new System.Drawing.Point(375, 672);
-            this.btnModifyItem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnModifyItem.Location = new System.Drawing.Point(446, 672);
+            this.btnModifyItem.Margin = new System.Windows.Forms.Padding(4);
             this.btnModifyItem.Name = "btnModifyItem";
             this.btnModifyItem.ShadowDecoration.Parent = this.btnModifyItem;
             this.btnModifyItem.Size = new System.Drawing.Size(129, 52);
@@ -163,8 +163,8 @@
             this.btnDeleteItem.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(209)))), ((int)(((byte)(195)))));
             this.btnDeleteItem.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
             this.btnDeleteItem.HoverState.Parent = this.btnDeleteItem;
-            this.btnDeleteItem.Location = new System.Drawing.Point(197, 672);
-            this.btnDeleteItem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDeleteItem.Location = new System.Drawing.Point(268, 672);
+            this.btnDeleteItem.Margin = new System.Windows.Forms.Padding(4);
             this.btnDeleteItem.Name = "btnDeleteItem";
             this.btnDeleteItem.ShadowDecoration.Parent = this.btnDeleteItem;
             this.btnDeleteItem.Size = new System.Drawing.Size(129, 52);
@@ -188,8 +188,8 @@
             this.btnAddItem.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(209)))), ((int)(((byte)(195)))));
             this.btnAddItem.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
             this.btnAddItem.HoverState.Parent = this.btnAddItem;
-            this.btnAddItem.Location = new System.Drawing.Point(21, 672);
-            this.btnAddItem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAddItem.Location = new System.Drawing.Point(92, 672);
+            this.btnAddItem.Margin = new System.Windows.Forms.Padding(4);
             this.btnAddItem.Name = "btnAddItem";
             this.btnAddItem.ShadowDecoration.Parent = this.btnAddItem;
             this.btnAddItem.Size = new System.Drawing.Size(129, 52);
@@ -225,7 +225,7 @@
             this.dtgvItem.EnableHeadersVisualStyles = false;
             this.dtgvItem.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(222)))), ((int)(((byte)(222)))));
             this.dtgvItem.Location = new System.Drawing.Point(0, 0);
-            this.dtgvItem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtgvItem.Margin = new System.Windows.Forms.Padding(4);
             this.dtgvItem.MultiSelect = false;
             this.dtgvItem.Name = "dtgvItem";
             this.dtgvItem.ReadOnly = true;
@@ -241,7 +241,7 @@
             this.dtgvItem.RowHeadersWidth = 51;
             this.dtgvItem.RowTemplate.ReadOnly = true;
             this.dtgvItem.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dtgvItem.Size = new System.Drawing.Size(696, 601);
+            this.dtgvItem.Size = new System.Drawing.Size(834, 601);
             this.dtgvItem.TabIndex = 0;
             this.dtgvItem.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Default;
             this.dtgvItem.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
@@ -286,8 +286,8 @@
             this.txtSearchItem.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtSearchItem.HoverState.Parent = this.txtSearchItem;
             this.txtSearchItem.IconLeft = ((System.Drawing.Image)(resources.GetObject("txtSearchItem.IconLeft")));
-            this.txtSearchItem.Location = new System.Drawing.Point(761, 132);
-            this.txtSearchItem.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtSearchItem.Location = new System.Drawing.Point(901, 132);
+            this.txtSearchItem.Margin = new System.Windows.Forms.Padding(5);
             this.txtSearchItem.Name = "txtSearchItem";
             this.txtSearchItem.PasswordChar = '\0';
             this.txtSearchItem.PlaceholderText = "";
@@ -295,71 +295,6 @@
             this.txtSearchItem.ShadowDecoration.Parent = this.txtSearchItem;
             this.txtSearchItem.Size = new System.Drawing.Size(248, 47);
             this.txtSearchItem.TabIndex = 1;
-            // 
-            // btnSearchItem
-            // 
-            this.btnSearchItem.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnSearchItem.Animated = true;
-            this.btnSearchItem.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
-            this.btnSearchItem.BorderRadius = 10;
-            this.btnSearchItem.BorderThickness = 1;
-            this.btnSearchItem.CheckedState.Parent = this.btnSearchItem;
-            this.btnSearchItem.CustomImages.Parent = this.btnSearchItem;
-            this.btnSearchItem.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
-            this.btnSearchItem.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSearchItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(167)))), ((int)(((byte)(152)))));
-            this.btnSearchItem.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
-            this.btnSearchItem.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(209)))), ((int)(((byte)(195)))));
-            this.btnSearchItem.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
-            this.btnSearchItem.HoverState.Parent = this.btnSearchItem;
-            this.btnSearchItem.Location = new System.Drawing.Point(1045, 132);
-            this.btnSearchItem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnSearchItem.Name = "btnSearchItem";
-            this.btnSearchItem.ShadowDecoration.Parent = this.btnSearchItem;
-            this.btnSearchItem.Size = new System.Drawing.Size(129, 47);
-            this.btnSearchItem.TabIndex = 6;
-            this.btnSearchItem.Text = "Search";
-            this.btnSearchItem.Click += new System.EventHandler(this.btnSearchItem_Click);
-            // 
-            // label1
-            // 
-            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
-            this.label1.Location = new System.Drawing.Point(783, 291);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(33, 23);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "ID:";
-            // 
-            // txtIDItem
-            // 
-            this.txtIDItem.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtIDItem.BorderRadius = 6;
-            this.txtIDItem.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtIDItem.DefaultText = "";
-            this.txtIDItem.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtIDItem.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtIDItem.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtIDItem.DisabledState.Parent = this.txtIDItem;
-            this.txtIDItem.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtIDItem.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
-            this.txtIDItem.FocusedState.Parent = this.txtIDItem;
-            this.txtIDItem.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtIDItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
-            this.txtIDItem.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtIDItem.HoverState.Parent = this.txtIDItem;
-            this.txtIDItem.Location = new System.Drawing.Point(893, 284);
-            this.txtIDItem.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.txtIDItem.Name = "txtIDItem";
-            this.txtIDItem.PasswordChar = '\0';
-            this.txtIDItem.PlaceholderText = "ID";
-            this.txtIDItem.SelectedText = "";
-            this.txtIDItem.ShadowDecoration.Parent = this.txtIDItem;
-            this.txtIDItem.Size = new System.Drawing.Size(281, 30);
-            this.txtIDItem.TabIndex = 8;
             // 
             // txtNameItem
             // 
@@ -378,8 +313,8 @@
             this.txtNameItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
             this.txtNameItem.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtNameItem.HoverState.Parent = this.txtNameItem;
-            this.txtNameItem.Location = new System.Drawing.Point(893, 357);
-            this.txtNameItem.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtNameItem.Location = new System.Drawing.Point(1033, 357);
+            this.txtNameItem.Margin = new System.Windows.Forms.Padding(5);
             this.txtNameItem.Name = "txtNameItem";
             this.txtNameItem.PasswordChar = '\0';
             this.txtNameItem.PlaceholderText = "Name";
@@ -394,7 +329,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
-            this.label2.Location = new System.Drawing.Point(755, 362);
+            this.label2.Location = new System.Drawing.Point(895, 362);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(72, 23);
@@ -418,8 +353,8 @@
             this.txtPriceItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
             this.txtPriceItem.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtPriceItem.HoverState.Parent = this.txtPriceItem;
-            this.txtPriceItem.Location = new System.Drawing.Point(893, 523);
-            this.txtPriceItem.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtPriceItem.Location = new System.Drawing.Point(1033, 523);
+            this.txtPriceItem.Margin = new System.Windows.Forms.Padding(5);
             this.txtPriceItem.Name = "txtPriceItem";
             this.txtPriceItem.PasswordChar = '\0';
             this.txtPriceItem.PlaceholderText = "Price";
@@ -434,7 +369,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
-            this.label3.Location = new System.Drawing.Point(755, 528);
+            this.label3.Location = new System.Drawing.Point(895, 528);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(61, 23);
@@ -458,8 +393,8 @@
             this.cxbCategoryItem.HoverState.Parent = this.cxbCategoryItem;
             this.cxbCategoryItem.ItemHeight = 30;
             this.cxbCategoryItem.ItemsAppearance.Parent = this.cxbCategoryItem;
-            this.cxbCategoryItem.Location = new System.Drawing.Point(893, 434);
-            this.cxbCategoryItem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cxbCategoryItem.Location = new System.Drawing.Point(1033, 434);
+            this.cxbCategoryItem.Margin = new System.Windows.Forms.Padding(4);
             this.cxbCategoryItem.Name = "cxbCategoryItem";
             this.cxbCategoryItem.ShadowDecoration.Parent = this.cxbCategoryItem;
             this.cxbCategoryItem.Size = new System.Drawing.Size(280, 36);
@@ -471,7 +406,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
-            this.label4.Location = new System.Drawing.Point(755, 446);
+            this.label4.Location = new System.Drawing.Point(895, 446);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(103, 23);
@@ -481,18 +416,83 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Transparent;
-            this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.label1);
-            this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.txtNameItem);
-            this.panel2.Controls.Add(this.txtPriceItem);
             this.panel2.Controls.Add(this.label2);
+            this.panel2.Controls.Add(this.label1);
+            this.panel2.Controls.Add(this.label3);
+            this.panel2.Controls.Add(this.label4);
+            this.panel2.Controls.Add(this.txtPriceItem);
             this.panel2.Controls.Add(this.cxbCategoryItem);
             this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1195, 827);
+            this.panel2.Size = new System.Drawing.Size(1474, 827);
             this.panel2.TabIndex = 15;
+            // 
+            // btnSearchItem
+            // 
+            this.btnSearchItem.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnSearchItem.Animated = true;
+            this.btnSearchItem.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
+            this.btnSearchItem.BorderRadius = 10;
+            this.btnSearchItem.BorderThickness = 1;
+            this.btnSearchItem.CheckedState.Parent = this.btnSearchItem;
+            this.btnSearchItem.CustomImages.Parent = this.btnSearchItem;
+            this.btnSearchItem.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
+            this.btnSearchItem.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSearchItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(167)))), ((int)(((byte)(152)))));
+            this.btnSearchItem.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
+            this.btnSearchItem.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(209)))), ((int)(((byte)(195)))));
+            this.btnSearchItem.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
+            this.btnSearchItem.HoverState.Parent = this.btnSearchItem;
+            this.btnSearchItem.Location = new System.Drawing.Point(1185, 132);
+            this.btnSearchItem.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSearchItem.Name = "btnSearchItem";
+            this.btnSearchItem.ShadowDecoration.Parent = this.btnSearchItem;
+            this.btnSearchItem.Size = new System.Drawing.Size(129, 47);
+            this.btnSearchItem.TabIndex = 6;
+            this.btnSearchItem.Text = "Search";
+            this.btnSearchItem.Click += new System.EventHandler(this.btnSearchItem_Click);
+            // 
+            // label1
+            // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
+            this.label1.Location = new System.Drawing.Point(923, 291);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(33, 23);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "ID:";
+            // 
+            // txtIDItem
+            // 
+            this.txtIDItem.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtIDItem.BorderRadius = 6;
+            this.txtIDItem.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtIDItem.DefaultText = "";
+            this.txtIDItem.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtIDItem.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtIDItem.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtIDItem.DisabledState.Parent = this.txtIDItem;
+            this.txtIDItem.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtIDItem.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
+            this.txtIDItem.FocusedState.Parent = this.txtIDItem;
+            this.txtIDItem.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtIDItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
+            this.txtIDItem.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtIDItem.HoverState.Parent = this.txtIDItem;
+            this.txtIDItem.Location = new System.Drawing.Point(1033, 284);
+            this.txtIDItem.Margin = new System.Windows.Forms.Padding(5);
+            this.txtIDItem.Name = "txtIDItem";
+            this.txtIDItem.PasswordChar = '\0';
+            this.txtIDItem.PlaceholderText = "ID";
+            this.txtIDItem.SelectedText = "";
+            this.txtIDItem.ShadowDecoration.Parent = this.txtIDItem;
+            this.txtIDItem.Size = new System.Drawing.Size(281, 30);
+            this.txtIDItem.TabIndex = 8;
             // 
             // UC_Item
             // 
@@ -504,9 +504,9 @@
             this.Controls.Add(this.txtSearchItem);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "UC_Item";
-            this.Size = new System.Drawing.Size(1195, 827);
+            this.Size = new System.Drawing.Size(1474, 827);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dtgvItem)).EndInit();
             this.panel2.ResumeLayout(false);
@@ -525,9 +525,6 @@
         private Guna.UI2.WinForms.Guna2Button btnDeleteItem;
         private Guna.UI2.WinForms.Guna2Button btnAddItem;
         private Guna.UI2.WinForms.Guna2TextBox txtSearchItem;
-        private Guna.UI2.WinForms.Guna2Button btnSearchItem;
-        private System.Windows.Forms.Label label1;
-        private Guna.UI2.WinForms.Guna2TextBox txtIDItem;
         private Guna.UI2.WinForms.Guna2TextBox txtNameItem;
         private System.Windows.Forms.Label label2;
         private Guna.UI2.WinForms.Guna2TextBox txtPriceItem;
@@ -535,5 +532,8 @@
         private Guna.UI2.WinForms.Guna2ComboBox cxbCategoryItem;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel2;
+        private Guna.UI2.WinForms.Guna2Button btnSearchItem;
+        private System.Windows.Forms.Label label1;
+        private Guna.UI2.WinForms.Guna2TextBox txtIDItem;
     }
 }

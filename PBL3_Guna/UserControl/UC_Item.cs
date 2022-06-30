@@ -45,7 +45,7 @@ namespace PBL3_Guna
         public ItemDTO getItemDataToUpdate()
         {
             ItemDTO item = new ItemDTO();
-            item.ID = Convert.ToInt32(txtIDItem.Text);
+            item.ID = Convert.ToInt32(guna2TextBox1.Text);
             item.Name = txtNameItem.Text;
             item.IDCategory = (CategoryBUS.Instance.GetIDbyNameCategory(cxbCategoryItem.Text));
             item.Price = Convert.ToInt32(txtPriceItem.Text);
@@ -95,7 +95,7 @@ namespace PBL3_Guna
 
         private void dtgvItem_SelectionChanged(object sender, EventArgs e)
         {
-            txtIDItem.Text = dtgvItem.CurrentRow.Cells[0].Value.ToString();
+            guna2TextBox1.Text = dtgvItem.CurrentRow.Cells[0].Value.ToString();
             txtNameItem.Text = dtgvItem.CurrentRow.Cells[1].Value.ToString();
             cxbCategoryItem.Text = CategoryBUS.Instance.GetNamebyIDCategory(Convert.ToInt32(dtgvItem.CurrentRow.Cells[2].Value.ToString()));
             txtPriceItem.Text = dtgvItem.CurrentRow.Cells[3].Value.ToString();
@@ -114,5 +114,7 @@ namespace PBL3_Guna
             f.ShowDialog();
             LoadCatergory();
         }
+
+        
     }
 }
