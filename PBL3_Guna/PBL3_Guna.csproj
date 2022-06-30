@@ -116,6 +116,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UC_Table.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Table.Designer.cs">
+      <DependentUpon>UC_Table.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControl\UC_Home.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -192,6 +198,9 @@
     <EmbeddedResource Include="Form\Staff.resx">
       <DependentUpon>Staff.cs</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Table.resx">
+      <DependentUpon>UC_Table.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControl\UC_Home.resx">
       <DependentUpon>UC_Home.cs</DependentUpon>
