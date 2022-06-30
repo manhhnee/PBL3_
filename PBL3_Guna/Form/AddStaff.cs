@@ -19,23 +19,23 @@ namespace PBL3_Guna
         {
             InitializeComponent();
         }
-        public StaffDTO getStaffDataToAdd()
-        
+        public bool checkDigit(string s)
         {
-            try
+            for (int i = 0; i < s.Length; i++)
             {
-                StaffDTO staff = new StaffDTO();
-                staff.Name = txtDisplayName.Text;
-                staff.Address = txtAddressStaff.Text;
-                staff.Age = Convert.ToInt32(txtAgeStaff.Text);
-                staff.PhoneNumber = txtPhoneNumberStaff.Text;
-                return staff;
+                if (char.IsDigit(s[i]) == false)
+                    return false;
             }
-            catch
-            {
-                MessageBox.Show("Vui lòng không để trống ô nào!");
-            }
-            return null;
+            return true;
+        }
+        public StaffDTO getStaffDataToAdd()
+        {
+            StaffDTO staff = new StaffDTO();
+            staff.Name = txtDisplayName.Text;
+            staff.Address = txtAddressStaff.Text;
+            staff.Age = Convert.ToInt32(txtAgeStaff.Text);
+            staff.PhoneNumber = txtPhoneNumberStaff.Text;
+            return staff;
         }
         public AccountDTO getDataToCreateAccount()
         {
@@ -57,20 +57,24 @@ namespace PBL3_Guna
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            StaffDTO staff = getStaffDataToAdd();
-            AccountDTO account = getDataToCreateAccount();
-            if (AccountBUS.Instance.CheckUserName(account.UserName.ToString()) == true)
+            if (txtUserNameStaff.Text != "" && txtDisplayName.Text != "" && txtAgeStaff.Text != "" && txtAddressStaff.Text != "" && txtPhoneNumberStaff.Text != "" && txtPassStaff.Text != "")
             {
-                if (txtPassStaff.Text != "")
+                if (checkDigit(txtAgeStaff.Text))
                 {
-                    StaffBUS.Instance.AddStaffBUS(staff);
-                    account.IDStaff = StaffBUS.Instance.GetIDStaffByName(staff.Name);
-                    AccountBUS.Instance.AddAccountBUS(account);
-                    this.Close();
+                    StaffDTO staff = getStaffDataToAdd();
+                    AccountDTO account = getDataToCreateAccount();
+                    if (AccountBUS.Instance.CheckUserName(account.UserName.ToString()) == true)
+                    {
+                        StaffBUS.Instance.AddStaffBUS(staff);
+                        account.IDStaff = StaffBUS.Instance.GetIDStaffByName(staff.Name);
+                        AccountBUS.Instance.AddAccountBUS(account);
+                        this.Close();
+                    }
+                    else MessageBox.Show("Đã tồn tại UserName này");
                 }
-                else MessageBox.Show("Không được để trống mật khẩu !");
+                else MessageBox.Show("Vui lòng nhập tuổi là một số!");
             }
-            else MessageBox.Show("Đã tồn tại UserName này");
+            else MessageBox.Show("Vui lòng nhập đầy đủ thông tin!");
         }
 
         private void btnExit_Click(object sender, EventArgs e)

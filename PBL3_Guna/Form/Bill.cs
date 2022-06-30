@@ -103,13 +103,33 @@ namespace PBL3_Guna
                 txtExcessCash.Text = "Vui lòng trả đủ số tiền";
             }
             else txtExcessCash.Text = (paid - payment).ToString();
-
-
         }
 
         private void btnExit_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        Bitmap bitmap;
+        private void btnPrintBill_Click(object sender, EventArgs e)
+        {
+            Panel panel = new Panel();
+            this.Controls.Add(panel);
+            Graphics grp = panel.CreateGraphics();
+
+            Size formSize = this.ClientSize;
+            formSize.Width += 112;
+            formSize.Height -= 103;
+            bitmap = new Bitmap(formSize.Width, formSize.Height, grp);
+            grp = Graphics.FromImage(bitmap);
+            Point panelLocation = PointToScreen(panel.Location);
+            grp.CopyFromScreen(panelLocation.X + 135, panelLocation.Y + 73, 0, 0, formSize);
+            printDocument1.Print();
+        }
+
+        private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
+        {
+            e.Graphics.DrawImage(bitmap, 0, 0);
         }
     }
 }

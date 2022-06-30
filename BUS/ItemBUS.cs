@@ -22,6 +22,7 @@ namespace BUS
                 return instance;
             }
         }
+        
         public DataTable GetAll()
         {
             return ItemDAO.Instance.GetAllItem();
@@ -99,7 +100,7 @@ namespace BUS
             DataTable data = GetAll();
             foreach (DataRow dr in data.Rows)
             {
-                if(data.Rows[i]["Name"].ToString() == name)
+                if(data.Rows[i]["Name"].ToString() == name )
                 {
                     t = false;
                     break;

@@ -24,7 +24,7 @@ namespace DAO
         {
             try
             {
-                return DataProvider.Instance.ExecuteQuery("select ID, Name, Address, Age, PhoneNumber from Staff where TypeID = 1");
+                return DataProvider.Instance.ExecuteQuery("select ID, Name, Address, Age, PhoneNumber, WorkingDays, SalaryCoefficient from Staff where TypeID = 1");
             }
             catch (Exception ex)
             {
@@ -33,10 +33,10 @@ namespace DAO
         }
         public void AddStaffDAO(StaffDTO staff)
         {
-            string query = "insert into Staff values( @Name , @Address , @Age , @PhoneNumber , 1 )";
+            string query = "insert into Staff values( @Name , @Address , @Age , @PhoneNumber , 1, 0, 0 )";
             try
             {
-                DataProvider.Instance.ExecuteNonQuery(query, new Object[] { staff.Name, staff.Address, staff.Age, staff.PhoneNumber });
+                DataProvider.Instance.ExecuteNonQuery(query, new Object[] { staff.Name, staff.Address, staff.Age, staff.PhoneNumber, staff.WorkingDays, staff.SalaryCoefficient });
             }
             catch (Exception ex)
             {
@@ -46,10 +46,10 @@ namespace DAO
         }
         public void updateStaffDAO(StaffDTO staff)
         {
-            string query = "update Staff set Name = @Name , Address = @Address , Age = @age ,PhoneNumber = @PhoneNumber where ID = @ID";
+            string query = "update Staff set Name = @Name , Address = @Address , Age = @age , PhoneNumber = @PhoneNumber , WorkingDays = @WorkingDays , SalaryCoefficient = @SalaryCoeffcient where ID = @ID";
             try
             {
-                DataProvider.Instance.ExecuteNonQuery(query, new Object[] { staff.Name,staff.Address,staff.Age,staff.PhoneNumber,staff.ID });
+                DataProvider.Instance.ExecuteNonQuery(query, new Object[] { staff.Name,staff.Address,staff.Age,staff.PhoneNumber,staff.WorkingDays,staff.SalaryCoefficient,staff.ID });
             }
             catch (Exception ex)
             {
