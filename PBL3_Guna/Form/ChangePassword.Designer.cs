@@ -54,16 +54,16 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(-281, 501);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(-211, 407);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(133, 19);
+            this.label3.Size = new System.Drawing.Size(105, 16);
             this.label3.TabIndex = 5;
             this.label3.Text = "Confirm Password:";
             // 
             // guna2DragControl1
             // 
             this.guna2DragControl1.TargetControl = this;
+            this.guna2DragControl1.UseTransparentDrag = true;
             // 
             // label7
             // 
@@ -71,10 +71,9 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
-            this.label7.Location = new System.Drawing.Point(84, 260);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(63, 211);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(87, 23);
+            this.label7.Size = new System.Drawing.Size(70, 18);
             this.label7.TabIndex = 58;
             this.label7.Text = "Confirm:";
             // 
@@ -84,10 +83,9 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
-            this.label1.Location = new System.Drawing.Point(23, 178);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(17, 145);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(147, 23);
+            this.label1.Size = new System.Drawing.Size(116, 18);
             this.label1.TabIndex = 57;
             this.label1.Text = "New Password:";
             // 
@@ -97,10 +95,9 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
-            this.label4.Location = new System.Drawing.Point(31, 98);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(23, 80);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(140, 23);
+            this.label4.Size = new System.Drawing.Size(110, 18);
             this.label4.TabIndex = 56;
             this.label4.Text = "Old Password:";
             // 
@@ -123,15 +120,15 @@
             this.txtOldPass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
             this.txtOldPass.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(168)))), ((int)(((byte)(47)))));
             this.txtOldPass.HoverState.Parent = this.txtOldPass;
-            this.txtOldPass.Location = new System.Drawing.Point(193, 98);
-            this.txtOldPass.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtOldPass.Location = new System.Drawing.Point(145, 80);
+            this.txtOldPass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtOldPass.Name = "txtOldPass";
             this.txtOldPass.PasswordChar = '\0';
             this.txtOldPass.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.txtOldPass.PlaceholderText = "Old Password";
             this.txtOldPass.SelectedText = "";
             this.txtOldPass.ShadowDecoration.Parent = this.txtOldPass;
-            this.txtOldPass.Size = new System.Drawing.Size(281, 28);
+            this.txtOldPass.Size = new System.Drawing.Size(211, 23);
             this.txtOldPass.TabIndex = 59;
             this.txtOldPass.UseSystemPasswordChar = true;
             // 
@@ -154,15 +151,15 @@
             this.txtNewPass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
             this.txtNewPass.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(168)))), ((int)(((byte)(47)))));
             this.txtNewPass.HoverState.Parent = this.txtNewPass;
-            this.txtNewPass.Location = new System.Drawing.Point(193, 172);
-            this.txtNewPass.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtNewPass.Location = new System.Drawing.Point(145, 140);
+            this.txtNewPass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtNewPass.Name = "txtNewPass";
             this.txtNewPass.PasswordChar = '\0';
             this.txtNewPass.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
             this.txtNewPass.PlaceholderText = "New Password";
             this.txtNewPass.SelectedText = "";
             this.txtNewPass.ShadowDecoration.Parent = this.txtNewPass;
-            this.txtNewPass.Size = new System.Drawing.Size(281, 30);
+            this.txtNewPass.Size = new System.Drawing.Size(211, 24);
             this.txtNewPass.TabIndex = 60;
             this.txtNewPass.UseSystemPasswordChar = true;
             // 
@@ -185,15 +182,15 @@
             this.txtAgainPass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
             this.txtAgainPass.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(168)))), ((int)(((byte)(47)))));
             this.txtAgainPass.HoverState.Parent = this.txtAgainPass;
-            this.txtAgainPass.Location = new System.Drawing.Point(193, 252);
-            this.txtAgainPass.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtAgainPass.Location = new System.Drawing.Point(145, 205);
+            this.txtAgainPass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtAgainPass.Name = "txtAgainPass";
             this.txtAgainPass.PasswordChar = '\0';
             this.txtAgainPass.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
             this.txtAgainPass.PlaceholderText = "Confirm Password";
             this.txtAgainPass.SelectedText = "";
             this.txtAgainPass.ShadowDecoration.Parent = this.txtAgainPass;
-            this.txtAgainPass.Size = new System.Drawing.Size(281, 30);
+            this.txtAgainPass.Size = new System.Drawing.Size(211, 24);
             this.txtAgainPass.TabIndex = 61;
             this.txtAgainPass.UseSystemPasswordChar = true;
             // 
@@ -213,11 +210,10 @@
             this.btnUpdate.HoverState.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdate.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
             this.btnUpdate.HoverState.Parent = this.btnUpdate;
-            this.btnUpdate.Location = new System.Drawing.Point(67, 384);
-            this.btnUpdate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnUpdate.Location = new System.Drawing.Point(50, 312);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.ShadowDecoration.Parent = this.btnUpdate;
-            this.btnUpdate.Size = new System.Drawing.Size(145, 55);
+            this.btnUpdate.Size = new System.Drawing.Size(109, 45);
             this.btnUpdate.TabIndex = 62;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
@@ -238,21 +234,20 @@
             this.btnExit.HoverState.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
             this.btnExit.HoverState.Parent = this.btnExit;
-            this.btnExit.Location = new System.Drawing.Point(309, 384);
-            this.btnExit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnExit.Location = new System.Drawing.Point(232, 312);
             this.btnExit.Name = "btnExit";
             this.btnExit.ShadowDecoration.Parent = this.btnExit;
-            this.btnExit.Size = new System.Drawing.Size(145, 55);
+            this.btnExit.Size = new System.Drawing.Size(109, 45);
             this.btnExit.TabIndex = 63;
             this.btnExit.Text = "Exit";
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // ChangePassword
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
-            this.ClientSize = new System.Drawing.Size(519, 511);
+            this.ClientSize = new System.Drawing.Size(389, 415);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label4);
@@ -263,7 +258,6 @@
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.btnExit);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "ChangePassword";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ChangePassword";
