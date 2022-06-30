@@ -62,7 +62,7 @@
             this.flpTable.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flpTable.Location = new System.Drawing.Point(0, 0);
             this.flpTable.Name = "flpTable";
-            this.flpTable.Size = new System.Drawing.Size(525, 672);
+            this.flpTable.Size = new System.Drawing.Size(525, 689);
             this.flpTable.TabIndex = 0;
             // 
             // panel1
@@ -71,7 +71,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(525, 672);
+            this.panel1.Size = new System.Drawing.Size(525, 689);
             this.panel1.TabIndex = 0;
             // 
             // panel2
@@ -85,7 +85,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(525, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(371, 117);
+            this.panel2.Size = new System.Drawing.Size(416, 117);
             this.panel2.TabIndex = 1;
             // 
             // label1
@@ -94,7 +94,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
-            this.label1.Location = new System.Drawing.Point(274, 24);
+            this.label1.Location = new System.Drawing.Point(297, 24);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(68, 16);
             this.label1.TabIndex = 4;
@@ -117,7 +117,7 @@
             this.nmItemAmount.FocusedState.Parent = this.nmItemAmount;
             this.nmItemAmount.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.nmItemAmount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
-            this.nmItemAmount.Location = new System.Drawing.Point(188, 43);
+            this.nmItemAmount.Location = new System.Drawing.Point(211, 43);
             this.nmItemAmount.Minimum = new decimal(new int[] {
             100,
             0,
@@ -152,7 +152,7 @@
             this.cbItem.HoverState.Parent = this.cbItem;
             this.cbItem.ItemHeight = 30;
             this.cbItem.ItemsAppearance.Parent = this.cbItem;
-            this.cbItem.Location = new System.Drawing.Point(31, 68);
+            this.cbItem.Location = new System.Drawing.Point(54, 68);
             this.cbItem.Name = "cbItem";
             this.cbItem.ShadowDecoration.Parent = this.cbItem;
             this.cbItem.Size = new System.Drawing.Size(151, 36);
@@ -175,7 +175,7 @@
             this.cbCategory.HoverState.Parent = this.cbCategory;
             this.cbCategory.ItemHeight = 30;
             this.cbCategory.ItemsAppearance.Parent = this.cbCategory;
-            this.cbCategory.Location = new System.Drawing.Point(31, 15);
+            this.cbCategory.Location = new System.Drawing.Point(54, 15);
             this.cbCategory.Name = "cbCategory";
             this.cbCategory.ShadowDecoration.Parent = this.cbCategory;
             this.cbCategory.Size = new System.Drawing.Size(151, 36);
@@ -198,7 +198,7 @@
             this.btnAddItem.HoverState.FillColor = System.Drawing.Color.White;
             this.btnAddItem.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
             this.btnAddItem.HoverState.Parent = this.btnAddItem;
-            this.btnAddItem.Location = new System.Drawing.Point(247, 43);
+            this.btnAddItem.Location = new System.Drawing.Point(270, 43);
             this.btnAddItem.Name = "btnAddItem";
             this.btnAddItem.ShadowDecoration.Parent = this.btnAddItem;
             this.btnAddItem.Size = new System.Drawing.Size(116, 36);
@@ -214,7 +214,7 @@
             this.guna2Panel1.Location = new System.Drawing.Point(525, 117);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
-            this.guna2Panel1.Size = new System.Drawing.Size(371, 555);
+            this.guna2Panel1.Size = new System.Drawing.Size(416, 572);
             this.guna2Panel1.TabIndex = 5;
             // 
             // panel3
@@ -226,9 +226,9 @@
             this.panel3.Controls.Add(this.btnCheckOut);
             this.panel3.Controls.Add(this.btnSwapTable);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel3.Location = new System.Drawing.Point(0, 420);
+            this.panel3.Location = new System.Drawing.Point(0, 437);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(371, 135);
+            this.panel3.Size = new System.Drawing.Size(416, 135);
             this.panel3.TabIndex = 1;
             // 
             // txbTotalPrice
@@ -249,7 +249,7 @@
             this.txbTotalPrice.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
             this.txbTotalPrice.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(148)))), ((int)(((byte)(97)))));
             this.txbTotalPrice.HoverState.Parent = this.txbTotalPrice;
-            this.txbTotalPrice.Location = new System.Drawing.Point(201, 15);
+            this.txbTotalPrice.Location = new System.Drawing.Point(224, 15);
             this.txbTotalPrice.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txbTotalPrice.Name = "txbTotalPrice";
             this.txbTotalPrice.PasswordChar = '\0';
@@ -276,7 +276,7 @@
             this.nmDiscount.FocusedState.Parent = this.nmDiscount;
             this.nmDiscount.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.nmDiscount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
-            this.nmDiscount.Location = new System.Drawing.Point(176, 69);
+            this.nmDiscount.Location = new System.Drawing.Point(199, 69);
             this.nmDiscount.Name = "nmDiscount";
             this.nmDiscount.ShadowDecoration.Parent = this.nmDiscount;
             this.nmDiscount.Size = new System.Drawing.Size(53, 36);
@@ -300,7 +300,7 @@
             this.cbSwapTable.HoverState.Parent = this.cbSwapTable;
             this.cbSwapTable.ItemHeight = 30;
             this.cbSwapTable.ItemsAppearance.Parent = this.cbSwapTable;
-            this.cbSwapTable.Location = new System.Drawing.Point(18, 15);
+            this.cbSwapTable.Location = new System.Drawing.Point(41, 15);
             this.cbSwapTable.Name = "cbSwapTable";
             this.cbSwapTable.ShadowDecoration.Parent = this.cbSwapTable;
             this.cbSwapTable.Size = new System.Drawing.Size(151, 36);
@@ -322,7 +322,7 @@
             this.btnCheckOut.HoverState.FillColor = System.Drawing.Color.White;
             this.btnCheckOut.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
             this.btnCheckOut.HoverState.Parent = this.btnCheckOut;
-            this.btnCheckOut.Location = new System.Drawing.Point(247, 69);
+            this.btnCheckOut.Location = new System.Drawing.Point(270, 69);
             this.btnCheckOut.Name = "btnCheckOut";
             this.btnCheckOut.ShadowDecoration.Parent = this.btnCheckOut;
             this.btnCheckOut.Size = new System.Drawing.Size(95, 36);
@@ -346,7 +346,7 @@
             this.btnSwapTable.HoverState.FillColor = System.Drawing.Color.White;
             this.btnSwapTable.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
             this.btnSwapTable.HoverState.Parent = this.btnSwapTable;
-            this.btnSwapTable.Location = new System.Drawing.Point(31, 69);
+            this.btnSwapTable.Location = new System.Drawing.Point(54, 69);
             this.btnSwapTable.Name = "btnSwapTable";
             this.btnSwapTable.ShadowDecoration.Parent = this.btnSwapTable;
             this.btnSwapTable.Size = new System.Drawing.Size(125, 36);
@@ -356,22 +356,22 @@
             // 
             // lvBill
             // 
-            this.lvBill.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.lvBill.BackColor = System.Drawing.Color.White;
             this.lvBill.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.ColName,
             this.Quantity,
             this.Price,
             this.Total});
+            this.lvBill.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lvBill.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lvBill.FullRowSelect = true;
             this.lvBill.GridLines = true;
             this.lvBill.HideSelection = false;
             this.lvBill.HoverSelection = true;
-            this.lvBill.Location = new System.Drawing.Point(-4, 0);
+            this.lvBill.Location = new System.Drawing.Point(0, 0);
             this.lvBill.Name = "lvBill";
             this.lvBill.Scrollable = false;
-            this.lvBill.Size = new System.Drawing.Size(379, 555);
+            this.lvBill.Size = new System.Drawing.Size(416, 572);
             this.lvBill.TabIndex = 0;
             this.lvBill.UseCompatibleStateImageBehavior = false;
             this.lvBill.UseWaitCursor = true;
@@ -406,7 +406,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "UC_Order";
-            this.Size = new System.Drawing.Size(896, 672);
+            this.Size = new System.Drawing.Size(941, 689);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();

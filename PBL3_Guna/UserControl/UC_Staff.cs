@@ -35,15 +35,6 @@ namespace PBL3_Guna
             dtgvStaff.DataSource = StaffBUS.Instance.GetStaffByName(name);
         }
 
-        public AccountDTO getDataToCreateAccount()
-        {
-            AccountDTO account = new AccountDTO();
-            account.UserName = txtUserNameStaff.Text;
-            account.DisplayName = txtDisplayName.Text;
-            account.Password = txtPassStaff.Text;
-            return account;
-        }
-
         private void btnAddStaff_Click(object sender, EventArgs e)
         {
             Form f = new AddStaff();

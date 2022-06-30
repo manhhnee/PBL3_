@@ -67,12 +67,12 @@
             this.btnDetails.DefaultCellStyle = dataGridViewCellStyle3;
             this.btnDetails.EnableHeadersVisualStyles = false;
             this.btnDetails.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.btnDetails.Location = new System.Drawing.Point(163, 54);
+            this.btnDetails.Location = new System.Drawing.Point(113, 27);
             this.btnDetails.Name = "btnDetails";
             this.btnDetails.RowHeadersVisible = false;
             this.btnDetails.RowHeadersWidth = 51;
             this.btnDetails.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.btnDetails.Size = new System.Drawing.Size(579, 482);
+            this.btnDetails.Size = new System.Drawing.Size(694, 526);
             this.btnDetails.TabIndex = 0;
             this.btnDetails.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Default;
             this.btnDetails.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
@@ -116,7 +116,7 @@
             this.btnDetail.HoverState.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDetail.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
             this.btnDetail.HoverState.Parent = this.btnDetail;
-            this.btnDetail.Location = new System.Drawing.Point(385, 565);
+            this.btnDetail.Location = new System.Drawing.Point(407, 582);
             this.btnDetail.Name = "btnDetail";
             this.btnDetail.ShadowDecoration.Parent = this.btnDetail;
             this.btnDetail.Size = new System.Drawing.Size(127, 42);
@@ -132,7 +132,7 @@
             this.Controls.Add(this.btnDetails);
             this.Controls.Add(this.btnDetail);
             this.Name = "UC_Information";
-            this.Size = new System.Drawing.Size(896, 672);
+            this.Size = new System.Drawing.Size(941, 689);
             ((System.ComponentModel.ISupportInitialize)(this.btnDetails)).EndInit();
             this.ResumeLayout(false);
 
