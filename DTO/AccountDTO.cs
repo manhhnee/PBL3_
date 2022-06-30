@@ -42,7 +42,7 @@ namespace DTO
             this.Password = row["Password"].ToString();
             this.DisplayName = row["DisplayName"].ToString();
             this.TypeID = (int)row["TypeID"];
-            this.IDStaff = (int)row["IDStaff"];
+            //this.IDStaff = (int)row["IDStaff"];
         }
     }
 }

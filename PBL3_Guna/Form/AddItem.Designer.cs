@@ -53,10 +53,9 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
-            this.label3.Location = new System.Drawing.Point(87, 223);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(65, 181);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(61, 23);
+            this.label3.Size = new System.Drawing.Size(49, 18);
             this.label3.TabIndex = 17;
             this.label3.Text = "Price:";
             // 
@@ -66,10 +65,9 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
-            this.label4.Location = new System.Drawing.Point(43, 148);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(32, 120);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(103, 23);
+            this.label4.Size = new System.Drawing.Size(82, 18);
             this.label4.TabIndex = 20;
             this.label4.Text = "Category:";
             // 
@@ -79,10 +77,9 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
-            this.label2.Location = new System.Drawing.Point(76, 63);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(57, 51);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(72, 23);
+            this.label2.Size = new System.Drawing.Size(57, 18);
             this.label2.TabIndex = 15;
             this.label2.Text = "Name:";
             // 
@@ -103,15 +100,15 @@
             this.btnAdd.FillColor = System.Drawing.Color.Transparent;
             this.btnAdd.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
-            this.btnAdd.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(209)))), ((int)(((byte)(195)))));
+            this.btnAdd.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
+            this.btnAdd.HoverState.FillColor = System.Drawing.Color.White;
             this.btnAdd.HoverState.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdd.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
             this.btnAdd.HoverState.Parent = this.btnAdd;
-            this.btnAdd.Location = new System.Drawing.Point(61, 306);
-            this.btnAdd.Margin = new System.Windows.Forms.Padding(4);
+            this.btnAdd.Location = new System.Drawing.Point(46, 249);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.ShadowDecoration.Parent = this.btnAdd;
-            this.btnAdd.Size = new System.Drawing.Size(145, 55);
+            this.btnAdd.Size = new System.Drawing.Size(109, 45);
             this.btnAdd.TabIndex = 48;
             this.btnAdd.Text = "Add";
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
@@ -128,15 +125,15 @@
             this.btnExit.FillColor = System.Drawing.Color.Transparent;
             this.btnExit.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
-            this.btnExit.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(209)))), ((int)(((byte)(195)))));
+            this.btnExit.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
+            this.btnExit.HoverState.FillColor = System.Drawing.Color.White;
             this.btnExit.HoverState.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
             this.btnExit.HoverState.Parent = this.btnExit;
-            this.btnExit.Location = new System.Drawing.Point(304, 306);
-            this.btnExit.Margin = new System.Windows.Forms.Padding(4);
+            this.btnExit.Location = new System.Drawing.Point(228, 249);
             this.btnExit.Name = "btnExit";
             this.btnExit.ShadowDecoration.Parent = this.btnExit;
-            this.btnExit.Size = new System.Drawing.Size(145, 55);
+            this.btnExit.Size = new System.Drawing.Size(109, 45);
             this.btnExit.TabIndex = 49;
             this.btnExit.Text = "Exit";
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
@@ -158,11 +155,10 @@
             this.cxbCategoryItem.HoverState.Parent = this.cxbCategoryItem;
             this.cxbCategoryItem.ItemHeight = 30;
             this.cxbCategoryItem.ItemsAppearance.Parent = this.cxbCategoryItem;
-            this.cxbCategoryItem.Location = new System.Drawing.Point(180, 135);
-            this.cxbCategoryItem.Margin = new System.Windows.Forms.Padding(4);
+            this.cxbCategoryItem.Location = new System.Drawing.Point(135, 110);
             this.cxbCategoryItem.Name = "cxbCategoryItem";
             this.cxbCategoryItem.ShadowDecoration.Parent = this.cxbCategoryItem;
-            this.cxbCategoryItem.Size = new System.Drawing.Size(281, 36);
+            this.cxbCategoryItem.Size = new System.Drawing.Size(212, 36);
             this.cxbCategoryItem.TabIndex = 50;
             // 
             // txtNameItem
@@ -183,14 +179,14 @@
             this.txtNameItem.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.txtNameItem.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtNameItem.HoverState.Parent = this.txtNameItem;
-            this.txtNameItem.Location = new System.Drawing.Point(180, 55);
-            this.txtNameItem.Margin = new System.Windows.Forms.Padding(5);
+            this.txtNameItem.Location = new System.Drawing.Point(135, 45);
+            this.txtNameItem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtNameItem.Name = "txtNameItem";
             this.txtNameItem.PasswordChar = '\0';
             this.txtNameItem.PlaceholderText = "Name";
             this.txtNameItem.SelectedText = "";
             this.txtNameItem.ShadowDecoration.Parent = this.txtNameItem;
-            this.txtNameItem.Size = new System.Drawing.Size(284, 34);
+            this.txtNameItem.Size = new System.Drawing.Size(213, 28);
             this.txtNameItem.TabIndex = 51;
             // 
             // txtPriceItem
@@ -212,23 +208,23 @@
             this.txtPriceItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
             this.txtPriceItem.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(168)))), ((int)(((byte)(47)))));
             this.txtPriceItem.HoverState.Parent = this.txtPriceItem;
-            this.txtPriceItem.Location = new System.Drawing.Point(180, 217);
-            this.txtPriceItem.Margin = new System.Windows.Forms.Padding(5);
+            this.txtPriceItem.Location = new System.Drawing.Point(135, 176);
+            this.txtPriceItem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtPriceItem.Name = "txtPriceItem";
             this.txtPriceItem.PasswordChar = '\0';
             this.txtPriceItem.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(148)))), ((int)(((byte)(97)))));
             this.txtPriceItem.PlaceholderText = "Price";
             this.txtPriceItem.SelectedText = "";
             this.txtPriceItem.ShadowDecoration.Parent = this.txtPriceItem;
-            this.txtPriceItem.Size = new System.Drawing.Size(284, 34);
+            this.txtPriceItem.Size = new System.Drawing.Size(213, 28);
             this.txtPriceItem.TabIndex = 52;
             // 
             // AddItem
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
-            this.ClientSize = new System.Drawing.Size(516, 405);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(216)))), ((int)(((byte)(176)))));
+            this.ClientSize = new System.Drawing.Size(387, 329);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
@@ -239,7 +235,6 @@
             this.Controls.Add(this.txtPriceItem);
             this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "AddItem";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AddItem";
