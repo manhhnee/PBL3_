@@ -30,19 +30,20 @@ namespace PBL3_Guna
         {
             cbSwapTable.Items.AddRange(TableBUS.Instance.GetListTable().ToArray());
             cbSwapTable.DisplayMember = "Name";
-            //cbSwapTable.SelectedIndex = 0;
+            cbSwapTable.SelectedIndex = 0;
         }
         void LoadCatergory()
         {
             cbCategory.Items.AddRange(CategoryBUS.Instance.GetListCategory().ToArray());
             cbCategory.DisplayMember = "Name";
-            //cbCategory.SelectedIndex = 0;
+            cbCategory.SelectedIndex = 0;
         }
         void LoadItemListByIDCategory(int id)
         {
             cbItem.Items.Clear();
             cbItem.Items.AddRange(ItemBUS.Instance.GetItemByIDCategory(id).ToArray());
             cbItem.DisplayMember = "Name";
+            cbItem.SelectedIndex = 0;
         }
         void LoadTable()
         {
