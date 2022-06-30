@@ -60,10 +60,11 @@
             this.btnChangePass.HoverState.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnChangePass.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
             this.btnChangePass.HoverState.Parent = this.btnChangePass;
-            this.btnChangePass.Location = new System.Drawing.Point(387, 504);
+            this.btnChangePass.Location = new System.Drawing.Point(516, 620);
+            this.btnChangePass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnChangePass.Name = "btnChangePass";
             this.btnChangePass.ShadowDecoration.Parent = this.btnChangePass;
-            this.btnChangePass.Size = new System.Drawing.Size(146, 42);
+            this.btnChangePass.Size = new System.Drawing.Size(195, 52);
             this.btnChangePass.TabIndex = 1;
             this.btnChangePass.Text = "Change password";
             this.btnChangePass.Click += new System.EventHandler(this.btnChangePass_Click);
@@ -89,10 +90,11 @@
             this.btnProfile.HoverState.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnProfile.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
             this.btnProfile.HoverState.Parent = this.btnProfile;
-            this.btnProfile.Location = new System.Drawing.Point(387, 437);
+            this.btnProfile.Location = new System.Drawing.Point(516, 538);
+            this.btnProfile.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnProfile.Name = "btnProfile";
             this.btnProfile.ShadowDecoration.Parent = this.btnProfile;
-            this.btnProfile.Size = new System.Drawing.Size(146, 42);
+            this.btnProfile.Size = new System.Drawing.Size(195, 52);
             this.btnProfile.TabIndex = 0;
             this.btnProfile.Text = "Profile";
             this.btnProfile.Click += new System.EventHandler(this.btnProfile_Click);
@@ -102,10 +104,11 @@
             this.guna2PictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.guna2PictureBox1.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
-            this.guna2PictureBox1.Location = new System.Drawing.Point(304, 107);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(460, 130);
+            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
             this.guna2PictureBox1.ShadowDecoration.Parent = this.guna2PictureBox1;
-            this.guna2PictureBox1.Size = new System.Drawing.Size(304, 238);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(405, 293);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox1.TabIndex = 0;
             this.guna2PictureBox1.TabStop = false;
@@ -114,9 +117,10 @@
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(647, 126);
+            this.pictureBox1.Location = new System.Drawing.Point(863, 155);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(249, 420);
+            this.pictureBox1.Size = new System.Drawing.Size(332, 517);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
@@ -125,16 +129,17 @@
             // 
             this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(0, 239);
+            this.pictureBox2.Location = new System.Drawing.Point(0, 294);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(366, 430);
+            this.pictureBox2.Size = new System.Drawing.Size(488, 529);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 9;
             this.pictureBox2.TabStop = false;
             // 
             // UC_Home
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Transparent;
             this.Controls.Add(this.guna2PictureBox1);
@@ -142,8 +147,9 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnChangePass);
             this.Controls.Add(this.btnProfile);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "UC_Home";
-            this.Size = new System.Drawing.Size(896, 672);
+            this.Size = new System.Drawing.Size(1195, 827);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
