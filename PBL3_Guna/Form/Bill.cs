@@ -21,6 +21,15 @@ namespace PBL3_Guna
             GUI();
             ShowBill(UC_Order._idTable);
         }
+        public bool checkDigit(string s)
+        {
+            for (int i = 0; i < s.Length; i++)
+            {
+                if (char.IsDigit(s[i]) == false)
+                    return false;
+            }
+            return true;
+        }
 
         void ShowBill(int id)
         {
@@ -88,28 +97,52 @@ namespace PBL3_Guna
 
         private void txtPaid_TextChanged(object sender, EventArgs e)
         {
-            int discount = UC_Order._discount;
-            int total = Int32.Parse(txtTotalPrice.Text, NumberStyles.Currency, new CultureInfo("vi-VN"));
-            int payment = total - ((total * discount) / 100);
-            int paid = 0;
-            if (txtPaid.Text != "")
+            if (checkDigit(txtPaid.Text) == true)
             {
-                paid = Int32.Parse(txtPaid.Text, NumberStyles.Currency, new CultureInfo("vi-VN"));
+                int discount = UC_Order._discount;
+                int total = Int32.Parse(txtTotalPrice.Text, NumberStyles.Currency, new CultureInfo("vi-VN"));
+                int payment = total - ((total * discount) / 100);
+                int paid = 0;
+                if (txtPaid.Text != "")
+                {
+                    paid = Int32.Parse(txtPaid.Text, NumberStyles.Currency, new CultureInfo("vi-VN"));
+                }
+                else txtPaid.Text = "0";
+                int excesscash = paid - payment;
+                if (excesscash < 0)
+                {
+                    txtExcessCash.Text = "Vui lòng trả đủ số tiền";
+                }
+                else txtExcessCash.Text = (paid - payment).ToString();
             }
-            else txtPaid.Text = "0";
-            int excesscash = paid - payment;
-            if (excesscash < 0)
-            {
-                txtExcessCash.Text = "Vui lòng trả đủ số tiền";
-            }
-            else txtExcessCash.Text = (paid - payment).ToString();
-
-
+            else txtPaid.Text = "Vui lòng nhập số!";
         }
 
         private void btnExit_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        Bitmap bitmap;
+        private void btnPrintBill_Click(object sender, EventArgs e)
+        {
+            Panel panel = new Panel();
+            this.Controls.Add(panel);
+            Graphics grp = panel.CreateGraphics();
+
+            Size formSize = this.ClientSize;
+            formSize.Width += 112;
+            formSize.Height -= 103;
+            bitmap = new Bitmap(formSize.Width, formSize.Height, grp);
+            grp = Graphics.FromImage(bitmap);
+            Point panelLocation = PointToScreen(panel.Location);
+            grp.CopyFromScreen(panelLocation.X + 135, panelLocation.Y + 73, 0, 0, formSize);
+            printDocument1.Print();
+        }
+
+        private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
+        {
+            e.Graphics.DrawImage(bitmap, 0, 0);
         }
     }
 }

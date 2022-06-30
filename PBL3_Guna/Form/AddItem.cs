@@ -19,7 +19,16 @@ namespace PBL3_Guna
             InitializeComponent();
             LoadCatergory();
         }
-        
+        public bool checkDigit(string s)
+        {
+            for (int i = 0; i < s.Length; i++)
+            {
+                if (char.IsDigit(s[i]) == false)
+                    return false;
+            }
+            return true;
+        }
+
         void LoadCatergory()
         {
             cxbCategoryItem.Items.Clear();
@@ -37,9 +46,21 @@ namespace PBL3_Guna
         }
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            ItemDTO item = getItemDataToAdd();
-            ItemBUS.Instance.AddItem(item);
-            this.Close();
+            if (txtNameItem.Text != "" && txtPriceItem.Text != "" && cxbCategoryItem.SelectedItem != null)
+            {
+                if (checkDigit(txtPriceItem.Text))
+                {
+                    ItemDTO item = getItemDataToAdd();
+                    if (ItemBUS.Instance.CheckNameItem(item.Name.ToString()) == true)
+                    {
+                        ItemBUS.Instance.AddItem(item);
+                        this.Close();
+                    }
+                    else MessageBox.Show("Đã tồn tại món này!");
+                }
+                else MessageBox.Show("Vui lòng nhập giá là số!");
+            }
+            else MessageBox.Show("Vui lòng nhập đầy đủ!");
         }
 
         private void btnExit_Click(object sender, EventArgs e)

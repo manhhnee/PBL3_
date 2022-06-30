@@ -28,6 +28,8 @@ namespace PBL3_Guna
             staff.Address = txtAddressStaff.Text;
             staff.Age = Convert.ToInt32(txtAgeStaff.Text);
             staff.PhoneNumber = txtPhoneNumberStaff.Text;
+            staff.WorkingDays = Convert.ToInt32(txtWorkingDays.Text);
+            staff.SalaryCoefficient = Convert.ToDouble(txtCoefficient.Text);
             return staff;
         }
         public void showDTG_Staff(string name)
@@ -87,7 +89,19 @@ namespace PBL3_Guna
             txtAddressStaff.Text = dtgvStaff.CurrentRow.Cells[2].Value.ToString();
             txtAgeStaff.Text = dtgvStaff.CurrentRow.Cells[3].Value.ToString();
             txtPhoneNumberStaff.Text = dtgvStaff.CurrentRow.Cells[4].Value.ToString();
-            txtUserNameStaff.Text = AccountBUS.Instance.GetUserNameByIDStaff(idStaff);  
+            txtUserNameStaff.Text = AccountBUS.Instance.GetUserNameByIDStaff(idStaff);
+            txtWorkingDays.Text = dtgvStaff.CurrentRow.Cells[5].Value.ToString();
+            txtCoefficient.Text = dtgvStaff.CurrentRow.Cells[6].Value.ToString();
+            int Workingdays = Convert.ToInt32(txtWorkingDays.Text);
+            double Coefficient = Convert.ToDouble(txtCoefficient.Text);
+            double salary = 0;
+            if (Coefficient > 0)
+            {
+                salary = 100000 * Workingdays * Coefficient;
+            }
+            else salary = 100000 * Workingdays;
+
+            txtSalary.Text = salary.ToString();
         }
 
         
