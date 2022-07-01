@@ -168,7 +168,7 @@
         XTesb3QPLh88M+QwdP6m681Lt7xuXbu94vbgcOjwnZHokdE77DtTd1PuvriXeW/h/sYH6AdFD6UeVjxS
         fNTws+7PbaOWo6fHXMf6Hwc/vj/OGn/2S8Yv7ycKnpCfVEyqTDZPmU2dmnafvvF05dOJZ+nPFmYKf5X+
         tfa5zvMffnP8rX82YnbiBf/Fp99LXsq/PPRq2aueuYC5R69TXy/MF72Rf3P4LeNt37vwd5MLWe+x7ys/
-        6H7o/ujz8cGn1E+f/gUDmPP8usTo0wAAAAlwSFlzAAALEQAACxEBf2RfkQAAY5xJREFUeF7tvXm0bFlV
+        6H7o/ujz8cGn1E+f/gUDmPP8usTo0wAAAAlwSFlzAAALEAAACxABrSO9dQAAY5xJREFUeF7tvXm0bFlV
         5stfjvHeKIfj6XilvFdWWVIlVgmvnjJennv6/kRz2ojT931/7j2Z9+bNTCBpRFC0UAERU8UGaYQsRJFO
         TKQRBKFAQNpEMLHSJGkzaZPMvJnkm98+OzbRfBGxI040e+/4/viNtWLHXms3sWLO1cw15+Mee+wxIYQQ
         QoQAelAIIYQQwYMeFEIIIUTwoAeFEEIIETzoQSGEEEIED3pQCCGEEMGDHhRCCCFE8KAHhRBCCBE86EEh
@@ -601,7 +601,7 @@
     <value>17, 17</value>
   </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>25</value>
+    <value>145</value>
   </metadata>
   <metadata name="guna2DragControl1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>141, 17</value>

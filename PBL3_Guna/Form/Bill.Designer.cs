@@ -39,6 +39,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btnPrintBill = new System.Windows.Forms.Button();
             this.btnCheckOut = new System.Windows.Forms.Button();
             this.txtExcessCash = new Guna.UI2.WinForms.Guna2TextBox();
             this.label12 = new System.Windows.Forms.Label();
@@ -72,7 +73,6 @@
             this.guna2DragControl2 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2DragControl3 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
-            this.btnPrintBill = new System.Windows.Forms.Button();
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             this.printDialog1 = new System.Windows.Forms.PrintDialog();
             this.panel1.SuspendLayout();
@@ -92,7 +92,7 @@
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(597, 166);
             this.panel1.TabIndex = 0;
@@ -104,7 +104,7 @@
             this.btnExit.HoverState.Parent = this.btnExit;
             this.btnExit.IconColor = System.Drawing.Color.White;
             this.btnExit.Location = new System.Drawing.Point(513, -1);
-            this.btnExit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(4);
             this.btnExit.Name = "btnExit";
             this.btnExit.ShadowDecoration.Parent = this.btnExit;
             this.btnExit.Size = new System.Drawing.Size(83, 37);
@@ -127,7 +127,7 @@
             this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox2.HoverState.Parent = this.guna2TextBox2;
             this.guna2TextBox2.Location = new System.Drawing.Point(377, 110);
-            this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(5);
             this.guna2TextBox2.Name = "guna2TextBox2";
             this.guna2TextBox2.PasswordChar = '\0';
             this.guna2TextBox2.PlaceholderText = "";
@@ -164,7 +164,7 @@
             this.txtAddress.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtAddress.HoverState.Parent = this.txtAddress;
             this.txtAddress.Location = new System.Drawing.Point(377, 50);
-            this.txtAddress.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtAddress.Margin = new System.Windows.Forms.Padding(5);
             this.txtAddress.Name = "txtAddress";
             this.txtAddress.PasswordChar = '\0';
             this.txtAddress.PlaceholderText = "";
@@ -189,7 +189,7 @@
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(53, 49);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(140, 108);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -209,10 +209,21 @@
             this.panel2.Controls.Add(this.label10);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel2.Location = new System.Drawing.Point(0, 576);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(597, 212);
             this.panel2.TabIndex = 5;
+            // 
+            // btnPrintBill
+            // 
+            this.btnPrintBill.Location = new System.Drawing.Point(343, 153);
+            this.btnPrintBill.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnPrintBill.Name = "btnPrintBill";
+            this.btnPrintBill.Size = new System.Drawing.Size(151, 55);
+            this.btnPrintBill.TabIndex = 23;
+            this.btnPrintBill.Text = "In hóa đơn";
+            this.btnPrintBill.UseVisualStyleBackColor = true;
+            this.btnPrintBill.Click += new System.EventHandler(this.btnPrintBill_Click);
             // 
             // btnCheckOut
             // 
@@ -242,7 +253,7 @@
             this.txtExcessCash.ForeColor = System.Drawing.Color.Black;
             this.txtExcessCash.HoverState.Parent = this.txtExcessCash;
             this.txtExcessCash.Location = new System.Drawing.Point(283, 113);
-            this.txtExcessCash.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtExcessCash.Margin = new System.Windows.Forms.Padding(5);
             this.txtExcessCash.Name = "txtExcessCash";
             this.txtExcessCash.PasswordChar = '\0';
             this.txtExcessCash.PlaceholderText = "";
@@ -278,7 +289,7 @@
             this.txtPaid.ForeColor = System.Drawing.Color.Black;
             this.txtPaid.HoverState.Parent = this.txtPaid;
             this.txtPaid.Location = new System.Drawing.Point(283, 63);
-            this.txtPaid.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtPaid.Margin = new System.Windows.Forms.Padding(5);
             this.txtPaid.Name = "txtPaid";
             this.txtPaid.PasswordChar = '\0';
             this.txtPaid.PlaceholderText = "";
@@ -318,7 +329,7 @@
             this.txtPayment.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtPayment.HoverState.Parent = this.txtPayment;
             this.txtPayment.Location = new System.Drawing.Point(283, 14);
-            this.txtPayment.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtPayment.Margin = new System.Windows.Forms.Padding(5);
             this.txtPayment.Name = "txtPayment";
             this.txtPayment.PasswordChar = '\0';
             this.txtPayment.PlaceholderText = "";
@@ -359,7 +370,7 @@
             this.panel3.Controls.Add(this.label3);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(0, 166);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(597, 410);
             this.panel3.TabIndex = 0;
@@ -419,7 +430,7 @@
             this.txtTimeIn.ForeColor = System.Drawing.Color.Black;
             this.txtTimeIn.HoverState.Parent = this.txtTimeIn;
             this.txtTimeIn.Location = new System.Drawing.Point(93, 158);
-            this.txtTimeIn.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtTimeIn.Margin = new System.Windows.Forms.Padding(5);
             this.txtTimeIn.Name = "txtTimeIn";
             this.txtTimeIn.PasswordChar = '\0';
             this.txtTimeIn.PlaceholderText = "";
@@ -455,7 +466,7 @@
             this.txtTimeOut.ForeColor = System.Drawing.Color.Black;
             this.txtTimeOut.HoverState.Parent = this.txtTimeOut;
             this.txtTimeOut.Location = new System.Drawing.Point(403, 158);
-            this.txtTimeOut.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtTimeOut.Margin = new System.Windows.Forms.Padding(5);
             this.txtTimeOut.Name = "txtTimeOut";
             this.txtTimeOut.PasswordChar = '\0';
             this.txtTimeOut.PlaceholderText = "";
@@ -491,7 +502,7 @@
             this.txtCashier.ForeColor = System.Drawing.Color.Black;
             this.txtCashier.HoverState.Parent = this.txtCashier;
             this.txtCashier.Location = new System.Drawing.Point(403, 114);
-            this.txtCashier.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtCashier.Margin = new System.Windows.Forms.Padding(5);
             this.txtCashier.Name = "txtCashier";
             this.txtCashier.PasswordChar = '\0';
             this.txtCashier.PlaceholderText = "";
@@ -527,7 +538,7 @@
             this.txtDateCheckOut.ForeColor = System.Drawing.Color.Black;
             this.txtDateCheckOut.HoverState.Parent = this.txtDateCheckOut;
             this.txtDateCheckOut.Location = new System.Drawing.Point(403, 70);
-            this.txtDateCheckOut.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtDateCheckOut.Margin = new System.Windows.Forms.Padding(5);
             this.txtDateCheckOut.Name = "txtDateCheckOut";
             this.txtDateCheckOut.PasswordChar = '\0';
             this.txtDateCheckOut.PlaceholderText = "";
@@ -564,7 +575,7 @@
             this.txtTotalPrice.ForeColor = System.Drawing.Color.Black;
             this.txtTotalPrice.HoverState.Parent = this.txtTotalPrice;
             this.txtTotalPrice.Location = new System.Drawing.Point(283, 378);
-            this.txtTotalPrice.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtTotalPrice.Margin = new System.Windows.Forms.Padding(5);
             this.txtTotalPrice.Name = "txtTotalPrice";
             this.txtTotalPrice.PasswordChar = '\0';
             this.txtTotalPrice.PlaceholderText = "";
@@ -600,7 +611,7 @@
             this.txtTable.ForeColor = System.Drawing.Color.Black;
             this.txtTable.HoverState.Parent = this.txtTable;
             this.txtTable.Location = new System.Drawing.Point(93, 114);
-            this.txtTable.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtTable.Margin = new System.Windows.Forms.Padding(5);
             this.txtTable.Name = "txtTable";
             this.txtTable.PasswordChar = '\0';
             this.txtTable.PlaceholderText = "";
@@ -636,7 +647,7 @@
             this.txtIDBill.ForeColor = System.Drawing.Color.Black;
             this.txtIDBill.HoverState.Parent = this.txtIDBill;
             this.txtIDBill.Location = new System.Drawing.Point(93, 70);
-            this.txtIDBill.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtIDBill.Margin = new System.Windows.Forms.Padding(5);
             this.txtIDBill.Name = "txtIDBill";
             this.txtIDBill.PasswordChar = '\0';
             this.txtIDBill.PlaceholderText = "";
@@ -688,17 +699,6 @@
             this.guna2DragControl3.TargetControl = this.panel2;
             this.guna2DragControl3.UseTransparentDrag = true;
             // 
-            // btnPrintBill
-            // 
-            this.btnPrintBill.Location = new System.Drawing.Point(343, 153);
-            this.btnPrintBill.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnPrintBill.Name = "btnPrintBill";
-            this.btnPrintBill.Size = new System.Drawing.Size(151, 55);
-            this.btnPrintBill.TabIndex = 23;
-            this.btnPrintBill.Text = "In hóa đơn";
-            this.btnPrintBill.UseVisualStyleBackColor = true;
-            this.btnPrintBill.Click += new System.EventHandler(this.btnPrintBill_Click);
-            // 
             // printDocument1
             // 
             this.printDocument1.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument1_PrintPage);
@@ -716,7 +716,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Bill";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bill";

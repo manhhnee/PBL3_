@@ -121,6 +121,7 @@ namespace PBL3_Guna
         private void btnExit_Click(object sender, EventArgs e)
         {
             this.Close();
+            ShowBill(UC_Order._idTable);
         }
 
         Bitmap bitmap;

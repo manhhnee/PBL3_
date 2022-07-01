@@ -32,7 +32,6 @@ namespace PBL3_Guna
         public void showDTG_Item(string name)
         {
             dtgvItem.DataSource = ItemBUS.Instance.GetItemByName(name);
-            
         }
 
         public ItemDTO getItemDataToUpdate()
