@@ -28,233 +28,200 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.dtgvStaff = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.btnModifyItem = new Guna.UI2.WinForms.Guna2Button();
-            this.btnDeleteItem = new Guna.UI2.WinForms.Guna2Button();
-            this.btnAddItem = new Guna.UI2.WinForms.Guna2Button();
-            this.txtDisplayName = new Guna.UI2.WinForms.Guna2TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.txtUserNameStaff = new Guna.UI2.WinForms.Guna2TextBox();
+            this.dtgvTable = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.btnModifyTable = new Guna.UI2.WinForms.Guna2Button();
+            this.btnDeleteTable = new Guna.UI2.WinForms.Guna2Button();
+            this.btnAddTable = new Guna.UI2.WinForms.Guna2Button();
+            this.txtTableName = new Guna.UI2.WinForms.Guna2TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtIDStaff = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txtIDTable = new Guna.UI2.WinForms.Guna2TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dtgvStaff)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvTable)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.panel1.Controls.Add(this.dtgvStaff);
-            this.panel1.Controls.Add(this.btnModifyItem);
-            this.panel1.Controls.Add(this.btnDeleteItem);
-            this.panel1.Controls.Add(this.btnAddItem);
+            this.panel1.Controls.Add(this.dtgvTable);
+            this.panel1.Controls.Add(this.btnModifyTable);
+            this.panel1.Controls.Add(this.btnDeleteTable);
+            this.panel1.Controls.Add(this.btnAddTable);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(628, 689);
+            this.panel1.Size = new System.Drawing.Size(837, 848);
             this.panel1.TabIndex = 1;
             // 
-            // dtgvStaff
+            // dtgvTable
             // 
-            dataGridViewCellStyle10.BackColor = System.Drawing.Color.White;
-            this.dtgvStaff.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle10;
-            this.dtgvStaff.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dtgvStaff.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
-            this.dtgvStaff.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dtgvStaff.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.dtgvStaff.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dtgvStaff.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
-            this.dtgvStaff.ColumnHeadersHeight = 4;
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle12.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dtgvStaff.DefaultCellStyle = dataGridViewCellStyle12;
-            this.dtgvStaff.Dock = System.Windows.Forms.DockStyle.Top;
-            this.dtgvStaff.EnableHeadersVisualStyles = false;
-            this.dtgvStaff.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(222)))), ((int)(((byte)(222)))));
-            this.dtgvStaff.Location = new System.Drawing.Point(0, 0);
-            this.dtgvStaff.Name = "dtgvStaff";
-            this.dtgvStaff.ReadOnly = true;
-            this.dtgvStaff.RowHeadersVisible = false;
-            this.dtgvStaff.RowHeadersWidth = 51;
-            this.dtgvStaff.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dtgvStaff.Size = new System.Drawing.Size(628, 488);
-            this.dtgvStaff.TabIndex = 1;
-            this.dtgvStaff.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Default;
-            this.dtgvStaff.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
-            this.dtgvStaff.ThemeStyle.AlternatingRowsStyle.Font = null;
-            this.dtgvStaff.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-            this.dtgvStaff.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-            this.dtgvStaff.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.dtgvStaff.ThemeStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
-            this.dtgvStaff.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(222)))), ((int)(((byte)(222)))));
-            this.dtgvStaff.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
-            this.dtgvStaff.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.dtgvStaff.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtgvStaff.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
-            this.dtgvStaff.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.dtgvStaff.ThemeStyle.HeaderStyle.Height = 4;
-            this.dtgvStaff.ThemeStyle.ReadOnly = true;
-            this.dtgvStaff.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
-            this.dtgvStaff.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.dtgvStaff.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtgvStaff.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.dtgvStaff.ThemeStyle.RowsStyle.Height = 22;
-            this.dtgvStaff.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.dtgvStaff.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
+            this.dtgvTable.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            this.dtgvTable.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dtgvTable.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
+            this.dtgvTable.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dtgvTable.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.dtgvTable.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dtgvTable.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            this.dtgvTable.ColumnHeadersHeight = 4;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dtgvTable.DefaultCellStyle = dataGridViewCellStyle6;
+            this.dtgvTable.Dock = System.Windows.Forms.DockStyle.Top;
+            this.dtgvTable.EnableHeadersVisualStyles = false;
+            this.dtgvTable.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(222)))), ((int)(((byte)(222)))));
+            this.dtgvTable.Location = new System.Drawing.Point(0, 0);
+            this.dtgvTable.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtgvTable.Name = "dtgvTable";
+            this.dtgvTable.ReadOnly = true;
+            this.dtgvTable.RowHeadersVisible = false;
+            this.dtgvTable.RowHeadersWidth = 51;
+            this.dtgvTable.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dtgvTable.Size = new System.Drawing.Size(837, 601);
+            this.dtgvTable.TabIndex = 1;
+            this.dtgvTable.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Default;
+            this.dtgvTable.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
+            this.dtgvTable.ThemeStyle.AlternatingRowsStyle.Font = null;
+            this.dtgvTable.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+            this.dtgvTable.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+            this.dtgvTable.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+            this.dtgvTable.ThemeStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
+            this.dtgvTable.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(222)))), ((int)(((byte)(222)))));
+            this.dtgvTable.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
+            this.dtgvTable.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.dtgvTable.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtgvTable.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
+            this.dtgvTable.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.dtgvTable.ThemeStyle.HeaderStyle.Height = 4;
+            this.dtgvTable.ThemeStyle.ReadOnly = true;
+            this.dtgvTable.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
+            this.dtgvTable.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.dtgvTable.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtgvTable.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.dtgvTable.ThemeStyle.RowsStyle.Height = 22;
+            this.dtgvTable.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.dtgvTable.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.dtgvTable.SelectionChanged += new System.EventHandler(this.dtgvTable_SelectionChanged);
             // 
-            // btnModifyItem
+            // btnModifyTable
             // 
-            this.btnModifyItem.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnModifyItem.Animated = true;
-            this.btnModifyItem.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
-            this.btnModifyItem.BorderRadius = 10;
-            this.btnModifyItem.BorderThickness = 1;
-            this.btnModifyItem.CheckedState.Parent = this.btnModifyItem;
-            this.btnModifyItem.CustomImages.Parent = this.btnModifyItem;
-            this.btnModifyItem.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
-            this.btnModifyItem.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnModifyItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(167)))), ((int)(((byte)(152)))));
-            this.btnModifyItem.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
-            this.btnModifyItem.HoverState.FillColor = System.Drawing.Color.White;
-            this.btnModifyItem.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
-            this.btnModifyItem.HoverState.Parent = this.btnModifyItem;
-            this.btnModifyItem.Location = new System.Drawing.Point(388, 557);
-            this.btnModifyItem.Name = "btnModifyItem";
-            this.btnModifyItem.ShadowDecoration.Parent = this.btnModifyItem;
-            this.btnModifyItem.Size = new System.Drawing.Size(97, 42);
-            this.btnModifyItem.TabIndex = 30;
-            this.btnModifyItem.Text = "Modify";
+            this.btnModifyTable.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnModifyTable.Animated = true;
+            this.btnModifyTable.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
+            this.btnModifyTable.BorderRadius = 10;
+            this.btnModifyTable.BorderThickness = 1;
+            this.btnModifyTable.CheckedState.Parent = this.btnModifyTable;
+            this.btnModifyTable.CustomImages.Parent = this.btnModifyTable;
+            this.btnModifyTable.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
+            this.btnModifyTable.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnModifyTable.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(167)))), ((int)(((byte)(152)))));
+            this.btnModifyTable.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
+            this.btnModifyTable.HoverState.FillColor = System.Drawing.Color.White;
+            this.btnModifyTable.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
+            this.btnModifyTable.HoverState.Parent = this.btnModifyTable;
+            this.btnModifyTable.Location = new System.Drawing.Point(492, 699);
+            this.btnModifyTable.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnModifyTable.Name = "btnModifyTable";
+            this.btnModifyTable.ShadowDecoration.Parent = this.btnModifyTable;
+            this.btnModifyTable.Size = new System.Drawing.Size(129, 52);
+            this.btnModifyTable.TabIndex = 30;
+            this.btnModifyTable.Text = "Modify";
+            this.btnModifyTable.Click += new System.EventHandler(this.btnModifyTable_Click);
             // 
-            // btnDeleteItem
+            // btnDeleteTable
             // 
-            this.btnDeleteItem.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnDeleteItem.Animated = true;
-            this.btnDeleteItem.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
-            this.btnDeleteItem.BorderRadius = 10;
-            this.btnDeleteItem.BorderThickness = 1;
-            this.btnDeleteItem.CheckedState.Parent = this.btnDeleteItem;
-            this.btnDeleteItem.CustomImages.Parent = this.btnDeleteItem;
-            this.btnDeleteItem.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
-            this.btnDeleteItem.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDeleteItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(167)))), ((int)(((byte)(152)))));
-            this.btnDeleteItem.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
-            this.btnDeleteItem.HoverState.FillColor = System.Drawing.Color.White;
-            this.btnDeleteItem.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
-            this.btnDeleteItem.HoverState.Parent = this.btnDeleteItem;
-            this.btnDeleteItem.Location = new System.Drawing.Point(253, 557);
-            this.btnDeleteItem.Name = "btnDeleteItem";
-            this.btnDeleteItem.ShadowDecoration.Parent = this.btnDeleteItem;
-            this.btnDeleteItem.Size = new System.Drawing.Size(97, 42);
-            this.btnDeleteItem.TabIndex = 29;
-            this.btnDeleteItem.Text = "Delete";
+            this.btnDeleteTable.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnDeleteTable.Animated = true;
+            this.btnDeleteTable.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
+            this.btnDeleteTable.BorderRadius = 10;
+            this.btnDeleteTable.BorderThickness = 1;
+            this.btnDeleteTable.CheckedState.Parent = this.btnDeleteTable;
+            this.btnDeleteTable.CustomImages.Parent = this.btnDeleteTable;
+            this.btnDeleteTable.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
+            this.btnDeleteTable.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDeleteTable.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(167)))), ((int)(((byte)(152)))));
+            this.btnDeleteTable.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
+            this.btnDeleteTable.HoverState.FillColor = System.Drawing.Color.White;
+            this.btnDeleteTable.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
+            this.btnDeleteTable.HoverState.Parent = this.btnDeleteTable;
+            this.btnDeleteTable.Location = new System.Drawing.Point(312, 699);
+            this.btnDeleteTable.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDeleteTable.Name = "btnDeleteTable";
+            this.btnDeleteTable.ShadowDecoration.Parent = this.btnDeleteTable;
+            this.btnDeleteTable.Size = new System.Drawing.Size(129, 52);
+            this.btnDeleteTable.TabIndex = 29;
+            this.btnDeleteTable.Text = "Delete";
+            this.btnDeleteTable.Click += new System.EventHandler(this.btnDeleteTable_Click);
             // 
-            // btnAddItem
+            // btnAddTable
             // 
-            this.btnAddItem.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnAddItem.Animated = true;
-            this.btnAddItem.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
-            this.btnAddItem.BorderRadius = 10;
-            this.btnAddItem.BorderThickness = 1;
-            this.btnAddItem.CheckedState.Parent = this.btnAddItem;
-            this.btnAddItem.CustomImages.Parent = this.btnAddItem;
-            this.btnAddItem.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
-            this.btnAddItem.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(167)))), ((int)(((byte)(152)))));
-            this.btnAddItem.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
-            this.btnAddItem.HoverState.FillColor = System.Drawing.Color.White;
-            this.btnAddItem.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
-            this.btnAddItem.HoverState.Parent = this.btnAddItem;
-            this.btnAddItem.Location = new System.Drawing.Point(121, 557);
-            this.btnAddItem.Name = "btnAddItem";
-            this.btnAddItem.ShadowDecoration.Parent = this.btnAddItem;
-            this.btnAddItem.Size = new System.Drawing.Size(97, 42);
-            this.btnAddItem.TabIndex = 28;
-            this.btnAddItem.Text = "Add";
+            this.btnAddTable.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnAddTable.Animated = true;
+            this.btnAddTable.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
+            this.btnAddTable.BorderRadius = 10;
+            this.btnAddTable.BorderThickness = 1;
+            this.btnAddTable.CheckedState.Parent = this.btnAddTable;
+            this.btnAddTable.CustomImages.Parent = this.btnAddTable;
+            this.btnAddTable.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
+            this.btnAddTable.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddTable.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(167)))), ((int)(((byte)(152)))));
+            this.btnAddTable.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
+            this.btnAddTable.HoverState.FillColor = System.Drawing.Color.White;
+            this.btnAddTable.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
+            this.btnAddTable.HoverState.Parent = this.btnAddTable;
+            this.btnAddTable.Location = new System.Drawing.Point(136, 699);
+            this.btnAddTable.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAddTable.Name = "btnAddTable";
+            this.btnAddTable.ShadowDecoration.Parent = this.btnAddTable;
+            this.btnAddTable.Size = new System.Drawing.Size(129, 52);
+            this.btnAddTable.TabIndex = 28;
+            this.btnAddTable.Text = "Add";
+            this.btnAddTable.Click += new System.EventHandler(this.btnAddTable_Click);
             // 
-            // txtDisplayName
+            // txtTableName
             // 
-            this.txtDisplayName.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtDisplayName.BorderColor = System.Drawing.Color.White;
-            this.txtDisplayName.BorderRadius = 6;
-            this.txtDisplayName.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtDisplayName.DefaultText = "";
-            this.txtDisplayName.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtDisplayName.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtDisplayName.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtDisplayName.DisabledState.Parent = this.txtDisplayName;
-            this.txtDisplayName.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtDisplayName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
-            this.txtDisplayName.FocusedState.Parent = this.txtDisplayName;
-            this.txtDisplayName.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDisplayName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
-            this.txtDisplayName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtDisplayName.HoverState.Parent = this.txtDisplayName;
-            this.txtDisplayName.Location = new System.Drawing.Point(752, 182);
-            this.txtDisplayName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtDisplayName.Name = "txtDisplayName";
-            this.txtDisplayName.PasswordChar = '\0';
-            this.txtDisplayName.PlaceholderText = "";
-            this.txtDisplayName.SelectedText = "";
-            this.txtDisplayName.ShadowDecoration.Parent = this.txtDisplayName;
-            this.txtDisplayName.Size = new System.Drawing.Size(173, 24);
-            this.txtDisplayName.TabIndex = 36;
-            // 
-            // label4
-            // 
-            this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
-            this.label4.Location = new System.Drawing.Point(692, 184);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(53, 18);
-            this.label4.TabIndex = 35;
-            this.label4.Text = "Status:";
-            // 
-            // txtUserNameStaff
-            // 
-            this.txtUserNameStaff.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtUserNameStaff.BorderColor = System.Drawing.Color.White;
-            this.txtUserNameStaff.BorderRadius = 6;
-            this.txtUserNameStaff.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtUserNameStaff.DefaultText = "";
-            this.txtUserNameStaff.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtUserNameStaff.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtUserNameStaff.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtUserNameStaff.DisabledState.Parent = this.txtUserNameStaff;
-            this.txtUserNameStaff.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtUserNameStaff.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
-            this.txtUserNameStaff.FocusedState.Parent = this.txtUserNameStaff;
-            this.txtUserNameStaff.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUserNameStaff.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
-            this.txtUserNameStaff.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtUserNameStaff.HoverState.Parent = this.txtUserNameStaff;
-            this.txtUserNameStaff.Location = new System.Drawing.Point(752, 123);
-            this.txtUserNameStaff.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtUserNameStaff.Name = "txtUserNameStaff";
-            this.txtUserNameStaff.PasswordChar = '\0';
-            this.txtUserNameStaff.PlaceholderText = "";
-            this.txtUserNameStaff.SelectedText = "";
-            this.txtUserNameStaff.ShadowDecoration.Parent = this.txtUserNameStaff;
-            this.txtUserNameStaff.Size = new System.Drawing.Size(173, 24);
-            this.txtUserNameStaff.TabIndex = 34;
+            this.txtTableName.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtTableName.BorderColor = System.Drawing.Color.White;
+            this.txtTableName.BorderRadius = 6;
+            this.txtTableName.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtTableName.DefaultText = "";
+            this.txtTableName.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtTableName.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtTableName.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtTableName.DisabledState.Parent = this.txtTableName;
+            this.txtTableName.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtTableName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
+            this.txtTableName.FocusedState.Parent = this.txtTableName;
+            this.txtTableName.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTableName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
+            this.txtTableName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtTableName.HoverState.Parent = this.txtTableName;
+            this.txtTableName.Location = new System.Drawing.Point(1004, 378);
+            this.txtTableName.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtTableName.Name = "txtTableName";
+            this.txtTableName.PasswordChar = '\0';
+            this.txtTableName.PlaceholderText = "";
+            this.txtTableName.SelectedText = "";
+            this.txtTableName.ShadowDecoration.Parent = this.txtTableName;
+            this.txtTableName.Size = new System.Drawing.Size(231, 30);
+            this.txtTableName.TabIndex = 34;
             // 
             // label2
             // 
@@ -262,39 +229,41 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
-            this.label2.Location = new System.Drawing.Point(648, 125);
+            this.label2.Location = new System.Drawing.Point(865, 381);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(97, 18);
+            this.label2.Size = new System.Drawing.Size(123, 23);
             this.label2.TabIndex = 33;
             this.label2.Text = "TableName:";
             // 
-            // txtIDStaff
+            // txtIDTable
             // 
-            this.txtIDStaff.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtIDStaff.BorderColor = System.Drawing.Color.White;
-            this.txtIDStaff.BorderRadius = 6;
-            this.txtIDStaff.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtIDStaff.DefaultText = "";
-            this.txtIDStaff.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtIDStaff.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtIDStaff.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtIDStaff.DisabledState.Parent = this.txtIDStaff;
-            this.txtIDStaff.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtIDStaff.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
-            this.txtIDStaff.FocusedState.Parent = this.txtIDStaff;
-            this.txtIDStaff.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtIDStaff.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
-            this.txtIDStaff.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtIDStaff.HoverState.Parent = this.txtIDStaff;
-            this.txtIDStaff.Location = new System.Drawing.Point(752, 64);
-            this.txtIDStaff.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtIDStaff.Name = "txtIDStaff";
-            this.txtIDStaff.PasswordChar = '\0';
-            this.txtIDStaff.PlaceholderText = "";
-            this.txtIDStaff.SelectedText = "";
-            this.txtIDStaff.ShadowDecoration.Parent = this.txtIDStaff;
-            this.txtIDStaff.Size = new System.Drawing.Size(173, 24);
-            this.txtIDStaff.TabIndex = 32;
+            this.txtIDTable.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtIDTable.BorderColor = System.Drawing.Color.White;
+            this.txtIDTable.BorderRadius = 6;
+            this.txtIDTable.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtIDTable.DefaultText = "";
+            this.txtIDTable.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtIDTable.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtIDTable.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtIDTable.DisabledState.Parent = this.txtIDTable;
+            this.txtIDTable.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtIDTable.Enabled = false;
+            this.txtIDTable.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
+            this.txtIDTable.FocusedState.Parent = this.txtIDTable;
+            this.txtIDTable.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtIDTable.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
+            this.txtIDTable.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtIDTable.HoverState.Parent = this.txtIDTable;
+            this.txtIDTable.Location = new System.Drawing.Point(1001, 289);
+            this.txtIDTable.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtIDTable.Name = "txtIDTable";
+            this.txtIDTable.PasswordChar = '\0';
+            this.txtIDTable.PlaceholderText = "";
+            this.txtIDTable.SelectedText = "";
+            this.txtIDTable.ShadowDecoration.Parent = this.txtIDTable;
+            this.txtIDTable.Size = new System.Drawing.Size(231, 30);
+            this.txtIDTable.TabIndex = 32;
             // 
             // label1
             // 
@@ -302,27 +271,27 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
-            this.label1.Location = new System.Drawing.Point(718, 67);
+            this.label1.Location = new System.Drawing.Point(955, 292);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(27, 18);
+            this.label1.Size = new System.Drawing.Size(33, 23);
             this.label1.TabIndex = 31;
             this.label1.Text = "ID:";
             // 
             // UC_Table
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.txtDisplayName);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.txtIDStaff);
-            this.Controls.Add(this.txtUserNameStaff);
+            this.Controls.Add(this.txtIDTable);
+            this.Controls.Add(this.txtTableName);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label2);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "UC_Table";
-            this.Size = new System.Drawing.Size(941, 689);
+            this.Size = new System.Drawing.Size(1255, 848);
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dtgvStaff)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvTable)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -331,15 +300,13 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private Guna.UI2.WinForms.Guna2DataGridView dtgvStaff;
-        private Guna.UI2.WinForms.Guna2Button btnModifyItem;
-        private Guna.UI2.WinForms.Guna2Button btnDeleteItem;
-        private Guna.UI2.WinForms.Guna2Button btnAddItem;
-        private Guna.UI2.WinForms.Guna2TextBox txtDisplayName;
-        private System.Windows.Forms.Label label4;
-        private Guna.UI2.WinForms.Guna2TextBox txtUserNameStaff;
+        private Guna.UI2.WinForms.Guna2DataGridView dtgvTable;
+        private Guna.UI2.WinForms.Guna2Button btnModifyTable;
+        private Guna.UI2.WinForms.Guna2Button btnDeleteTable;
+        private Guna.UI2.WinForms.Guna2Button btnAddTable;
+        private Guna.UI2.WinForms.Guna2TextBox txtTableName;
         private System.Windows.Forms.Label label2;
-        private Guna.UI2.WinForms.Guna2TextBox txtIDStaff;
+        private Guna.UI2.WinForms.Guna2TextBox txtIDTable;
         private System.Windows.Forms.Label label1;
     }
 }

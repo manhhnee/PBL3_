@@ -46,7 +46,7 @@ namespace PBL3_Guna
         }
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            if (txtNameItem.Text != "" && txtPriceItem.Text != "" && cxbCategoryItem.SelectedItem != null)
+            if (txtNameItem.Text.Trim() != "" && txtPriceItem.Text.Trim() != "" && cxbCategoryItem.SelectedItem != null)
             {
                 if (checkDigit(txtPriceItem.Text))
                 {
