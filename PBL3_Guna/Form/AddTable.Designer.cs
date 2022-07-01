@@ -28,10 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.txtTableName = new Guna.UI2.WinForms.Guna2TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.btnAddTable = new Guna.UI2.WinForms.Guna2Button();
             this.btnExitTable = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.SuspendLayout();
             // 
             // txtTableName
@@ -52,7 +55,7 @@
             this.txtTableName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
             this.txtTableName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtTableName.HoverState.Parent = this.txtTableName;
-            this.txtTableName.Location = new System.Drawing.Point(142, 24);
+            this.txtTableName.Location = new System.Drawing.Point(132, 26);
             this.txtTableName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtTableName.Name = "txtTableName";
             this.txtTableName.PasswordChar = '\0';
@@ -122,6 +125,16 @@
             this.btnExitTable.Text = "Exit";
             this.btnExitTable.Click += new System.EventHandler(this.btnExitTable_Click);
             // 
+            // guna2Elipse1
+            // 
+            this.guna2Elipse1.BorderRadius = 10;
+            this.guna2Elipse1.TargetControl = this;
+            // 
+            // guna2DragControl1
+            // 
+            this.guna2DragControl1.TargetControl = this;
+            this.guna2DragControl1.UseTransparentDrag = true;
+            // 
             // AddTable
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -148,5 +161,7 @@
         private System.Windows.Forms.Label label2;
         private Guna.UI2.WinForms.Guna2Button btnAddTable;
         private Guna.UI2.WinForms.Guna2Button btnExitTable;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
+        private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
     }
 }
