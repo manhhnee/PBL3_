@@ -28,10 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.txtTableName = new Guna.UI2.WinForms.Guna2TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.btnAddTable = new Guna.UI2.WinForms.Guna2Button();
             this.btnExitTable = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.SuspendLayout();
             // 
             // txtTableName
@@ -52,14 +55,14 @@
             this.txtTableName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
             this.txtTableName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtTableName.HoverState.Parent = this.txtTableName;
-            this.txtTableName.Location = new System.Drawing.Point(189, 29);
-            this.txtTableName.Margin = new System.Windows.Forms.Padding(5);
+            this.txtTableName.Location = new System.Drawing.Point(132, 26);
+            this.txtTableName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtTableName.Name = "txtTableName";
             this.txtTableName.PasswordChar = '\0';
             this.txtTableName.PlaceholderText = "Name Table";
             this.txtTableName.SelectedText = "";
             this.txtTableName.ShadowDecoration.Parent = this.txtTableName;
-            this.txtTableName.Size = new System.Drawing.Size(281, 30);
+            this.txtTableName.Size = new System.Drawing.Size(211, 24);
             this.txtTableName.TabIndex = 50;
             // 
             // label2
@@ -68,10 +71,9 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
-            this.label2.Location = new System.Drawing.Point(27, 36);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(20, 29);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(128, 23);
+            this.label2.Size = new System.Drawing.Size(101, 18);
             this.label2.TabIndex = 49;
             this.label2.Text = "Name Table:";
             // 
@@ -91,11 +93,10 @@
             this.btnAddTable.HoverState.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddTable.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
             this.btnAddTable.HoverState.Parent = this.btnAddTable;
-            this.btnAddTable.Location = new System.Drawing.Point(45, 97);
-            this.btnAddTable.Margin = new System.Windows.Forms.Padding(4);
+            this.btnAddTable.Location = new System.Drawing.Point(34, 79);
             this.btnAddTable.Name = "btnAddTable";
             this.btnAddTable.ShadowDecoration.Parent = this.btnAddTable;
-            this.btnAddTable.Size = new System.Drawing.Size(145, 55);
+            this.btnAddTable.Size = new System.Drawing.Size(109, 45);
             this.btnAddTable.TabIndex = 51;
             this.btnAddTable.Text = "Add";
             this.btnAddTable.Click += new System.EventHandler(this.btnAddTable_Click);
@@ -116,26 +117,36 @@
             this.btnExitTable.HoverState.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExitTable.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
             this.btnExitTable.HoverState.Parent = this.btnExitTable;
-            this.btnExitTable.Location = new System.Drawing.Point(287, 97);
-            this.btnExitTable.Margin = new System.Windows.Forms.Padding(4);
+            this.btnExitTable.Location = new System.Drawing.Point(215, 79);
             this.btnExitTable.Name = "btnExitTable";
             this.btnExitTable.ShadowDecoration.Parent = this.btnExitTable;
-            this.btnExitTable.Size = new System.Drawing.Size(145, 55);
+            this.btnExitTable.Size = new System.Drawing.Size(109, 45);
             this.btnExitTable.TabIndex = 52;
             this.btnExitTable.Text = "Exit";
             this.btnExitTable.Click += new System.EventHandler(this.btnExitTable_Click);
             // 
+            // guna2Elipse1
+            // 
+            this.guna2Elipse1.BorderRadius = 10;
+            this.guna2Elipse1.TargetControl = this;
+            // 
+            // guna2DragControl1
+            // 
+            this.guna2DragControl1.TargetControl = this;
+            this.guna2DragControl1.UseTransparentDrag = true;
+            // 
             // AddTable
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(216)))), ((int)(((byte)(176)))));
-            this.ClientSize = new System.Drawing.Size(475, 166);
+            this.ClientSize = new System.Drawing.Size(356, 135);
             this.Controls.Add(this.txtTableName);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnAddTable);
             this.Controls.Add(this.btnExitTable);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "AddTable";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AddTable";
@@ -150,5 +161,7 @@
         private System.Windows.Forms.Label label2;
         private Guna.UI2.WinForms.Guna2Button btnAddTable;
         private Guna.UI2.WinForms.Guna2Button btnExitTable;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
+        private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
     }
 }
