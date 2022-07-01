@@ -66,10 +66,9 @@ namespace BUS
             return a;
 
         }
-        public void AddCategory(CategoryDTO ct)
+        public void AddCategory(string name)
         {
-            CategoryDAO.Instance.AddCategory(ct);
-
+            CategoryDAO.Instance.AddCategory(name);
         }
     }
 }

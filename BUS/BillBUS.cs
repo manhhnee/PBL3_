@@ -32,10 +32,7 @@ namespace BUS
                 throw ex;
             }
         }
-        public DataTable GetDateByID(int id)
-        {
-            return BillDAO.Instance.GetDateByID(id);
-        }
+        
         public DataTable GetListBillByDate(DateTime checkIn, DateTime checkOut)
         {
             try
@@ -105,7 +102,18 @@ namespace BUS
                 }
             }
             return bd;
+        }
+        public int GetIDTableByID(int id)
+        {
 
+            try
+            {
+                return BillDAO.Instance.GetIDTableByID(id);
+            }
+            catch(Exception ex)
+            {
+                throw ex;
+            }
         }
     }
 }

@@ -61,10 +61,10 @@ namespace DAO
             return a;
 
         }
-        public void AddCategory(CategoryDTO ct)
+        public void AddCategory(string name)
         {
-            string query = "insert into ItemCategory values( @Name )";
-            DataProvider.Instance.ExecuteNonQuery(query, new Object[] {ct.Name});
+            string query = "USP_InsertCategory @Name";
+            DataProvider.Instance.ExecuteNonQuery(query, new Object[] {name});
             
         }
     }

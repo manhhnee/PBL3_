@@ -49,7 +49,7 @@ namespace DAO
         }
         public void AddTable(TableDTO table)
         {
-            string query = "INSERT INTO dbo.TableCoffee VALUES ( @Name , N'Trống' )";
+            string query = "USP_InserTable @Name";
             try
             {
                 DataProvider.Instance.ExecuteNonQuery(query, new Object[] { table.Name });
@@ -61,7 +61,7 @@ namespace DAO
         }
         public void UpdateTable(int id, string name)
         {
-            string query = "Update dbo.TableCoffee set Name = @Name where ID = @ID";
+            string query = "USP_UpdateTable @Name , @ID";
             try
             {
                 DataProvider.Instance.ExecuteNonQuery(query, new Object[] {name, id});
@@ -73,7 +73,7 @@ namespace DAO
         }
         public void DeleteTable(int id)
         {
-            string query = "Delete from dbo.TableCoffee where ID = " + id;
+            string query = "USP_DeleteTable @ID";
             try
             {
                 DataProvider.Instance.ExecuteNonQuery(query, new Object[] { id });

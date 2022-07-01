@@ -49,7 +49,7 @@ namespace DAO
         
         public void AddItemDAO(ItemDTO item)
         {
-            string query = "Insert into dbo.Item values ( @Name , @IDCategory , @Price )";
+            string query = "USP_InsertItem @Name , @IDCategory , @Price ";
             try
             {
                 DataProvider.Instance.ExecuteNonQuery(query, new Object[] { item.Name, item.IDCategory, item.Price });
@@ -62,7 +62,7 @@ namespace DAO
         }
         public void updateItemDAO(ItemDTO item)
         {
-            string query = "update Item set Name = @Name , IDCategory = @IDCategory , Price = @Price where ID = @ID";
+            string query = "USP_UpdateItem @Name , @IDCategory , @Price , @ID";
             try
             {
                 DataProvider.Instance.ExecuteNonQuery(query, new Object[] { item.Name, item.IDCategory, item.Price, item.ID});
@@ -75,7 +75,7 @@ namespace DAO
         }
         public void DeleteItemDAO(int ID)
         {
-            string query = "delete from Item where ID =" + ID ;
+            string query = "USP_DeleteItem @ID";
             try
             {
                 DataProvider.Instance.ExecuteNonQuery(query, new Object[] { ID });
