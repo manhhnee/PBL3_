@@ -49,30 +49,16 @@ namespace PBL3_Guna
             addUserControl(ucrevenue);
         }
 
+        private void btnTable_Click(object sender, EventArgs e)
+        {
+            UC_Table uctable = new UC_Table();
+            addUserControl(uctable);
+        }
+
         private void btnLogOut_Click(object sender, EventArgs e)
         {
             UC_Revenue._id = 0;
             this.Close();
-        }
-
-        private void guna2Panel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void guna2ControlBox2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void PanelContainer_Paint(object sender, PaintEventArgs e)
-        {
-
         }
     }
 }

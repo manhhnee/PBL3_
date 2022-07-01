@@ -250,10 +250,10 @@
             this.guna2Panel1.Controls.Add(this.btnLogOut);
             this.guna2Panel1.Controls.Add(this.btnHome);
             this.guna2Panel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
-            this.guna2Panel1.Location = new System.Drawing.Point(0, 6);
+            this.guna2Panel1.Location = new System.Drawing.Point(0, 3);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
-            this.guna2Panel1.Size = new System.Drawing.Size(175, 678);
+            this.guna2Panel1.Size = new System.Drawing.Size(175, 683);
             this.guna2Panel1.TabIndex = 8;
             // 
             // l

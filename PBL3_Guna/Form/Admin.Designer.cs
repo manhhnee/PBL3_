@@ -104,7 +104,6 @@
             this.guna2ControlBox2.ShadowDecoration.Parent = this.guna2ControlBox2;
             this.guna2ControlBox2.Size = new System.Drawing.Size(47, 28);
             this.guna2ControlBox2.TabIndex = 2;
-            this.guna2ControlBox2.Click += new System.EventHandler(this.guna2ControlBox2_Click);
             // 
             // guna2ControlBox1
             // 
@@ -172,7 +171,7 @@
             this.btnRevenue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
             this.btnRevenue.HoverState.Parent = this.btnRevenue;
             this.btnRevenue.Image = ((System.Drawing.Image)(resources.GetObject("btnRevenue.Image")));
-            this.btnRevenue.Location = new System.Drawing.Point(22, 331);
+            this.btnRevenue.Location = new System.Drawing.Point(22, 382);
             this.btnRevenue.Name = "btnRevenue";
             this.btnRevenue.ShadowDecoration.Parent = this.btnRevenue;
             this.btnRevenue.Size = new System.Drawing.Size(134, 45);
@@ -264,7 +263,6 @@
             this.PanelContainer.ShadowDecoration.Parent = this.PanelContainer;
             this.PanelContainer.Size = new System.Drawing.Size(1116, 689);
             this.PanelContainer.TabIndex = 2;
-            this.PanelContainer.Paint += new System.Windows.Forms.PaintEventHandler(this.PanelContainer_Paint);
             // 
             // pictureBox2
             // 
@@ -318,7 +316,6 @@
             this.guna2Panel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2Panel1.BorderColor = System.Drawing.Color.Transparent;
             this.guna2Panel1.BorderRadius = 30;
-            this.guna2Panel1.Controls.Add(this.btnTable);
             this.guna2Panel1.Controls.Add(this.l);
             this.guna2Panel1.Controls.Add(this.guna2Panel2);
             this.guna2Panel1.Controls.Add(this.btnStaff);
@@ -326,13 +323,13 @@
             this.guna2Panel1.Controls.Add(this.btnLogOut);
             this.guna2Panel1.Controls.Add(this.btnHome);
             this.guna2Panel1.Controls.Add(this.btnRevenue);
+            this.guna2Panel1.Controls.Add(this.btnTable);
             this.guna2Panel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
-            this.guna2Panel1.Location = new System.Drawing.Point(0, 14);
+            this.guna2Panel1.Location = new System.Drawing.Point(0, 3);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
-            this.guna2Panel1.Size = new System.Drawing.Size(175, 661);
+            this.guna2Panel1.Size = new System.Drawing.Size(175, 683);
             this.guna2Panel1.TabIndex = 7;
-            this.guna2Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel1_Paint);
             // 
             // btnTable
             // 
@@ -350,12 +347,13 @@
             this.btnTable.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
             this.btnTable.HoverState.Parent = this.btnTable;
             this.btnTable.Image = ((System.Drawing.Image)(resources.GetObject("btnTable.Image")));
-            this.btnTable.Location = new System.Drawing.Point(22, 382);
+            this.btnTable.Location = new System.Drawing.Point(22, 331);
             this.btnTable.Name = "btnTable";
             this.btnTable.ShadowDecoration.Parent = this.btnTable;
             this.btnTable.Size = new System.Drawing.Size(134, 45);
             this.btnTable.TabIndex = 9;
             this.btnTable.Text = "Table";
+            this.btnTable.Click += new System.EventHandler(this.btnTable_Click);
             // 
             // guna2Panel2
             // 
@@ -370,7 +368,6 @@
             this.guna2Panel2.ShadowDecoration.Parent = this.guna2Panel2;
             this.guna2Panel2.Size = new System.Drawing.Size(115, 107);
             this.guna2Panel2.TabIndex = 8;
-            this.guna2Panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel2_Paint);
             // 
             // guna2PictureBox1
             // 

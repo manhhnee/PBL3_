@@ -147,6 +147,7 @@
             this.txtPass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
             this.txtPass.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(168)))), ((int)(((byte)(47)))));
             this.txtPass.HoverState.Parent = this.txtPass;
+            this.txtPass.IconRight = ((System.Drawing.Image)(resources.GetObject("txtPass.IconRight")));
             this.txtPass.ImeMode = System.Windows.Forms.ImeMode.Off;
             this.txtPass.Location = new System.Drawing.Point(262, 274);
             this.txtPass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -223,13 +224,13 @@
             // 
             // ShowPass
             // 
-            this.ShowPass.BackColor = System.Drawing.Color.White;
+            this.ShowPass.BackColor = System.Drawing.Color.Transparent;
             this.ShowPass.BorderColor = System.Drawing.Color.White;
             this.ShowPass.BorderRadius = 10;
             this.ShowPass.BorderThickness = 1;
             this.ShowPass.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.ShowPass.CheckedState.BorderColor = System.Drawing.Color.White;
-            this.ShowPass.CheckedState.FillColor = System.Drawing.Color.White;
+            this.ShowPass.CheckedState.BorderColor = System.Drawing.Color.Transparent;
+            this.ShowPass.CheckedState.FillColor = System.Drawing.Color.Transparent;
             this.ShowPass.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("ShowPass.CheckedState.Image")));
             this.ShowPass.CheckedState.Parent = this.ShowPass;
             this.ShowPass.CustomImages.Parent = this.ShowPass;
@@ -240,12 +241,14 @@
             this.ShowPass.HoverState.FillColor = System.Drawing.Color.White;
             this.ShowPass.HoverState.Parent = this.ShowPass;
             this.ShowPass.Image = ((System.Drawing.Image)(resources.GetObject("ShowPass.Image")));
-            this.ShowPass.Location = new System.Drawing.Point(437, 276);
+            this.ShowPass.Location = new System.Drawing.Point(447, 277);
+            this.ShowPass.Margin = new System.Windows.Forms.Padding(0);
             this.ShowPass.Name = "ShowPass";
             this.ShowPass.PressedDepth = 0;
             this.ShowPass.ShadowDecoration.Parent = this.ShowPass;
-            this.ShowPass.Size = new System.Drawing.Size(35, 25);
+            this.ShowPass.Size = new System.Drawing.Size(23, 22);
             this.ShowPass.TabIndex = 11;
+            this.ShowPass.UseTransparentBackground = true;
             this.ShowPass.Click += new System.EventHandler(this.ShowPass_Click);
             // 
             // Login
