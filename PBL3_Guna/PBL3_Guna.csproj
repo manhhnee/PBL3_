@@ -54,6 +54,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Form\AddTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\AddTable.Designer.cs">
+      <DependentUpon>AddTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form\AddCategory.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -160,6 +166,9 @@
     </Compile>
     <EmbeddedResource Include="Form\AddCategory.resx">
       <DependentUpon>AddCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\AddTable.resx">
+      <DependentUpon>AddTable.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form\Profile.resx">
       <DependentUpon>Profile.cs</DependentUpon>

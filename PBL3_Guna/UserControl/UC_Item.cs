@@ -28,18 +28,11 @@ namespace PBL3_Guna
             cxbCategoryItem.DisplayMember = "Name";
 
         }
+
         public void showDTG_Item(string name)
         {
             dtgvItem.DataSource = ItemBUS.Instance.GetItemByName(name);
             
-        }
-        public ItemDTO getItemDataToAdd()
-        {
-            ItemDTO item = new ItemDTO();
-            item.Name = txtNameItem.Text;
-            item.IDCategory = (CategoryBUS.Instance.GetIDbyNameCategory(cxbCategoryItem.Text));
-            item.Price = Convert.ToInt32(txtPriceItem.Text);
-            return item;
         }
 
         public ItemDTO getItemDataToUpdate()

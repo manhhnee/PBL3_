@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DTO;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
@@ -40,6 +41,42 @@ namespace DAO
             try
             {
                 return DataProvider.Instance.ExecuteQuery("USP_GetListTable");
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+        public void AddTable(TableDTO table)
+        {
+            string query = "INSERT INTO dbo.TableCoffee VALUES ( @Name , N'Trống' )";
+            try
+            {
+                DataProvider.Instance.ExecuteNonQuery(query, new Object[] { table.Name });
+            }
+            catch(Exception ex)
+            {
+                throw ex;
+            }
+        }
+        public void UpdateTable(int id, string name)
+        {
+            string query = "Update dbo.TableCoffee set Name = @Name where ID = @ID";
+            try
+            {
+                DataProvider.Instance.ExecuteNonQuery(query, new Object[] {name, id});
+            }   
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+        public void DeleteTable(int id)
+        {
+            string query = "Delete from dbo.TableCoffee where ID = " + id;
+            try
+            {
+                DataProvider.Instance.ExecuteNonQuery(query, new Object[] { id });
             }
             catch (Exception ex)
             {

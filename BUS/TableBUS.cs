@@ -25,6 +25,10 @@ namespace BUS
         }
         private TableBUS() { }
 
+        public DataTable GetAllTable()
+        {
+            return TableDAO.Instance.GetListTable();
+        }
         public List<TableDTO> GetListTable()
         {
             DataTable table;
@@ -44,6 +48,39 @@ namespace BUS
             }
             return listTable;
         }
+        public void AddTable(TableDTO table)
+        {
+            try
+            {
+                TableDAO.Instance.AddTable(table);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+        public void UpdateTable(int id, string name)
+        {
+            try
+            {
+                TableDAO.Instance.UpdateTable(id, name);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+        public void DeleteTable(int id)
+        {
+            try
+            {
+                TableDAO.Instance.DeleteTable(id);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
         public void SwapTable(int id1, int id2)
         {
             try
@@ -54,6 +91,23 @@ namespace BUS
             {
                 throw ex;
             }
+        }
+        public bool CheckNameTable(string name)
+        {
+            int i = 0;
+            bool t = true;
+            DataTable data = GetAllTable();
+            foreach (DataRow dr in data.Rows)
+            {
+                if (data.Rows[i]["Name"].ToString() == name)
+                {
+                    t = false;
+                    break;
+                }
+                i++;
+            }
+            return t;
+
         }
         public string GetNameTablebyID(int id)
         {

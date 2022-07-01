@@ -57,7 +57,7 @@ namespace PBL3_Guna
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            if (txtUserNameStaff.Text != "" && txtDisplayName.Text != "" && txtAgeStaff.Text != "" && txtAddressStaff.Text != "" && txtPhoneNumberStaff.Text != "" && txtPassStaff.Text != "")
+            if (txtUserNameStaff.Text.Trim() != "" && txtDisplayName.Text.Trim() != "" && txtAgeStaff.Text.Trim() != "" && txtAddressStaff.Text.Trim() != "" && txtPhoneNumberStaff.Text.Trim() != "" && txtPassStaff.Text.Trim() != "")
             {
                 if (checkDigit(txtAgeStaff.Text))
                 {
