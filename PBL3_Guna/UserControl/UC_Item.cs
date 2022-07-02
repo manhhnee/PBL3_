@@ -20,6 +20,15 @@ namespace PBL3_Guna
             LoadCatergory();
             showDTG_Item("");
         }
+        public bool checkDigit(string s)
+        {
+            for (int i = 0; i < s.Length; i++)
+            {
+                if (char.IsDigit(s[i]) == false)
+                    return false;
+            }
+            return true;
+        }
 
         void LoadCatergory()
         {
@@ -28,11 +37,12 @@ namespace PBL3_Guna
             cxbCategoryItem.DisplayMember = "Name";
 
         }
-
         public void showDTG_Item(string name)
         {
             dtgvItem.DataSource = ItemBUS.Instance.GetItemByName(name);
+
         }
+
 
         public ItemDTO getItemDataToUpdate()
         {
@@ -60,8 +70,8 @@ namespace PBL3_Guna
                     int DeleteID = Convert.ToInt32(dtgvItem.CurrentRow.Cells[0].Value.ToString());
                     BillInforBUS.Instance.SetBillInforDefault(DeleteID);
                     ItemBUS.Instance.DeleteItem(DeleteID);
-                }    
-                   
+                }
+
             }
 
             showDTG_Item("");
@@ -69,18 +79,23 @@ namespace PBL3_Guna
 
         private void btnModifyItem_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Bạn có thật sự muốn sửa " + dtgvItem.CurrentRow.Cells[1].Value.ToString() + " ?", "Thông báo", MessageBoxButtons.OKCancel) != System.Windows.Forms.DialogResult.Cancel)
+            if (checkDigit(txtPriceItem.Text))
             {
-                ItemDTO item = getItemDataToUpdate();
-                ItemBUS.Instance.UpdateItem(item);
-                showDTG_Item("");
-            }    
-                
+                if (MessageBox.Show("Bạn có thật sự muốn sửa " + dtgvItem.CurrentRow.Cells[1].Value.ToString() + " ?", "Thông báo", MessageBoxButtons.OKCancel) != System.Windows.Forms.DialogResult.Cancel)
+                {
+                    ItemDTO item = getItemDataToUpdate();
+                    ItemBUS.Instance.UpdateItem(item);
+                    showDTG_Item("");
+                }
+            }
+            else MessageBox.Show("Vui lòng nhập giá là số!");
+
+
         }
 
         private void btnShowItem_Click(object sender, EventArgs e)
         {
-            
+
             showDTG_Item("");
             txtSearchItem.Text = "";
         }
@@ -106,7 +121,5 @@ namespace PBL3_Guna
             f.ShowDialog();
             LoadCatergory();
         }
-
-        
     }
 }

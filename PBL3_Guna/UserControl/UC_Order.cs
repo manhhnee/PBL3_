@@ -18,7 +18,7 @@ namespace PBL3_Guna
         public static int _idTable;
         public static int _discount;
         public static int _totalPrice;
-        
+        bool check = false;
         public UC_Order()
         {
             InitializeComponent();
@@ -43,7 +43,7 @@ namespace PBL3_Guna
             cbItem.Items.Clear();
             cbItem.Items.AddRange(ItemBUS.Instance.GetItemByIDCategory(id).ToArray());
             cbItem.DisplayMember = "Name";
-            cbItem.SelectedIndex = 0;
+            //cbItem.SelectedIndex = 0;
         }
         void LoadTable()
         {
@@ -90,6 +90,7 @@ namespace PBL3_Guna
         }
         private void Btn_Click(object sender, EventArgs e)
         {
+            check = true;
             _idTable = ((TableDTO)(sender as Button).Tag).ID;
             lvBill.Tag = ((Button)sender).Tag;
             _discount = (int)nmDiscount.Value;
@@ -104,25 +105,32 @@ namespace PBL3_Guna
 
         private void btnAddItem_Click(object sender, EventArgs e)
         {
-            if (cbItem.Text != string.Empty)
+            if (check == false)
             {
-                TableDTO tableDTO = lvBill.Tag as TableDTO;
-                int idBill = BillBUS.Instance.GetUnCheckIDBillByIDTable(tableDTO.ID);
-                int idItem = (cbItem.SelectedItem as ItemDTO).ID;
-                int amount = (int)nmItemAmount.Value;
-                if (idBill == -1)
-                {
-                    BillBUS.Instance.InsertBill(tableDTO.ID);
-                    BillInforBUS.Instance.InsertBillInfor(BillBUS.Instance.GetMaxIDBill(), idItem, amount);
-                }
-                else
-                {
-                    BillInforBUS.Instance.InsertBillInfor(idBill, idItem, amount);
-                }
-                ShowBill(tableDTO.ID);
-                LoadTable();
+                MessageBox.Show("Vui lòng chọn bàn!");
             }
-            else MessageBox.Show("vui lòng chọn món");
+            else
+            {
+                if (cbItem.Text != "")
+                {
+                    TableDTO tableDTO = lvBill.Tag as TableDTO;
+                    int idBill = BillBUS.Instance.GetUnCheckIDBillByIDTable(tableDTO.ID);
+                    int idItem = (cbItem.SelectedItem as ItemDTO).ID;
+                    int amount = (int)nmItemAmount.Value;
+                    if (idBill == -1)
+                    {
+                        BillBUS.Instance.InsertBill(tableDTO.ID);
+                        BillInforBUS.Instance.InsertBillInfor(BillBUS.Instance.GetMaxIDBill(), idItem, amount);
+                    }
+                    else
+                    {
+                        BillInforBUS.Instance.InsertBillInfor(idBill, idItem, amount);
+                    }
+                    ShowBill(tableDTO.ID);
+                    LoadTable();
+                }
+                else MessageBox.Show("Vui lòng chọn món!");
+            }
 
         }
 

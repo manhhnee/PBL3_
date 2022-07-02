@@ -28,14 +28,19 @@ namespace PBL3_Guna
             }
             return true;
         }
+
         public StaffDTO getStaffDataToAdd()
+
         {
+
             StaffDTO staff = new StaffDTO();
             staff.Name = txtDisplayName.Text;
             staff.Address = txtAddressStaff.Text;
             staff.Age = Convert.ToInt32(txtAgeStaff.Text);
             staff.PhoneNumber = txtPhoneNumberStaff.Text;
             return staff;
+
+
         }
         public AccountDTO getDataToCreateAccount()
         {
@@ -54,11 +59,12 @@ namespace PBL3_Guna
             }
             else txtPassStaff.UseSystemPasswordChar = true;
         }
-
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            if (txtUserNameStaff.Text.Trim() != "" && txtDisplayName.Text.Trim() != "" && txtAgeStaff.Text.Trim() != "" && txtAddressStaff.Text.Trim() != "" && txtPhoneNumberStaff.Text.Trim() != "" && txtPassStaff.Text.Trim() != "")
+
+            if (txtUserNameStaff.Text != "" && txtDisplayName.Text != "" && txtAgeStaff.Text != "" && txtAddressStaff.Text != "" && txtPhoneNumberStaff.Text != "" && txtPassStaff.Text != "")
             {
+
                 if (checkDigit(txtAgeStaff.Text))
                 {
                     StaffDTO staff = getStaffDataToAdd();
@@ -76,7 +82,6 @@ namespace PBL3_Guna
             }
             else MessageBox.Show("Vui lòng nhập đầy đủ thông tin!");
         }
-
         private void btnExit_Click(object sender, EventArgs e)
         {
             this.Close();

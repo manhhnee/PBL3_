@@ -67,8 +67,9 @@
             this.btnDetails.EnableHeadersVisualStyles = false;
             this.btnDetails.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.btnDetails.Location = new System.Drawing.Point(151, 33);
-            this.btnDetails.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDetails.Margin = new System.Windows.Forms.Padding(4);
             this.btnDetails.Name = "btnDetails";
+            this.btnDetails.ReadOnly = true;
             this.btnDetails.RowHeadersVisible = false;
             this.btnDetails.RowHeadersWidth = 51;
             this.btnDetails.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
@@ -88,7 +89,7 @@
             this.btnDetails.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(221)))), ((int)(((byte)(238)))));
             this.btnDetails.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             this.btnDetails.ThemeStyle.HeaderStyle.Height = 24;
-            this.btnDetails.ThemeStyle.ReadOnly = false;
+            this.btnDetails.ThemeStyle.ReadOnly = true;
             this.btnDetails.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
             this.btnDetails.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.btnDetails.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
@@ -117,7 +118,7 @@
             this.btnDetail.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
             this.btnDetail.HoverState.Parent = this.btnDetail;
             this.btnDetail.Location = new System.Drawing.Point(543, 716);
-            this.btnDetail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDetail.Margin = new System.Windows.Forms.Padding(4);
             this.btnDetail.Name = "btnDetail";
             this.btnDetail.ShadowDecoration.Parent = this.btnDetail;
             this.btnDetail.Size = new System.Drawing.Size(169, 52);
@@ -132,7 +133,7 @@
             this.BackColor = System.Drawing.Color.Transparent;
             this.Controls.Add(this.btnDetails);
             this.Controls.Add(this.btnDetail);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "UC_Information";
             this.Size = new System.Drawing.Size(1255, 848);
             ((System.ComponentModel.ISupportInitialize)(this.btnDetails)).EndInit();
