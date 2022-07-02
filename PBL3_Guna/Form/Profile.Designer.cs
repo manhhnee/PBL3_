@@ -184,6 +184,7 @@
             // guna2DragControl1
             // 
             this.guna2DragControl1.TargetControl = this;
+            this.guna2DragControl1.UseTransparentDrag = true;
             // 
             // btnExit
             // 
