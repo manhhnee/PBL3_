@@ -21,15 +21,13 @@ namespace PBL3_Guna
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            CategoryDTO CT = new CategoryDTO();
-            CT.Name = txtCategory.Text;
             if (txtCategory.Text.Trim() == "")
             {
                 MessageBox.Show("Vui lòng nhập tên mặt hàng !");
             }
             else
             {
-                CategoryBUS.Instance.AddCategory(CT);
+                CategoryBUS.Instance.AddCategory(txtCategory.Text);
                 this.Close();
             }
         }

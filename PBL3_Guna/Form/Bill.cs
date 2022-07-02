@@ -121,6 +121,7 @@ namespace PBL3_Guna
         private void btnExit_Click(object sender, EventArgs e)
         {
             this.Close();
+            ShowBill(UC_Order._idTable);
         }
 
         Bitmap bitmap;
@@ -129,7 +130,6 @@ namespace PBL3_Guna
             Panel panel = new Panel();
             this.Controls.Add(panel);
             Graphics grp = panel.CreateGraphics();
-
             Size formSize = this.ClientSize;
             formSize.Width += 112;
             formSize.Height -= 103;

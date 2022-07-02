@@ -59,10 +59,6 @@ namespace DAO
                 throw ex;
             }
         }
-        public DataTable GetDateByID(int id)
-        {
-            return DataProvider.Instance.ExecuteQuery("Select DateCheckIn , DateCheckOut from Bill", new Object[] { id });
-        }
         public int GetMaxIDBill()
         {
             try
@@ -76,10 +72,10 @@ namespace DAO
         }
         public void CheckOut(int id, int discount, double TotalPrice)
         {
-            string query = "Update dbo.Bill set DateCheckOut = GETDATE() , Status = 1 , discount = " + discount + ", TotalPrice = " +  TotalPrice +  " where ID = " + id;
+            string query = "USP_CheckOut @Discount , @TotalPrice , @ID";
             try
             {
-                DataProvider.Instance.ExecuteNonQuery(query);
+                DataProvider.Instance.ExecuteNonQuery(query , new Object[] {discount, TotalPrice, id});
             }   
             catch (Exception ex)
             {

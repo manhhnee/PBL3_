@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.dtgvTable = new Guna.UI2.WinForms.Guna2DataGridView();
             this.btnModifyTable = new Guna.UI2.WinForms.Guna2Button();
@@ -53,42 +53,41 @@
             this.panel1.Controls.Add(this.btnAddTable);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(837, 848);
             this.panel1.TabIndex = 1;
             // 
             // dtgvTable
             // 
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
-            this.dtgvTable.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            this.dtgvTable.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dtgvTable.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dtgvTable.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
             this.dtgvTable.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dtgvTable.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.dtgvTable.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dtgvTable.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
-            this.dtgvTable.ColumnHeadersHeight = 4;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dtgvTable.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(221)))), ((int)(((byte)(238)))));
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dtgvTable.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.dtgvTable.ColumnHeadersHeight = 24;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dtgvTable.DefaultCellStyle = dataGridViewCellStyle3;
             this.dtgvTable.Dock = System.Windows.Forms.DockStyle.Top;
             this.dtgvTable.EnableHeadersVisualStyles = false;
             this.dtgvTable.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(222)))), ((int)(((byte)(222)))));
             this.dtgvTable.Location = new System.Drawing.Point(0, 0);
-            this.dtgvTable.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtgvTable.Margin = new System.Windows.Forms.Padding(4);
             this.dtgvTable.Name = "dtgvTable";
             this.dtgvTable.ReadOnly = true;
             this.dtgvTable.RowHeadersVisible = false;
@@ -105,11 +104,11 @@
             this.dtgvTable.ThemeStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
             this.dtgvTable.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(222)))), ((int)(((byte)(222)))));
             this.dtgvTable.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
-            this.dtgvTable.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.dtgvTable.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Raised;
             this.dtgvTable.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtgvTable.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
+            this.dtgvTable.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(221)))), ((int)(((byte)(238)))));
             this.dtgvTable.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.dtgvTable.ThemeStyle.HeaderStyle.Height = 4;
+            this.dtgvTable.ThemeStyle.HeaderStyle.Height = 24;
             this.dtgvTable.ThemeStyle.ReadOnly = true;
             this.dtgvTable.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
             this.dtgvTable.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
@@ -137,7 +136,7 @@
             this.btnModifyTable.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
             this.btnModifyTable.HoverState.Parent = this.btnModifyTable;
             this.btnModifyTable.Location = new System.Drawing.Point(492, 699);
-            this.btnModifyTable.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnModifyTable.Margin = new System.Windows.Forms.Padding(4);
             this.btnModifyTable.Name = "btnModifyTable";
             this.btnModifyTable.ShadowDecoration.Parent = this.btnModifyTable;
             this.btnModifyTable.Size = new System.Drawing.Size(129, 52);
@@ -162,7 +161,7 @@
             this.btnDeleteTable.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
             this.btnDeleteTable.HoverState.Parent = this.btnDeleteTable;
             this.btnDeleteTable.Location = new System.Drawing.Point(312, 699);
-            this.btnDeleteTable.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDeleteTable.Margin = new System.Windows.Forms.Padding(4);
             this.btnDeleteTable.Name = "btnDeleteTable";
             this.btnDeleteTable.ShadowDecoration.Parent = this.btnDeleteTable;
             this.btnDeleteTable.Size = new System.Drawing.Size(129, 52);
@@ -187,7 +186,7 @@
             this.btnAddTable.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
             this.btnAddTable.HoverState.Parent = this.btnAddTable;
             this.btnAddTable.Location = new System.Drawing.Point(136, 699);
-            this.btnAddTable.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAddTable.Margin = new System.Windows.Forms.Padding(4);
             this.btnAddTable.Name = "btnAddTable";
             this.btnAddTable.ShadowDecoration.Parent = this.btnAddTable;
             this.btnAddTable.Size = new System.Drawing.Size(129, 52);
@@ -214,7 +213,7 @@
             this.txtTableName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtTableName.HoverState.Parent = this.txtTableName;
             this.txtTableName.Location = new System.Drawing.Point(1004, 378);
-            this.txtTableName.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtTableName.Margin = new System.Windows.Forms.Padding(5);
             this.txtTableName.Name = "txtTableName";
             this.txtTableName.PasswordChar = '\0';
             this.txtTableName.PlaceholderText = "";
@@ -256,7 +255,7 @@
             this.txtIDTable.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtIDTable.HoverState.Parent = this.txtIDTable;
             this.txtIDTable.Location = new System.Drawing.Point(1001, 289);
-            this.txtIDTable.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtIDTable.Margin = new System.Windows.Forms.Padding(5);
             this.txtIDTable.Name = "txtIDTable";
             this.txtIDTable.PasswordChar = '\0';
             this.txtIDTable.PlaceholderText = "";
@@ -287,7 +286,7 @@
             this.Controls.Add(this.txtTableName);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label2);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "UC_Table";
             this.Size = new System.Drawing.Size(1255, 848);
             this.panel1.ResumeLayout(false);

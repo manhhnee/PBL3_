@@ -35,6 +35,9 @@ namespace PBL3_Guna
         public void showDTG_Staff(string name)
         {
             dtgvStaff.DataSource = StaffBUS.Instance.GetStaffByName(name);
+            dtgvStaff.Columns["WorkingDays"].Visible = false;
+            dtgvStaff.Columns["SalaryCoefficient"].Visible = false;
+
         }
 
         private void btnAddStaff_Click(object sender, EventArgs e)
@@ -83,8 +86,8 @@ namespace PBL3_Guna
 
         private void dtgvStaff_SelectionChanged(object sender, EventArgs e)
         {  
-            int idStaff = Convert.ToInt32(dtgvStaff.CurrentRow.Cells[0].Value.ToString());
-            txtIDStaff.Text = idStaff.ToString();
+            txtIDStaff.Text = dtgvStaff.CurrentRow.Cells[0].Value.ToString();
+            int idStaff = Convert.ToInt32(txtIDStaff.Text);
             txtDisplayName.Text = dtgvStaff.CurrentRow.Cells[1].Value.ToString();
             txtAddressStaff.Text = dtgvStaff.CurrentRow.Cells[2].Value.ToString();
             txtAgeStaff.Text = dtgvStaff.CurrentRow.Cells[3].Value.ToString();

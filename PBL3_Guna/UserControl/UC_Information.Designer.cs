@@ -47,16 +47,15 @@
             this.btnDetails.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
             this.btnDetails.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.btnDetails.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.btnDetails.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(221)))), ((int)(((byte)(238)))));
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.btnDetails.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.btnDetails.ColumnHeadersHeight = 4;
+            this.btnDetails.ColumnHeadersHeight = 24;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10.5F);
@@ -67,12 +66,13 @@
             this.btnDetails.DefaultCellStyle = dataGridViewCellStyle3;
             this.btnDetails.EnableHeadersVisualStyles = false;
             this.btnDetails.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.btnDetails.Location = new System.Drawing.Point(113, 27);
+            this.btnDetails.Location = new System.Drawing.Point(151, 33);
+            this.btnDetails.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnDetails.Name = "btnDetails";
             this.btnDetails.RowHeadersVisible = false;
             this.btnDetails.RowHeadersWidth = 51;
             this.btnDetails.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.btnDetails.Size = new System.Drawing.Size(694, 526);
+            this.btnDetails.Size = new System.Drawing.Size(925, 647);
             this.btnDetails.TabIndex = 0;
             this.btnDetails.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Default;
             this.btnDetails.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
@@ -82,12 +82,12 @@
             this.btnDetails.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
             this.btnDetails.ThemeStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
             this.btnDetails.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.btnDetails.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.btnDetails.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.btnDetails.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
+            this.btnDetails.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Raised;
             this.btnDetails.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            this.btnDetails.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.btnDetails.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(221)))), ((int)(((byte)(238)))));
             this.btnDetails.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.btnDetails.ThemeStyle.HeaderStyle.Height = 4;
+            this.btnDetails.ThemeStyle.HeaderStyle.Height = 24;
             this.btnDetails.ThemeStyle.ReadOnly = false;
             this.btnDetails.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
             this.btnDetails.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
@@ -116,23 +116,25 @@
             this.btnDetail.HoverState.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDetail.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
             this.btnDetail.HoverState.Parent = this.btnDetail;
-            this.btnDetail.Location = new System.Drawing.Point(407, 582);
+            this.btnDetail.Location = new System.Drawing.Point(543, 716);
+            this.btnDetail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnDetail.Name = "btnDetail";
             this.btnDetail.ShadowDecoration.Parent = this.btnDetail;
-            this.btnDetail.Size = new System.Drawing.Size(127, 42);
+            this.btnDetail.Size = new System.Drawing.Size(169, 52);
             this.btnDetail.TabIndex = 9;
             this.btnDetail.Text = "Details";
             this.btnDetail.Click += new System.EventHandler(this.btnDetail_Click);
             // 
             // UC_Information
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Transparent;
             this.Controls.Add(this.btnDetails);
             this.Controls.Add(this.btnDetail);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "UC_Information";
-            this.Size = new System.Drawing.Size(941, 689);
+            this.Size = new System.Drawing.Size(1255, 848);
             ((System.ComponentModel.ISupportInitialize)(this.btnDetails)).EndInit();
             this.ResumeLayout(false);
 

@@ -58,10 +58,10 @@ namespace DAO
         }
         public void AddAccountDAO(AccountDTO account)
         {
-            string query = "insert into Account values( @UserName , @DisplayName , @PassWord , 1, @IDStaff )";
+            string query = "USP_InsertAccount @UserName , @DisplayName , @PassWord , @IDStaff";
             try
             {
-                DataProvider.Instance.ExecuteNonQuery(query, new Object[] { account.UserName,account.DisplayName, account.Password, account.IDStaff });
+                DataProvider.Instance.ExecuteNonQuery(query, new Object[] {account.UserName,account.DisplayName, account.Password, account.IDStaff });
             }
             catch (Exception ex)
             {
@@ -71,7 +71,7 @@ namespace DAO
         }
         public void DeleteAccountDAO(int IDStaff)
         {
-            string query = "delete from Account where IDStaff = " + IDStaff;
+            string query = "USP_DeleteAccount @IDStaff ";
             try
             {
                 DataProvider.Instance.ExecuteNonQuery(query, new Object[] { IDStaff });
@@ -84,10 +84,10 @@ namespace DAO
         }
         public void ChangePassAcc(AccountDTO acc)
         {
-            string query = "Update dbo.Account set PassWord = '" + acc.Password + "' where UserName = '" + acc.UserName + "'";
+            string query = "USP_ChangePass @PassWord , @UserName ";
             try
             {
-                DataProvider.Instance.ExecuteNonQuery(query, new Object[] { acc.Password });
+                DataProvider.Instance.ExecuteNonQuery(query, new Object[] { acc.Password, acc.UserName });
             }
             catch(Exception ex)
             {

@@ -72,7 +72,7 @@
             this.panel1.Controls.Add(this.btnAddItem);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(837, 848);
             this.panel1.TabIndex = 0;
@@ -83,18 +83,17 @@
             this.dtgvStaff.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dtgvStaff.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dtgvStaff.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
-            this.dtgvStaff.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dtgvStaff.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dtgvStaff.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.dtgvStaff.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(221)))), ((int)(((byte)(238)))));
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dtgvStaff.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.dtgvStaff.ColumnHeadersHeight = 4;
+            this.dtgvStaff.ColumnHeadersHeight = 24;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -107,7 +106,7 @@
             this.dtgvStaff.EnableHeadersVisualStyles = false;
             this.dtgvStaff.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(222)))), ((int)(((byte)(222)))));
             this.dtgvStaff.Location = new System.Drawing.Point(0, 0);
-            this.dtgvStaff.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtgvStaff.Margin = new System.Windows.Forms.Padding(4);
             this.dtgvStaff.Name = "dtgvStaff";
             this.dtgvStaff.ReadOnly = true;
             this.dtgvStaff.RowHeadersVisible = false;
@@ -124,11 +123,11 @@
             this.dtgvStaff.ThemeStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
             this.dtgvStaff.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(222)))), ((int)(((byte)(222)))));
             this.dtgvStaff.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(73)))), ((int)(((byte)(55)))));
-            this.dtgvStaff.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.dtgvStaff.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Raised;
             this.dtgvStaff.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtgvStaff.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
+            this.dtgvStaff.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(221)))), ((int)(((byte)(238)))));
             this.dtgvStaff.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.dtgvStaff.ThemeStyle.HeaderStyle.Height = 4;
+            this.dtgvStaff.ThemeStyle.HeaderStyle.Height = 24;
             this.dtgvStaff.ThemeStyle.ReadOnly = true;
             this.dtgvStaff.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
             this.dtgvStaff.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
@@ -156,7 +155,7 @@
             this.btnShowItem.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
             this.btnShowItem.HoverState.Parent = this.btnShowItem;
             this.btnShowItem.Location = new System.Drawing.Point(600, 686);
-            this.btnShowItem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnShowItem.Margin = new System.Windows.Forms.Padding(4);
             this.btnShowItem.Name = "btnShowItem";
             this.btnShowItem.ShadowDecoration.Parent = this.btnShowItem;
             this.btnShowItem.Size = new System.Drawing.Size(129, 52);
@@ -181,7 +180,7 @@
             this.btnModifyItem.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
             this.btnModifyItem.HoverState.Parent = this.btnModifyItem;
             this.btnModifyItem.Location = new System.Drawing.Point(425, 686);
-            this.btnModifyItem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnModifyItem.Margin = new System.Windows.Forms.Padding(4);
             this.btnModifyItem.Name = "btnModifyItem";
             this.btnModifyItem.ShadowDecoration.Parent = this.btnModifyItem;
             this.btnModifyItem.Size = new System.Drawing.Size(129, 52);
@@ -206,7 +205,7 @@
             this.btnDeleteItem.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
             this.btnDeleteItem.HoverState.Parent = this.btnDeleteItem;
             this.btnDeleteItem.Location = new System.Drawing.Point(245, 686);
-            this.btnDeleteItem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDeleteItem.Margin = new System.Windows.Forms.Padding(4);
             this.btnDeleteItem.Name = "btnDeleteItem";
             this.btnDeleteItem.ShadowDecoration.Parent = this.btnDeleteItem;
             this.btnDeleteItem.Size = new System.Drawing.Size(129, 52);
@@ -231,7 +230,7 @@
             this.btnAddItem.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
             this.btnAddItem.HoverState.Parent = this.btnAddItem;
             this.btnAddItem.Location = new System.Drawing.Point(69, 686);
-            this.btnAddItem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAddItem.Margin = new System.Windows.Forms.Padding(4);
             this.btnAddItem.Name = "btnAddItem";
             this.btnAddItem.ShadowDecoration.Parent = this.btnAddItem;
             this.btnAddItem.Size = new System.Drawing.Size(129, 52);
@@ -259,7 +258,7 @@
             this.txtUserNameStaff.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtUserNameStaff.HoverState.Parent = this.txtUserNameStaff;
             this.txtUserNameStaff.Location = new System.Drawing.Point(1050, 249);
-            this.txtUserNameStaff.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtUserNameStaff.Margin = new System.Windows.Forms.Padding(5);
             this.txtUserNameStaff.Name = "txtUserNameStaff";
             this.txtUserNameStaff.PasswordChar = '\0';
             this.txtUserNameStaff.PlaceholderText = "User Name";
@@ -301,7 +300,7 @@
             this.txtIDStaff.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtIDStaff.HoverState.Parent = this.txtIDStaff;
             this.txtIDStaff.Location = new System.Drawing.Point(1050, 176);
-            this.txtIDStaff.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtIDStaff.Margin = new System.Windows.Forms.Padding(5);
             this.txtIDStaff.Name = "txtIDStaff";
             this.txtIDStaff.PasswordChar = '\0';
             this.txtIDStaff.PlaceholderText = "ID";
@@ -344,7 +343,7 @@
             this.txtSearchStaff.HoverState.Parent = this.txtSearchStaff;
             this.txtSearchStaff.IconLeft = ((System.Drawing.Image)(resources.GetObject("txtSearchStaff.IconLeft")));
             this.txtSearchStaff.Location = new System.Drawing.Point(890, 42);
-            this.txtSearchStaff.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtSearchStaff.Margin = new System.Windows.Forms.Padding(5);
             this.txtSearchStaff.Name = "txtSearchStaff";
             this.txtSearchStaff.PasswordChar = '\0';
             this.txtSearchStaff.PlaceholderText = "";
@@ -372,7 +371,7 @@
             this.txtPhoneNumberStaff.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtPhoneNumberStaff.HoverState.Parent = this.txtPhoneNumberStaff;
             this.txtPhoneNumberStaff.Location = new System.Drawing.Point(1050, 394);
-            this.txtPhoneNumberStaff.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtPhoneNumberStaff.Margin = new System.Windows.Forms.Padding(5);
             this.txtPhoneNumberStaff.Name = "txtPhoneNumberStaff";
             this.txtPhoneNumberStaff.PasswordChar = '\0';
             this.txtPhoneNumberStaff.PlaceholderText = "Phone Number";
@@ -413,7 +412,7 @@
             this.txtDisplayName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtDisplayName.HoverState.Parent = this.txtDisplayName;
             this.txtDisplayName.Location = new System.Drawing.Point(1050, 321);
-            this.txtDisplayName.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtDisplayName.Margin = new System.Windows.Forms.Padding(5);
             this.txtDisplayName.Name = "txtDisplayName";
             this.txtDisplayName.PasswordChar = '\0';
             this.txtDisplayName.PlaceholderText = "Display Name";
@@ -454,7 +453,7 @@
             this.txtAddressStaff.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtAddressStaff.HoverState.Parent = this.txtAddressStaff;
             this.txtAddressStaff.Location = new System.Drawing.Point(1050, 539);
-            this.txtAddressStaff.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtAddressStaff.Margin = new System.Windows.Forms.Padding(5);
             this.txtAddressStaff.Name = "txtAddressStaff";
             this.txtAddressStaff.PasswordChar = '\0';
             this.txtAddressStaff.PlaceholderText = "Address";
@@ -495,7 +494,7 @@
             this.txtAgeStaff.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtAgeStaff.HoverState.Parent = this.txtAgeStaff;
             this.txtAgeStaff.Location = new System.Drawing.Point(1050, 466);
-            this.txtAgeStaff.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtAgeStaff.Margin = new System.Windows.Forms.Padding(5);
             this.txtAgeStaff.Name = "txtAgeStaff";
             this.txtAgeStaff.PasswordChar = '\0';
             this.txtAgeStaff.PlaceholderText = "Age";
@@ -534,7 +533,7 @@
             this.btnSearchStaff.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(124)))), ((int)(((byte)(84)))));
             this.btnSearchStaff.HoverState.Parent = this.btnSearchStaff;
             this.btnSearchStaff.Location = new System.Drawing.Point(1148, 42);
-            this.btnSearchStaff.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSearchStaff.Margin = new System.Windows.Forms.Padding(4);
             this.btnSearchStaff.Name = "btnSearchStaff";
             this.btnSearchStaff.ShadowDecoration.Parent = this.btnSearchStaff;
             this.btnSearchStaff.Size = new System.Drawing.Size(125, 47);
@@ -561,7 +560,7 @@
             this.txtCoefficient.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtCoefficient.HoverState.Parent = this.txtCoefficient;
             this.txtCoefficient.Location = new System.Drawing.Point(1050, 681);
-            this.txtCoefficient.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtCoefficient.Margin = new System.Windows.Forms.Padding(5);
             this.txtCoefficient.Name = "txtCoefficient";
             this.txtCoefficient.PasswordChar = '\0';
             this.txtCoefficient.PlaceholderText = "Salary Coefficient";
@@ -602,7 +601,7 @@
             this.txtWorkingDays.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtWorkingDays.HoverState.Parent = this.txtWorkingDays;
             this.txtWorkingDays.Location = new System.Drawing.Point(1050, 608);
-            this.txtWorkingDays.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtWorkingDays.Margin = new System.Windows.Forms.Padding(5);
             this.txtWorkingDays.Name = "txtWorkingDays";
             this.txtWorkingDays.PasswordChar = '\0';
             this.txtWorkingDays.PlaceholderText = "Working Days";
@@ -643,7 +642,7 @@
             this.txtSalary.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtSalary.HoverState.Parent = this.txtSalary;
             this.txtSalary.Location = new System.Drawing.Point(1050, 747);
-            this.txtSalary.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtSalary.Margin = new System.Windows.Forms.Padding(5);
             this.txtSalary.Name = "txtSalary";
             this.txtSalary.PasswordChar = '\0';
             this.txtSalary.PlaceholderText = "Salary";
@@ -691,7 +690,7 @@
             this.Controls.Add(this.txtSearchStaff);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnSearchStaff);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "UC_Staff";
             this.Size = new System.Drawing.Size(1316, 848);
             this.panel1.ResumeLayout(false);

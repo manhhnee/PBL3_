@@ -1,5 +1,4 @@
 ﻿using BUS;
-using DAO;
 using DTO;
 using System;
 using System.Collections.Generic;
@@ -31,7 +30,7 @@ namespace PBL3_Guna
                 a = false;
                 id = UC_Information._id;
             }
-            int idTable = BillDAO.Instance.GetIDTableByID(id);
+            int idTable = BillBUS.Instance.GetIDTableByID(id);
             TableDTO table = new TableDTO();
             table.Name = TableBUS.Instance.GetNameTablebyID(idTable);
             txtTable.Text = table.Name;
