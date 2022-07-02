@@ -19,7 +19,15 @@ namespace PBL3_Guna
             InitializeComponent();
             showDTG_Staff("");
         }
-        
+        public bool checkDigit(string s)
+        {
+            for (int i = 0; i < s.Length; i++)
+            {
+                if (char.IsDigit(s[i]) == false)
+                    return false;
+            }
+            return true;
+        }
         public StaffDTO getStaffDataToUpdate()
         {
             StaffDTO staff = new StaffDTO();
@@ -35,10 +43,9 @@ namespace PBL3_Guna
         public void showDTG_Staff(string name)
         {
             dtgvStaff.DataSource = StaffBUS.Instance.GetStaffByName(name);
-            dtgvStaff.Columns["WorkingDays"].Visible = false;
-            dtgvStaff.Columns["SalaryCoefficient"].Visible = false;
-
         }
+
+
 
         private void btnAddStaff_Click(object sender, EventArgs e)
         {
@@ -64,12 +71,16 @@ namespace PBL3_Guna
 
         private void btnModifyStaff_Click(object sender, EventArgs e)
         {
-            StaffDTO staff = getStaffDataToUpdate();
-            if (MessageBox.Show("Bạn có thật sự muốn cập nhập thông tin của " + dtgvStaff.CurrentRow.Cells[1].Value.ToString() + " ?" , "Thông báo", MessageBoxButtons.OKCancel) != System.Windows.Forms.DialogResult.Cancel)
+            if (checkDigit(txtAgeStaff.Text))
             {
-                StaffBUS.Instance.UpdateStaffBUS(staff);
-                showDTG_Staff("");
-            }     
+                StaffDTO staff = getStaffDataToUpdate();
+                if (MessageBox.Show("Bạn có thật sự muốn cập nhập thông tin của " + dtgvStaff.CurrentRow.Cells[1].Value.ToString() + " ?", "Thông báo", MessageBoxButtons.OKCancel) != System.Windows.Forms.DialogResult.Cancel)
+                {
+                    StaffBUS.Instance.UpdateStaffBUS(staff);
+                    showDTG_Staff("");
+                }
+            }
+            else MessageBox.Show("Vui lòng nhập tuổi là một số!");
         }
 
         private void btnShowStaff_Click(object sender, EventArgs e)
@@ -85,9 +96,9 @@ namespace PBL3_Guna
         }
 
         private void dtgvStaff_SelectionChanged(object sender, EventArgs e)
-        {  
-            txtIDStaff.Text = dtgvStaff.CurrentRow.Cells[0].Value.ToString();
-            int idStaff = Convert.ToInt32(txtIDStaff.Text);
+        {
+            int idStaff = Convert.ToInt32(dtgvStaff.CurrentRow.Cells[0].Value.ToString());
+            txtIDStaff.Text = idStaff.ToString();
             txtDisplayName.Text = dtgvStaff.CurrentRow.Cells[1].Value.ToString();
             txtAddressStaff.Text = dtgvStaff.CurrentRow.Cells[2].Value.ToString();
             txtAgeStaff.Text = dtgvStaff.CurrentRow.Cells[3].Value.ToString();
@@ -106,7 +117,5 @@ namespace PBL3_Guna
 
             txtSalary.Text = salary.ToString();
         }
-
-        
     }
 }
