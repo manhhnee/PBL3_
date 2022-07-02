@@ -216,24 +216,26 @@
             // 
             // btnPrintBill
             // 
+            this.btnPrintBill.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(220)))), ((int)(((byte)(228)))));
             this.btnPrintBill.Location = new System.Drawing.Point(343, 153);
             this.btnPrintBill.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnPrintBill.Name = "btnPrintBill";
             this.btnPrintBill.Size = new System.Drawing.Size(151, 55);
             this.btnPrintBill.TabIndex = 23;
-            this.btnPrintBill.Text = "In hóa đơn";
-            this.btnPrintBill.UseVisualStyleBackColor = true;
+            this.btnPrintBill.Text = "Print Bill";
+            this.btnPrintBill.UseVisualStyleBackColor = false;
             this.btnPrintBill.Click += new System.EventHandler(this.btnPrintBill_Click);
             // 
             // btnCheckOut
             // 
+            this.btnCheckOut.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(220)))), ((int)(((byte)(228)))));
             this.btnCheckOut.Location = new System.Drawing.Point(93, 153);
             this.btnCheckOut.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCheckOut.Name = "btnCheckOut";
             this.btnCheckOut.Size = new System.Drawing.Size(151, 55);
             this.btnCheckOut.TabIndex = 22;
-            this.btnCheckOut.Text = "Xác nhận thanh toán";
-            this.btnCheckOut.UseVisualStyleBackColor = true;
+            this.btnCheckOut.Text = "Confirm";
+            this.btnCheckOut.UseVisualStyleBackColor = false;
             this.btnCheckOut.Click += new System.EventHandler(this.btnCheckOut_Click);
             // 
             // txtExcessCash
