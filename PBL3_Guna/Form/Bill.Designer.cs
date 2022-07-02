@@ -428,6 +428,7 @@
             this.txtTimeIn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtTimeIn.DisabledState.Parent = this.txtTimeIn;
             this.txtTimeIn.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtTimeIn.Enabled = false;
             this.txtTimeIn.FocusedState.Parent = this.txtTimeIn;
             this.txtTimeIn.ForeColor = System.Drawing.Color.Black;
             this.txtTimeIn.HoverState.Parent = this.txtTimeIn;
@@ -464,6 +465,7 @@
             this.txtTimeOut.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtTimeOut.DisabledState.Parent = this.txtTimeOut;
             this.txtTimeOut.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtTimeOut.Enabled = false;
             this.txtTimeOut.FocusedState.Parent = this.txtTimeOut;
             this.txtTimeOut.ForeColor = System.Drawing.Color.Black;
             this.txtTimeOut.HoverState.Parent = this.txtTimeOut;
@@ -500,6 +502,7 @@
             this.txtCashier.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtCashier.DisabledState.Parent = this.txtCashier;
             this.txtCashier.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtCashier.Enabled = false;
             this.txtCashier.FocusedState.Parent = this.txtCashier;
             this.txtCashier.ForeColor = System.Drawing.Color.Black;
             this.txtCashier.HoverState.Parent = this.txtCashier;
@@ -536,6 +539,7 @@
             this.txtDateCheckOut.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtDateCheckOut.DisabledState.Parent = this.txtDateCheckOut;
             this.txtDateCheckOut.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtDateCheckOut.Enabled = false;
             this.txtDateCheckOut.FocusedState.Parent = this.txtDateCheckOut;
             this.txtDateCheckOut.ForeColor = System.Drawing.Color.Black;
             this.txtDateCheckOut.HoverState.Parent = this.txtDateCheckOut;
@@ -609,6 +613,7 @@
             this.txtTable.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtTable.DisabledState.Parent = this.txtTable;
             this.txtTable.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtTable.Enabled = false;
             this.txtTable.FocusedState.Parent = this.txtTable;
             this.txtTable.ForeColor = System.Drawing.Color.Black;
             this.txtTable.HoverState.Parent = this.txtTable;
@@ -645,6 +650,7 @@
             this.txtIDBill.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtIDBill.DisabledState.Parent = this.txtIDBill;
             this.txtIDBill.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtIDBill.Enabled = false;
             this.txtIDBill.FocusedState.Parent = this.txtIDBill;
             this.txtIDBill.ForeColor = System.Drawing.Color.Black;
             this.txtIDBill.HoverState.Parent = this.txtIDBill;

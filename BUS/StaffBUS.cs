@@ -76,8 +76,6 @@ namespace BUS
                 throw ex;
             }
         }
-
-        
         public void DeleteStaff(int StafftoDelete)
         {
             try

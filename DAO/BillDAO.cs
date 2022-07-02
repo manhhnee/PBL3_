@@ -35,7 +35,15 @@ namespace DAO
         }
         public DataTable GetListBill()
         {
-            return DataProvider.Instance.ExecuteQuery("Select * from Bill");
+            try
+            {
+                return DataProvider.Instance.ExecuteQuery("Select * from Bill");
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+           
         }
         public void InsertBill(int id)
         {
@@ -82,18 +90,6 @@ namespace DAO
                 throw ex;
             }
         }
-        public List<BillDTO> getAllBill()
-        {
-            List<BillDTO> list = new List<BillDTO>();
-            DataTable a = GetListBill();
-            foreach (DataRow dr in a.Rows)
-            {
-                BillDTO bill = new BillDTO(dr);
-                list.Add(bill);
-            }
-            return list;
-        }
-
         public int GetIDTableByID(int id)
         {
 

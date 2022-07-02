@@ -30,8 +30,6 @@ namespace DAO
             {
                 throw ex;
             }
-            
-
         }
         public  int GetIDbyNameCategory(string name)
         {

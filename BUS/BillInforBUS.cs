@@ -63,17 +63,5 @@ namespace BUS
                 }    
             }    
         }
-        public List<BillInforDTO> getListInforBill(int id)
-        {
-            DataTable data = GetListBillInfor(id);
-            List<BillInforDTO> listBilInfor = new List<BillInforDTO>();
-            foreach (DataRow dr in data.Rows)
-            {
-                BillInforDTO billInfor = new BillInforDTO(dr);
-                listBilInfor.Add(billInfor);
-            }
-            return listBilInfor;
-
-        }
     }
 }

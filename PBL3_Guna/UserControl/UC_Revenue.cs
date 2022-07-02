@@ -55,8 +55,6 @@ namespace PBL3_Guna
                 detailsbill.ShowDialog();
             }
             else MessageBox.Show("vui lòng chọn hóa đơn để xem");
-        }
-
-        
+        }  
     }
 }

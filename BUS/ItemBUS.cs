@@ -80,18 +80,7 @@ namespace BUS
             }
             return li;
         }
-        public bool Check(int id)
-        {
-            bool isAdded = true;
-            foreach (ItemDTO i in GetAllItem())
-            {
-                if (id == i.ID)
-                {
-                    isAdded = false;
-                }
-            }
-            return isAdded;
-        }
+        
 
         public bool CheckNameItem(string name)
         {
@@ -112,15 +101,27 @@ namespace BUS
         }
         public void AddItem(ItemDTO item)
         {
-   
+            try
+            {
                 ItemDAO.Instance.AddItemDAO(item);
+            }
+            catch(Exception ex)
+            {
+                throw ex;
+            }
+               
            
         }
         public void UpdateItem(ItemDTO item)
         {
-
+            try
+            {
                 ItemDAO.Instance.updateItemDAO(item);
-
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
         public void DeleteItem(int ItemtoDelete)
         {
@@ -134,19 +135,6 @@ namespace BUS
                 throw ex;
             }
         }
-        public ItemDTO getItemByID(int id)
-        {
-            ItemDTO item = new ItemDTO();
-            foreach (ItemDTO i in GetAllItem())
-
-            {
-                if (i.ID == id)
-                {
-                    item = i;
-                    break;
-                }
-            }
-            return item;
-        }
+        
     }
 }

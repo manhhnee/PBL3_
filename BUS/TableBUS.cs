@@ -111,7 +111,14 @@ namespace BUS
         }
         public string GetNameTablebyID(int id)
         {
-            return TableDAO.Instance.GetNameTablebyID(id);
+            try
+            {
+                return TableDAO.Instance.GetNameTablebyID(id);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }    
     }
 }

@@ -49,13 +49,13 @@ namespace PBL3_Guna
         {
             flpTable.Controls.Clear();
             List<TableDTO> tableList = TableBUS.Instance.GetListTable();
-            foreach (TableDTO item in tableList)
+            foreach (TableDTO table in tableList)
             {
                 Button btn = new Button() { Width = TableBUS.TableWidth, Height = TableBUS.TableHeight };
-                btn.Text = item.Name + "\n" + item.Status;
+                btn.Text = table.Name + "\n" + table.Status;
                 btn.Click += Btn_Click;
-                btn.Tag = item;
-                switch (item.Status)
+                btn.Tag = table;
+                switch (table.Status)
                 {
                     case "Trống":
                         btn.BackColor = Color.DarkSeaGreen;
@@ -67,7 +67,6 @@ namespace PBL3_Guna
                 }
                 flpTable.Controls.Add(btn);
             }
-            
         }
         void ShowBill(int id)
         {
@@ -83,10 +82,7 @@ namespace PBL3_Guna
                 TotalPrice += item.TotalPrice;
                 lvBill.Items.Add(listView);
             }
-            
             txbTotalPrice.Text = TotalPrice.ToString("c", new CultureInfo("vi-VN"));
-            
-            
         }
         private void Btn_Click(object sender, EventArgs e)
         {

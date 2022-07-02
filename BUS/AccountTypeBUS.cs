@@ -20,16 +20,5 @@ namespace BUS
                 return _instance;
             }
         }
-        public DataTable GetAllAccountType()
-        {
-            try
-            {
-                return AccountTypeDAO.Instance.GetAllAccountType();
-            }
-            catch (Exception ex)
-            {
-                throw ex;
-            }
-        }
     }
 }
